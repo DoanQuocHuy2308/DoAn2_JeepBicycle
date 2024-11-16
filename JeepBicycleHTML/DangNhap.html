@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css">
+    <script src="../JeepbicycleJS/ThuVienJquery.js" defer></script>
+    <script src="../JeepbicycleJS/DangNhap.js" defer></script>
+    <script src="../bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
+    <script src="https://kit.fontawesome.com/3e2bcf7815.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../cropped-favicon-1-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../JeepBicycleCSS/DangNhap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Spicy+Rice&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid justify-content-center align-content-center">
+        <video autoplay muted loop id="background-video" class="background-video">
+            <source src="../ImageJeepBicycle/TrangChu/clipTrangChu.mp4" type="video/mp4">
+        </video>
+        <div class="container form-container">
+            <ul class="nav nav-tabs justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#register">Register</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="login" class="container tab-pane active"><br>
+                    <form id="DangNhap" class="DangNhap">
+                        <h2 class="text-center text-light">LOG IN</h2>
+                        <div class="mb-3">
+                            <label class="form-label" for="username"><i class="fa-regular fa-user"></i> Username</label>
+                            <input class="form-control" type="text" id="username" name="username" placeholder="Username" maxlength="30" minlength="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="password"><i class="fa-solid fa-lock"></i> Password</label>
+                            <div class="password">
+                                <input class="form-control" type="password" id="password" name="password" placeholder="Password" maxlength="15" minlength="1" required>
+                                <button type="button" id="showpassword" ><i class="fa-regular fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" name="checkbox" id="checkbox">
+                            <label class="form-check-label" for="checkbox">Ghi Nhớ</label>
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100">Đăng Nhập</button>
+                        <div class="mb-3 text-center p-3">
+                            <a href="#" class="text-danger">Forgot Password?</a>
+                        </div>
+                    </form>
+                </div>
+                <div id="register" class="container tab-pane fade"><br>
+                    <form id="DangKy" class="DangKy">
+                        <h2 class="text-center text-light">Register</h2>
+                        <div class="mb-3">
+                            <label class="form-label" for="dkyusername"><i class="fa-regular fa-user"></i> Username</label>
+                            <input class="form-control" type="text" id="dkyusername" name="username" placeholder="Username" maxlength="30" minlength="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="dkyEmail"><i class="fa-regular fa-envelope"></i> Email</label>
+                            <input class="form-control" type="email" id="dkyEmail" name="Email" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="dkypassword"><i class="fa-solid fa-lock"></i> Password</label>
+                            <div class="password">
+                                <input class="form-control" type="password" id="dkypassword" name="password" placeholder="Password" maxlength="15" minlength="1" required>
+                                <button type="button"><i class="fa-regular fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="password-again"><i class="fa-solid fa-lock"></i> Enter the password again</label>
+                            <div class="password">
+                                <input class="form-control" type="password" id="password-again" name="password-again" placeholder="Enter the password again" maxlength="15" minlength="1" required>
+                                <button type="button"><i class="fa-regular fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mt-3">Đăng Ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

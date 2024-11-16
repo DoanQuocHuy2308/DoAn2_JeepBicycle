@@ -1,0 +1,238 @@
+body {
+  position: relative;
+}
+.main{
+    padding: 3% 0;
+}
+
+.logo {
+    max-height: 96px;
+    padding: 10px 0;
+}
+.breadcrumb {
+    background-color: white;
+    padding: 0;
+    font-size: 14px;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin:.5em;
+}
+.breadcrumb-item {
+    font-size: 18px;
+    color: #6c757d;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #6c757d;
+}
+.breadcrumb-item.active a {
+    color: black;
+}
+.breadcrumb-item.active span {
+    background-color: black;
+}
+.breadcrumb-item i {
+    margin-right: 5px;
+}
+.breadcrumb-item .badge {
+    background-color: #6c757d;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.product-table{
+    border-top: 0;
+}
+
+.product-table th, .product-table td {
+    vertical-align: middle;
+}
+.product-table th{
+    font-size: 15px;
+}
+.product-table tr{
+    border-bottom: 1px solid #ddd;
+}
+.product-table img {
+    width: 100px;
+}
+.clear-product{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #6c757d;
+    border-radius: 50%;
+}
+.clear-product:focus{
+    box-shadow: none!important;
+    outline: none;
+}
+.title-product{
+    color: #fb595e;
+    font-weight: 500;
+}
+.price{
+    font-weight: bold;
+}
+.price-detail, .price-new{
+    font-size: 18px;
+}
+.btn-continue, .btn-update {
+    width: 200px;
+    height: 40px;
+    margin: 5px 0;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+.btn-continue:focus, 
+.btn-update:focus{
+    box-shadow: none!important;
+    outline: none;
+}
+.btn-continue:hover, .btn-update:hover{
+    background-color: #fff !important;
+    color: #f9763f;
+    border: 2px solid #fb595e;
+}
+.btn-continue {
+    background: #f35936;
+    color: white;
+}
+.btn-update {
+    background: #f35936;
+    color: white;
+}
+.input-group{
+    border: 1px solid #6c757d;
+}
+.input-group input:focus{
+    box-shadow: none!important;;
+}
+.input-group input:active{
+    border: none;
+}
+.input-group button{
+    color: black;
+    width: 35px;
+}
+.input-group button:focus{
+    box-shadow: none!important;
+}
+.cart-summary {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    padding: 20px;
+}
+.cart-summary div {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6c757d;
+}
+.cart-summary .form-label{
+    border-bottom: 2px solid #6c757d;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.cart-summary .btn-checkout {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.cart-summary .btn-checkout:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+.cart-summary .btn-checkout:focus{
+    box-shadow: none!important;
+}
+.cart-summary .discount-code:focus{
+    box-shadow: none!important;
+}
+.btn-apply {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-apply:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+.btn-apply:focus{
+    box-shadow: none!important;
+}
+
+/* ------------------------------------- */
+.social-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.facebook {
+  background-color: #1876f296;
+  z-index: 4;
+}
+.zalo {
+  background-color: #1876f296;
+  z-index: 4;
+}
+.phone {
+  background-color: #d9544fa2;
+  z-index: 4;
+}
+.facebook img {
+  background-color: #1877f2;
+  border-radius: 50%;
+  width: 35px;
+}
+.zalo img {
+  background-color: #1877f2;
+  border-radius: 50%;
+  width: 35px;
+}
+.phone img {
+  background-color: #d9544fa2;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.fixed-icons {
+  position: fixed;
+  top: 80%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.5)
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .payment-icons i {
+    margin-left: 10px;
+    font-size: 30px;
+}

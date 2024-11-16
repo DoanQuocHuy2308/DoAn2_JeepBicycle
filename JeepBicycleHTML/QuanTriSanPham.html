@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Quản Trị</title>
+    <script
+      src="https://kit.fontawesome.com/3e2bcf7815.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Load jQuery before Bootstrap JavaScript -->
+    <script src="../ThuVien/jquery.slim.min.js" defer></script>
+    <script src="../ThuVien/popper.min.js" defer></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="../bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
+    <script
+      src="../bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+
+    <!-- Custom JavaScript -->
+    <script src="../JeepbicycleJS/ThuVienJquery.js" defer></script>
+    <script src="../JeepbicycleJS/Admin.js" defer></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../JeepBicycleCSS/QuanTriSanPham.css" />
+    <link
+      rel="shortcut icon"
+      href="../cropped-favicon-1-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav class="navbar container-fluid navbar-expand-lg bg-dark">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand" href="#">
+          <img
+            src="../ImageJeepBicycle/SanPham01.png"
+            height="60px"
+            alt="Logo"
+          />
+        </a>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item align-items-center">
+              <div class="info mr-2">
+                <i class="fa-solid fa-envelope-open-text"></i>
+              </div>
+              <span id="email-user">doanquochuy23082004@gmail.com</span>
+            </li>
+            <li class="nav-item">
+              <div class="info mr-2">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <span id="phone-user">0987654321</span>
+            </li>
+            <li class="nav-item">
+              <div class="info mr-2">
+                <i class="fa-solid fa-location-pin"></i>
+              </div>
+              <span id="address-user">Hưng Yên</span>
+            </li>
+            <li class="nav-item">
+              <div class="info mr-2">
+                <i class="fa-regular fa-circle-user"></i>
+              </div>
+              <div class="info-contact" id="dn"></div>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 function">
+          <div class="list-group function-item text-left">
+            <a
+              href="http://127.0.0.1:5500/JeepBicycleHTML/Dashboard.html"
+              class="list-group-item list-group-item-action"
+            >
+              <span><i class="fa-solid fa-gauge-high mr-2"></i> Dashboard</span>
+            </a>
+            <a
+              class="list-group-item list-group-item-action list-product active"
+              id="list-product"
+            >
+              <span
+                ><i class="fa-solid fa-bicycle mr-2"></i> Quản Lý Sản Phẩm
+                <i class="fa-solid fa-sort-down"></i
+              ></span>
+            </a>
+            <div class="product-menu" id="product-menu">
+              <ul>
+                <li>
+                  <a class="list-group-item list-group-item-action" href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriSanPham.html"
+                    >Quản Lý Xe Đạp</a
+                  >
+                </li>
+                <li>
+                  <a class="list-group-item list-group-item-action" href="#"
+                    >Danh Mục Sản Phẩm</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a
+              class="list-group-item list-group-item-action list-person"
+              id="list-person"
+            >
+              <span
+                ><i class="fa-solid fa-person mr-2"></i> Người dùng
+                <i class="fa-solid fa-sort-down"></i
+              ></span>
+            </a>
+            <div class="person-menu" id="person-menu">
+              <ul>
+                <li>
+                  <a class="list-group-item list-group-item-action" href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriNguoiDung.html"
+                    >Quản Lý Tài Khoản</a
+                  >
+                </li>
+                <li>
+                  <a class="list-group-item list-group-item-action" href="#"
+                    >Quản Lý Nhân Viên</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span
+                ><i class="fa-regular fa-comment mr-2"></i> Quản Lý Nội
+                Dung</span
+              >
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span
+                ><i class="fa-regular fa-newspaper mr-2"></i> Quản Lý Tin
+                Tức</span
+              >
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span
+                ><i class="fa-solid fa-gear mr-2"></i> Thông Tin Cá Nhân</span
+              >
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span><i class="fa-solid fa-headset mr-2"></i> Hỗ Trợ</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-10 main" id="main">
+          <div class="function-title">
+            <h5>Quản Lý Sản Phẩm</h5>
+          </div>
+          <div class="main-content">
+            <div class="function-product d-flex justify-content-between p-3">
+              <div class="function-search d-flex">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Tìm kiếm..."
+                /><button class="btn btn-dark">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <button class="btn btn-add btn-primary" id="add-product">
+                <i class="fa-solid fa-plus"></i> Thêm Sản Phẩm
+              </button>
+            </div>
+            <div class="info-product">
+              <form >
+                <div class="form-group">
+                  <label for="MaSanPham">Mã Sản Phẩm</label>
+                  <input type="text" class="form-control" placeholder="Nhập Mã Sản Phẩm"></div>
+              </form>
+            </div>
+            <div class="product-data">
+              <table class="table table-bordered text-center">
+                <thead>
+                  <tr>
+                    <th rowspan="2">Mã Sản Phẩm</th>
+                    <th rowspan="2">Tên Sản Phẩm</th>
+                    <th rowspan="2">Mẫu Sản Phẩm</th>
+                    <th rowspan="2">Size</th>
+                    <th rowspan="2">Giá</th>
+                    <th rowspan="2">Số Lượng</th>
+                    <th rowspan="2">Màu</th>
+                    <th rowspan="2">Hình Ảnh</th>
+                    <th colspan="3">Chức Năng</th>
+                  </tr>
+                  <tr>
+                    <th>Chi Tiết</th>
+                    <th>Sửa</th>
+                    <th>Xóa</th>
+                  </tr>
+                </thead>
+                <tbody id="product-table">
+                  <td>J01</td>
+                  <td>
+                    Xe đạp địa hình JEEP METEOR – Phanh đĩa cơ, Bánh 26 inch –
+                    2024
+                  </td>
+                  <td>METEOR</td>
+                  <td>M/L</td>
+                  <td>7,190,000₫</td>
+                  <td>1000</td>
+                  <td>Xám</td>
+                  <td>
+                    <img
+                      src="../ImageJeepBicycle/SanPham/SanPham08.png"
+                      alt=""  class="product-img"
+                    />
+                  </td>
+                  <td>
+                    <button class="detail-product" id="detail-product"><i class="fa-regular fa-file-lines"></i></button>
+                  </td>
+                  <td>
+                    <button class="update-product" id="update-product"><i class="fa-regular fa-pen-to-square"></i></button>
+                  </td>
+                  <td>
+                    <button class="delete-product" id="delete-product"><i class="fa-solid fa-trash-can"></i></button>
+                  </td>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-icons">
+      <div class="social-icon facebook">
+        <a href=""
+          ><img src="../ImageJeepBicycle/facebook.png" width="30px" alt=""
+        /></a>
+      </div>
+      <div class="social-icon zalo">
+        <a href=""
+          ><img src="../ImageJeepBicycle/zalo.png" width="30px" alt=""
+        /></a>
+      </div>
+      <div class="social-icon phone">
+        <a href=""
+          ><img src="../ImageJeepBicycle/phone.png" width="30px" alt=""
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>

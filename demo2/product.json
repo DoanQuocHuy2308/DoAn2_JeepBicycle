@@ -1,0 +1,54 @@
+[
+    {
+        "tenSanPham": "Xe đạp địa hình JEEP METEOR",
+        "mauSac": [
+            {
+                "tenMau": "Đỏ",
+                "hinhAnh": [
+                    "../ImageJeepBicycle/MauDo/hinh1.png",
+                    "../ImageJeepBicycle/MauDo/hinh2.png"
+                ]
+            },
+            {
+                "tenMau": "Xanh",
+                "hinhAnh": [
+                    "../ImageJeepBicycle/MauXanh/hinh1.png",
+                    "../ImageJeepBicycle/MauXanh/hinh2.png"
+                ]
+            },
+            {
+                "tenMau": "Vàng",
+                "hinhAnh": [
+                    "../ImageJeepBicycle/MauVang/hinh1.png",
+                    "../ImageJeepBicycle/MauVang/hinh2.png"
+                ]
+            }
+        ]
+    },
+    {
+        "tenSanPham": "Xe đạp địa hình JEEP MTB PS-41",
+        "mauSac": [
+            {
+                "tenMau": "Trắng",
+                "hinhAnh": [
+                    "../ImageJeepBicycle/MauTrang/hinh1.png",
+                    "../ImageJeepBicycle/MauTrang/hinh2.png"
+                ]
+            },
+            {
+                "tenMau": "Đen",
+                "hinhAnh": [
+                    "../ImageJeepBicycle/MauDen/hinh1.png",
+                    "../ImageJeepBicycle/MauDen/hinh2.png"
+                ]
+            },
+            {
+                "tenMau": "Xám",
+                "hinhAnh": [
+                    "../ImageJeepBicycle/MauXam/hinh1.png",
+                    "../ImageJeepBicycle/MauXam/hinh2.png"
+                ]
+            }
+        ]
+    }
+]

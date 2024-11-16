@@ -1,0 +1,62 @@
+/* Đặt video nền */
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-top: 5%;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(255, 254, 254, 0.705);
+}
+.form-container ul{
+    padding: 10px;
+}
+.nav-tabs .nav-link {
+    color: #fb4830;
+    border: 2px solid #fb4830;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #fb4830;
+    color: white;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+}
+
+.password button {
+    background: none;
+    border: none;
+    color: black;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.btn-danger, .btn-primary {
+    background-color: #fb4830;
+    border-color: #fb4830;
+}
+
+.text-center.text-light {
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+}
+
+.container .form-label {
+    color: white;
+}
