@@ -87,13 +87,74 @@ $(document).ready(function () {
   });
 });
 
-// ----------------------------------------------
 $(document).ready(function () {
-  $('#delete-product').click(function () {
-    $('#product-table').remove();
+  $('#add-product').click(function () {
+    $('#form-add').toggle();
+    $('body').css('overflow', 'hidden');
   });
 });
 
-$(document).ready(function(){
-  
-})
+$(document).ready(function () {
+  $('#btn-close').click(function () {
+    $('#form-add').toggle();
+    $('body').css('overflow', 'auto');
+  });
+});
+
+$(document).ready(function () {
+  // Xóa sản phẩm khi nhấn nút "Xóa"
+  $(document).on('click', '.delete-product', function () {
+    // Xóa dòng sản phẩm chứa nút "Xóa" vừa nhấn
+    $(this).closest('tr').remove();
+  });
+
+  // Thêm sản phẩm mới vào bảng
+  $('#add').on('click', function (event) {
+    event.preventDefault();
+
+    const maSanPham = $('#MaSanPham').val();
+    const tenSanPham = $('#TenSanPham').val();
+    const mauSanPham = $('#MauSanPham').val();
+    const sizeSanPham = $('#SizeSanPham').val();
+    const donGiaSanPham = $('#DonGiaSanPham').val();
+    const soLuongSanPham = $('#SoLuongSanPham').val();
+    const hinhAnhSanPham = $('#HinhAnhSanPham')[0].files[0];
+
+    if (!maSanPham || !tenSanPham || !mauSanPham || !sizeSanPham || !donGiaSanPham || !soLuongSanPham || !hinhAnhSanPham) {
+      alert("Vui lòng điền đầy đủ thông tin!");
+      return;
+    }
+
+    // Tạo URL cho hình ảnh
+    const hinhAnhURL = URL.createObjectURL(hinhAnhSanPham);
+
+    // Tạo một dòng mới cho sản phẩm
+    const newRow = `
+      <tr>
+        <td>${maSanPham}</td>
+        <td>${tenSanPham}</td>
+        <td>${mauSanPham}</td>
+        <td>${sizeSanPham}</td>
+        <td>${donGiaSanPham}</td>
+        <td>${soLuongSanPham}</td>
+        <td>${mauSanPham}</td>
+        <td><img src="${hinhAnhURL}" alt="Product Image" class="product-img" /></td>
+        <td>
+          <button class="detail-product"><i class="fa-regular fa-file-lines"></i></button>
+        </td>
+        <td>
+          <button class="update-product"><i class="fa-regular fa-pen-to-square"></i></button>
+        </td>
+        <td>
+          <button class="delete-product"><i class="fa-solid fa-trash-can"></i></button>
+        </td>
+      </tr>
+    `;
+
+    // Thêm dòng mới vào bảng
+    $('#product-table').append(newRow);
+
+    // Reset form sau khi thêm
+    $('form')[0].reset();
+  });
+});
