@@ -26,7 +26,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="../JeepBicycleCSS/QuanTriSanPham.css" />
+    <link rel="stylesheet" href="../JeepBicycleCSS/QuanTriNguoiDung.css" />
     <link
       rel="shortcut icon"
       href="../cropped-favicon-1-32x32.png"
@@ -106,7 +106,7 @@
                 <i class="fa-solid fa-sort-down"></i
               ></span>
             </a>
-            <div class="product-menu" id="product-menu">
+            <div class=" product-menu" id="product-menu">
               <ul>
                 <li>
                   <a class="list-group-item list-group-item-action" href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriSanPham.html"
@@ -170,7 +170,7 @@
             <h5>Quản Lý Sản Phẩm</h5>
           </div>
           <div class="main-content">
-            <div class="function-product d-flex justify-content-between p-3">
+            <div class="function-people d-flex justify-content-between p-3">
               <div class="function-search d-flex">
                 <input
                   type="text"
@@ -180,28 +180,28 @@
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </div>
-              <button class="btn btn-add btn-primary" id="add-product">
+              <button class="btn btn-add btn-primary" id="add-people">
                 <i class="fa-solid fa-plus"></i> Thêm Sản Phẩm
               </button>
             </div>
-            <div class="info-product">
+            <div class="info-people">
               <form >
                 <div class="form-group">
                   <label for="MaSanPham">Mã Sản Phẩm</label>
                   <input type="text" class="form-control" placeholder="Nhập Mã Sản Phẩm"></div>
               </form>
             </div>
-            <div class="product-data">
+            <div class="people-data">
               <table class="table table-bordered text-center">
                 <thead>
                   <tr>
-                    <th rowspan="2">Mã Sản Phẩm</th>
-                    <th rowspan="2">Tên Sản Phẩm</th>
-                    <th rowspan="2">Mẫu Sản Phẩm</th>
-                    <th rowspan="2">Size</th>
-                    <th rowspan="2">Giá</th>
-                    <th rowspan="2">Số Lượng</th>
-                    <th rowspan="2">Màu</th>
+                    <th rowspan="2">Mã Người Dùng</th>
+                    <th rowspan="2">Họ Tên</th>
+                    <th rowspan="2">Giới Tính</th>
+                    <th rowspan="2">Ngày Sinh</th>
+                    <th rowspan="2">Số Điện Thoại</th>
+                    <th rowspan="2">Email</th>
+                    <th rowspan="2">Địa Chỉ</th>
                     <th rowspan="2">Hình Ảnh</th>
                     <th colspan="3">Chức Năng</th>
                   </tr>
@@ -211,31 +211,30 @@
                     <th>Xóa</th>
                   </tr>
                 </thead>
-                <tbody id="product-table">
-                  <td>J01</td>
+                <tbody id="people-table">
+                  <td>01</td>
                   <td>
-                    Xe đạp địa hình JEEP METEOR – Phanh đĩa cơ, Bánh 26 inch –
-                    2024
+                    Doãn Huy
                   </td>
-                  <td>METEOR</td>
-                  <td>M/L</td>
-                  <td>7,190,000₫</td>
-                  <td>1000</td>
-                  <td>Xám</td>
+                  <td>Nam</td>
+                  <td>23/08/2004</td>
+                  <td>0978320093</td>
+                  <td>doanhuypc2308@gmail.com</td>
+                  <td>Hưng Yên</td>
                   <td>
                     <img
                       src="../ImageJeepBicycle/SanPham/SanPham08.png"
-                      alt=""  class="product-img"
+                      alt=""  class="people-img"
                     />
                   </td>
                   <td>
-                    <button class="detail-product" id="detail-product"><i class="fa-regular fa-file-lines"></i></button>
+                    <button class="detail-people" id="detail-people"><i class="fa-regular fa-file-lines"></i></button>
                   </td>
                   <td>
-                    <button class="update-product" id="update-product"><i class="fa-regular fa-pen-to-square"></i></button>
+                    <button class="update-people" id="update-people"><i class="fa-regular fa-pen-to-square"></i></button>
                   </td>
                   <td>
-                    <button class="delete-product" id="delete-product"><i class="fa-solid fa-trash-can"></i></button>
+                    <button class="delete-people" id="delete-people"><i class="fa-solid fa-trash-can"></i></button>
                   </td>
                 </tbody>
               </table>

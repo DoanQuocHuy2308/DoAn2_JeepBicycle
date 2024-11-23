@@ -566,8 +566,10 @@ body {
 }
 .hero-section {
   background-image: url("../ImageJeepBicycle/TrangChu/TrangChu31.jpg");
-  background-size: cover;
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   padding: 100px 0;
   width: 100%;
@@ -847,6 +849,10 @@ body {
   width: 100%;
   background-image: url("../ImageJeepBicycle/TrangChu/trangchu36.jpg");
   position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .support::after {
   content: "";

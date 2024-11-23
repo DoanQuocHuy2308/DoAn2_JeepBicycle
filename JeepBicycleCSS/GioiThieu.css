@@ -79,12 +79,15 @@ body {
   margin: 0;
   padding: 10px;
 }
+
 .father {
   margin-left: 50px;
 }
+
 .function-product {
   margin-left: 30px;
 }
+
 .icon-search i {
   font-weight: bold;
   font-size: 20px;
@@ -113,10 +116,12 @@ body {
   justify-content: center;
   cursor: pointer;
 }
+
 .cart i {
   font-size: 24px;
   color: white;
 }
+
 .badge {
   position: absolute;
   top: -5px;
@@ -140,7 +145,8 @@ body {
   opacity: 0.5;
   margin: 0 10px;
 }
-.login-btn{
+
+.login-btn {
   width: 160px;
   color: #fb4830;
   font-size: 15px;
@@ -153,12 +159,14 @@ body {
   color: #ff5733;
   border: 3px solid #ff5733;
 }
+
 .btn-account:focus,
-.login-btn:focus{
+.login-btn:focus {
   box-shadow: none;
   outline: none;
 }
-.btn-account{
+
+.btn-account {
   width: 160px;
   color: #fb4830;
   font-size: 15px;
@@ -173,11 +181,11 @@ body {
   border: 3px solid #ff5733;
 }
 
-.logout{
+.logout {
   display: none;
 }
 
-.logout-btn{
+.logout-btn {
   border: 1px solid silver;
   background-color: #fff;
   width: 160px;
@@ -185,8 +193,9 @@ body {
   margin-top: 5px;
   border-radius: 20px;
   color: #fb4830;
-  padding: 0 25px  !important;
+  padding: 0 25px !important;
 }
+
 /* ------------------------------- */
 .cart-container {
   position: fixed;
@@ -200,9 +209,11 @@ body {
   transition: right 0.3s ease;
   z-index: 5;
 }
+
 .cart-container.show {
   right: 0;
 }
+
 .cart-header {
   display: flex;
   justify-content: space-between;
@@ -210,29 +221,35 @@ body {
   border-bottom: 1px solid #e9ecef;
   padding: 20px;
 }
+
 .cart-header h1 {
   font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
+
 .cart-header .close-btn {
   font-size: 30px;
   cursor: pointer;
 }
+
 .cart-body {
   padding: 20px;
   text-align: center;
 }
+
 .cart-body .empty-cart-icon {
   font-size: 5rem;
   color: #fb4830;
   margin-bottom: 20px;
 }
+
 .cart-body p {
   font-size: 20px;
   color: #6c757d;
   margin-bottom: 50px;
 }
+
 .cart-body .return {
   background: linear-gradient(to right, #ff5f6d, #ffc371);
   border: none;
@@ -265,9 +282,11 @@ body {
   border-radius: 50%;
   border: 2px solid #fff;
 }
+
 .search-container {
   padding-bottom: 50px;
 }
+
 .search form {
   height: 100vh;
 }
@@ -277,6 +296,7 @@ body {
   border: 2px solid #fff;
   border-radius: 23px;
 }
+
 .function-search input {
   font-size: 1.25rem;
   height: 100%;
@@ -296,12 +316,15 @@ body {
   background-color: rgba(0, 0, 0, 0.55);
   color: #fff;
 }
-.function-search button:hover{
+
+.function-search button:hover {
   color: #fb4830;
 }
-.function-search button:focus{
+
+.function-search button:focus {
   box-shadow: none;
 }
+
 .search-product {
   background-color: #fff;
   overflow-y: auto;
@@ -332,21 +355,26 @@ section {
   padding: 0 !important;
   padding-bottom: 60px !important;
 }
+
 .hero-text {
   position: relative;
   background-image: url(../ImageJeepBicycle/GioiThieu/GioiThieu05.jpg);
   z-index: 1;
-  padding: 60px 0;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
   color: #fff;
 }
+
 .hero-text h1 {
   font-weight: 700;
   font-style: normal;
 }
-.hero-text p,.hero-text a {
+
+.hero-text p,
+.hero-text a {
   font-weight: 400;
   font-style: normal;
   color: #fff;
@@ -354,87 +382,101 @@ section {
 }
 
 .mission-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }
+
 .mission-text {
-    max-width: 50%;
-    padding-right: 20px;
+  max-width: 50%;
+  padding-right: 20px;
 }
+
 .mission-text h1 {
-    font-size: 48px;
-    font-weight: bold;
-    padding: 20px 0;
-    color: #0a0a0a;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 20px 0;
+  color: #0a0a0a;
 }
+
 .mission-text p {
-    font-size: 20px;
-    line-height: 40px;
-    color: #0a0a0a;
+  font-size: 20px;
+  line-height: 40px;
+  color: #0a0a0a;
 }
+
 .mission-image img {
-    border-radius: 20px;
-    max-width: 100%;
+  border-radius: 20px;
+  max-width: 100%;
 }
-.main-content2, .main-content3{
-    padding-top: 60px;
+
+.main-content2,
+.main-content3 {
+  padding-top: 60px;
 }
 
 .contact {
-    margin-top: 6rem;
-    position: relative;
-    text-align: center;
-    color: white;
-    background-image: url('../ImageJeepBicycle/GioiThieu/z5430296564459_de864f88c424113b9d9009e8df907c1c.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 361.25px;
+  margin-top: 6rem;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url('../ImageJeepBicycle/GioiThieu/z5430296564459_de864f88c424113b9d9009e8df907c1c.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 361.25px;
 }
+
 .contact-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    text-align: center;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  text-align: center;
+  z-index: 1;
 }
+
 .contact-text h1 {
-    font-weight: 700;
-    font-style: normal;
-    font-size: 2.5rem;
-    padding-bottom: 20px;
-    color: #fb4830;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+  color: #fb4830;
 }
+
 .contact-text p {
-    font-size: 16px;
-    font-weight: bolder;
-    line-height: 0.5;
-    font-style: normal;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 0.5;
+  font-style: normal;
 }
+
 .contact-text .btn {
-    background: linear-gradient(to right, #F9763F 0%, #ED1C24 100%);
-    font-size: 1.25rem;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 10px !important;
-    text-transform: none;
-    letter-spacing: 0;
-    font-weight: normal;
-    margin-top: 20px;
+  background: linear-gradient(to right, #F9763F 0%, #ED1C24 100%);
+  font-size: 1.25rem;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px !important;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: normal;
+  margin-top: 20px;
 }
+
 .contact::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
+
 /* ------------------------------------- */
 .social-icon {
   width: 50px;
@@ -451,24 +493,29 @@ section {
   background-color: #1876f296;
   z-index: 4;
 }
+
 .zalo {
   background-color: #1876f296;
   z-index: 4;
 }
+
 .phone {
   background-color: #d9544fa2;
   z-index: 4;
 }
+
 .facebook img {
   background-color: #1877f2;
   border-radius: 50%;
   width: 35px;
 }
+
 .zalo img {
   background-color: #1877f2;
   border-radius: 50%;
   width: 35px;
 }
+
 .phone img {
   background-color: #d9544fa2;
   border-radius: 50%;
@@ -481,48 +528,59 @@ section {
   right: 10px;
   transform: translateY(-50%);
 }
+
 /* --------------------------------- */
 .footer {
   background-color: #0a0a0a;
   padding-top: 2rem;
   color: #fff;
 }
+
 .footer a {
   color: #fff;
   text-decoration: none;
 }
+
 .list-unstyled li {
   margin: 20px 0;
 }
+
 .list-unstyled a {
   color: #748688;
 }
+
 .list-unstyled a:hover {
   color: #fff;
 }
+
 .footer .logo {
   font-size: 80px;
   font-weight: 800;
   margin-bottom: 40px;
 }
+
 .footer .section-title {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 20px;
 }
+
 .footer-content {
   font-size: 15px;
   padding-bottom: 10px;
   color: #748688;
 }
+
 .social-icons {
   display: flex;
 }
+
 .social-icons i {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footer .social-icons a {
   display: flex;
   justify-content: center;
@@ -534,25 +592,31 @@ section {
   margin-right: 15px;
   font-size: 1.5rem;
 }
+
 .social-icons a:hover {
   background-color: #fff;
   color: #000;
 }
+
 .footer .payment-icons i {
   margin-right: 10px;
   color: #fff;
   font-size: 30px;
 }
+
 .footer .gov-badge img {
   margin-top: 20px;
   width: 270px;
 }
+
 .footer .contact-info {
   margin-top: 20px;
 }
+
 .footer .contact-info p {
   margin: 0;
 }
+
 .footer .bottom-bar {
   display: flex;
   justify-content: space-between;
@@ -561,10 +625,12 @@ section {
   margin-top: 70px;
   text-align: center;
 }
+
 .bottom-condition {
   display: flex;
   gap: 10px;
 }
+
 .bottom-bar-content {
   color: silver;
 }

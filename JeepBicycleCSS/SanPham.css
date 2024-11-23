@@ -42,6 +42,7 @@ body {
 .navbar-nav .dropdown-item {
   font-weight: 500;
   font-size: 16px;
+  cursor: pointer;
   color: #242424;
   transition: transform 0.3s ease-in-out;
 }
@@ -405,11 +406,11 @@ body {
   margin-top: 30px;
 }
 
-.product-discount {
+.product-list {
   margin-bottom: 50px;
 }
 
-.product-discount a {
+.product-list a {
   text-decoration: none;
 }
 .card {

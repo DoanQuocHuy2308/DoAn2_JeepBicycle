@@ -147,7 +147,7 @@ body {
       font-weight: 700;
       font-style: italic;
   }
-  .product-data table{
+ .people-data table{
       width: 100%;
   }
   table thead th{
@@ -157,10 +157,10 @@ body {
       overflow: hidden;
       white-space: nowrap;
   }
-  .product-data img{
+ .people-data img{
       height: 5rem;
   }
-  .product-data button{
+ .people-data button{
       border: 1px solid black;
       background-color: #fff;
       width: 40px;
@@ -168,13 +168,13 @@ body {
       border-radius: 50%;
       font-size: 18px;
   }
-  .product-data .detail-product{
+ .people-data .detail-product{
       color: black;
   }
-  .product-data .update-product{
+ .people-data .update-product{
       color: blue;
   }
-  .product-data .delete-product{
+ .people-data .delete-product{
       color: red;
   }
   

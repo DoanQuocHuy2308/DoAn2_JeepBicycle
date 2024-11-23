@@ -34,6 +34,10 @@ $(document).ready(function () {
   $(document).on("click", "#list-person", function () {
     $("#person-menu").toggle();
   });
+  
+  $(document).on("click", "#list-products", function () {
+    $("#product-menu").toggle();
+  });
 });
 
 // ----------------------------------------------
@@ -102,9 +106,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  // Xóa sản phẩm khi nhấn nút "Xóa"
   $(document).on('click', '.delete-product', function () {
-    // Xóa dòng sản phẩm chứa nút "Xóa" vừa nhấn
     $(this).closest('tr').remove();
   });
 

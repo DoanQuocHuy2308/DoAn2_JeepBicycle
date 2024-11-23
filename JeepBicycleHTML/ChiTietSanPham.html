@@ -249,23 +249,61 @@
         </div>
       </form>
     </div>
-    <!-- -------------------------- -->
-    <div class="cart-container" id="cartContainer">
+    <!-- --------------------------============================================================-->
+    <div class="cart-container justify-content-center" id="cartContainer">
       <div class="cart-header">
-        <h1>GIỎ HÀNG</h1>
         <span class="close-btn" id="closeCartBtn">&times;</span>
       </div>
-      <div class="cart-body">
+      <h1>GIỎ HÀNG</h1>
+      <div class="cart-body" style="display: none">
         <i class="fas fa-shopping-bag empty-cart-icon"></i>
         <p>Chưa có sản phẩm trong giỏ hàng.</p>
         <a href="" class="return">QUAY TRỞ LẠI CỬA HÀNG</a>
       </div>
+      <!-- =================================================================================================== -->
+      <div class="cart-product">
+        <div class="cart-frame">
+          <div class="item-product" id="item-product">
+            
+          </div>
+          <div class="cart-summary">
+            <div class="total-group">
+              <span> Tổng số phụ: </span>
+              <span class="total">0</span>
+            </div>
+            <button class="btn btn-danger" id="next-giohang">XEM GIỎ HÀNG</button>
+            <button class="btn btn-checkout" id="pay">THANH TOÁN</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- ============================== -->
+    <!-- ============================== ======================================================-->
     <div class="product-detail container mt-5">
       <div class="row">
-        <div class="col-md-6">
-          
+        <div class="col-md-6 w-100">
+          <div class="product-img">
+            <div class="img-product">
+              <img id="main-image" src="../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham1.png" alt="imgsanpham">
+            </div>
+            <div class="img-function">
+              <button class="prev" id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+              <button class="next" id="next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+          <div class="listproduct-img d-flex">
+            <div class="product-img-item">
+              <img src="../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham1.png" class="imgpro active" alt="imgsanpham">
+            </div>
+            <div class="product-img-item">
+              <img src="../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham2.png" class="imgpro" alt="imgsanpham">
+            </div>
+            <div class="product-img-item">
+              <img src="../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham3.png" class="imgpro" alt="imgsanpham">
+            </div>
+            <div class="product-img-item">
+              <img src="../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham4.jpg" class="imgpro" alt="imgsanpham">
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
           <nav aria-label="breadcrumb">
@@ -325,8 +363,8 @@
                 +
               </button>
             </form>
-            <button class="btn add ml-2">Thêm vào giỏ hàng</button>
-          </div>
+            <button class="btn add ml-2" id="add_cart">Thêm vào giỏ hàng</button>
+          </div>          
           <div class="social-icons mt-3">
             <a href="#">
               <i class="fab fa-facebook"></i>
