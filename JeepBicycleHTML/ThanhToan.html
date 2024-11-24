@@ -293,14 +293,14 @@
           <div id="discount-code" class="dashed-border">
             <p>Nếu bạn có mã giảm giá, vui lòng điền vào phía bên dưới.</p>
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Mã ưu đãi" />
-              <button class="apply-button">ÁP DỤNG</button>
+              <input type="text" class="form-control" id="input-discount" placeholder="Mã ưu đãi" />
+              <button class="apply-button" id="applyDiscount">ÁP DỤNG</button>
             </div>
           </div>
           <h5>THÔNG TIN THANH TOÁN</h5>
           <form>
             <div class="mb-3">
-              <label for="name" class="form-label">Họ và tên *</label>
+              <label for="name" class="form-label">Họ và tên </label>
               <input
                 type="text"
                 class="form-control"
@@ -333,14 +333,12 @@
                 <label for="city" class="form-label">Tỉnh/Thành phố *</label>
                 <select class="form-select form-control" id="city">
                   <option selected>Chọn Tỉnh/Thành phố</option>
-                  <!-- Add options here -->
                 </select>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="district" class="form-label">Quận/Huyện *</label>
                 <select class="form-select form-control" id="district">
                   <option selected>Chọn Quận/Huyện</option>
-                  <!-- Add options here -->
                 </select>
               </div>
             </div>
@@ -351,7 +349,6 @@
                 >
                 <select class="form-select form-control" id="ward">
                   <option selected>Chọn Xã/Phường/Thị trấn</option>
-                  <!-- Add options here -->
                 </select>
               </div>
               <div class="col-md-6 mb-3">
@@ -410,7 +407,7 @@
             </table>
             <p class="mb-1"><strong>Trả tiền mặt khi nhận hàng</strong></p>
             <p class="mb-4">Trả tiền mặt khi giao hàng</p>
-            <button type="button" class="btn btn-dark">ĐẶT HÀNG</button>
+            <button type="button" class="btn btn-dark" id="oder">ĐẶT HÀNG</button>
             <p class="note mt-3">
               Thông tin cá nhân của bạn sẽ được sử dụng để xử lý đơn hàng, tăng
               trải nghiệm sử dụng website, và cho các mục đích cụ thể khác đã

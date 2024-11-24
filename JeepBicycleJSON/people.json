@@ -1,0 +1,103 @@
+[
+    {
+      "MaNguoiDung": "001",
+      "name": "Nguyễn Văn A",
+      "GioiTinh": "Nam",
+      "NgaySinh": "1990-01-01",
+      "SoDienThoai": "0912345678",
+      "email": "nguyenvana@example.com",
+      "DiaChi": "123 Đường ABC, Quận 1, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham04.png"
+    },
+    {
+      "MaNguoiDung": "002",
+      "name": "Trần Thị B",
+      "GioiTinh": "Nữ",
+      "NgaySinh": "1992-05-15",
+      "SoDienThoai": "0987654321",
+      "email": "tranthib@example.com",
+      "DiaChi": "456 Đường XYZ, Quận 2, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham05.png"
+    },
+    {
+      "MaNguoiDung": "003",
+      "name": "Lê Minh C",
+      "GioiTinh": "Nam",
+      "NgaySinh": "1985-08-23",
+      "SoDienThoai": "0912345679",
+      "email": "leminhc@example.com",
+      "DiaChi": "789 Đường DEF, Quận 3, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham06.png"
+    },
+    {
+      "MaNguoiDung": "004",
+      "name": "Phạm Thi D",
+      "GioiTinh": "Nữ",
+      "NgaySinh": "1995-03-30",
+      "SoDienThoai": "0901234567",
+      "email": "phamthid@example.com",
+      "DiaChi": "101 Đường GHI, Quận 4, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham07.jpg"
+    },
+    {
+      "MaNguoiDung": "005",
+      "name": "Hoàng Minh E",
+      "GioiTinh": "Nam",
+      "NgaySinh": "1988-11-11",
+      "SoDienThoai": "0923456789",
+      "email": "hoangmine@example.com",
+      "DiaChi": "102 Đường JKL, Quận 5, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham08.png"
+    },
+    {
+      "MaNguoiDung": "006",
+      "name": "Lý Thị F",
+      "GioiTinh": "Nữ",
+      "NgaySinh": "1993-07-22",
+      "SoDienThoai": "0934567890",
+      "email": "lythif@example.com",
+      "DiaChi": "203 Đường MNO, Quận 6, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham09.png"
+    },
+    {
+      "MaNguoiDung": "007",
+      "name": "Vũ Minh G",
+      "GioiTinh": "Nam",
+      "NgaySinh": "1980-12-05",
+      "SoDienThoai": "0945678901",
+      "email": "vuminhg@example.com",
+      "DiaChi": "304 Đường PQR, Quận 7, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham10.png"
+    },
+    {
+      "MaNguoiDung": "008",
+      "name": "Đặng Thị H",
+      "GioiTinh": "Nữ",
+      "NgaySinh": "1998-06-18",
+      "SoDienThoai": "0956789012",
+      "email": "dangthih@example.com",
+      "DiaChi": "405 Đường STU, Quận 8, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham11.png"
+    },
+    {
+      "MaNguoiDung": "009",
+      "name": "Bùi Minh I",
+      "GioiTinh": "Nam",
+      "NgaySinh": "1991-09-10",
+      "SoDienThoai": "0967890123",
+      "email": "buiminhi@example.com",
+      "DiaChi": "506 Đường VWX, Quận 9, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham12.jpg"
+    },
+    {
+      "MaNguoiDung": "010",
+      "name": "Ngô Thi J",
+      "GioiTinh": "Nữ",
+      "NgaySinh": "2000-01-25",
+      "SoDienThoai": "0978901234",
+      "email": "ngothij@example.com",
+      "DiaChi": "607 Đường YZ, Quận 10, TP.HCM",
+      "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham13.jpg"
+    }
+  ]
+  

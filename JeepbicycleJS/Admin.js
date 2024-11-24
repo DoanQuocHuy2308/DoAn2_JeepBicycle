@@ -34,7 +34,7 @@ $(document).ready(function () {
   $(document).on("click", "#list-person", function () {
     $("#person-menu").toggle();
   });
-  
+
   $(document).on("click", "#list-products", function () {
     $("#product-menu").toggle();
   });
@@ -96,9 +96,17 @@ $(document).ready(function () {
     $('#form-add').toggle();
     $('body').css('overflow', 'hidden');
   });
-});
 
-$(document).ready(function () {
+  $('#add-people').click(function () {
+    $('#form-add').toggle();
+    $('body').css('overflow', 'hidden');
+  });
+
+  $('#add-taikhoan').click(function () {
+    $('#form-add').toggle();
+    $('body').css('overflow', 'hidden');
+  });
+
   $('#btn-close').click(function () {
     $('#form-add').toggle();
     $('body').css('overflow', 'auto');
@@ -106,6 +114,247 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  //data products
+  $.getJSON("../JeepBicycleJSON/people.json", function (data) {
+    let tableContent = "";
+    data.forEach(function (people) {
+      tableContent += `
+        <tr>
+          <td>${people.MaNguoiDung}</td>
+          <td>${people.name}</td>
+          <td>${people.GioiTinh}</td>
+          <td>${people.NgaySinh}</td>
+          <td>${people.SoDienThoai}</td>
+          <td>${people.email}</td>
+          <td>${people.DiaChi}</td>
+          <td><img src="${people.HinhAnhNguoiDung}" alt="people Image" class="people-img" /></td>
+          <td>
+            <button class="detail-people"><i class="fa-regular fa-file-lines"></i></button>
+          </td>
+          <td>
+            <button class="update-people"><i class="fa-regular fa-pen-to-square"></i></button>
+          </td>
+          <td>
+            <button class="delete-people"><i class="fa-solid fa-trash-can"></i></button>
+          </td>
+        </tr>
+      `;
+    });
+    $("#people-table").html(tableContent);
+  });
+
+  ///xóa người dùng
+  $(document).on('click', '.delete-people', function () {
+    $(this).closest('tr').remove();
+  });
+
+  //thêm người dùng
+  $('#addPeople').on('click', function (event) {
+    event.preventDefault();
+
+    const MaNguoiDung = $('#MaNguoiDung').val();
+    const name = $('#name').val();
+    const GioiTinh = $('#GioiTinh').val();
+    const NgaySinh = $('#NgaySinh').val();
+    const sdt = $('#sdt').val();
+    const email = $('#email').val();
+    const DiaChi = $('#DiaChi').val();
+    const HinhAnhNguoiDung = $('#HinhAnhNguoiDung')[0].files[0];
+
+    if (!MaNguoiDung || !name || !GioiTinh || !NgaySinh || !sdt || !email || !DiaChi || !HinhAnhNguoiDung) {
+      alert("Vui lòng điền đầy đủ thông tin!");
+      return;
+    }
+    const hinhAnhURL = URL.createObjectURL(HinhAnhNguoiDung);
+    const newRow = `
+      <tr>
+        <td>${MaNguoiDung}</td>
+        <td>${name}</td>
+        <td>${GioiTinh}</td>
+        <td>${NgaySinh}</td>
+        <td>${sdt}</td>
+        <td>${email}</td>
+        <td>${DiaChi}</td>
+        <td><img src="${hinhAnhURL}" alt="people Image" class="people-img" /></td>
+        <td>
+          <button class="detail-people"><i class="fa-regular fa-file-lines"></i></button>
+        </td>
+        <td>
+          <button class="update-people"><i class="fa-regular fa-pen-to-square"></i></button>
+        </td>
+        <td>
+          <button class="delete-people"><i class="fa-solid fa-trash-can"></i></button>
+        </td>
+      </tr>
+    `;
+    $('#people-table').append(newRow);
+
+    $('form')[0].reset();
+  });
+});
+
+$(document).ready(function () {
+  $.getJSON("../JeepBicycleJSON/taikhoan.json", function (data) {
+    let allAccounts = data;
+    let tableContent = "";
+    function datataikhoan(accounts) {
+      let content = "";
+      accounts.forEach(function (account) {
+        content += `
+            <tr>
+              <td>${account.id}</td>
+              <td>${account.username}</td>
+              <td>${account.password}</td>
+              <td>${account.email}</td>
+              <td>${account.role}</td>
+              <td>
+                <button class="detail-taikhoan"><i class="fa-regular fa-file-lines"></i></button>
+              </td>
+              <td>
+                <button class="update-taikhoan"><i class="fa-regular fa-pen-to-square"></i></button>
+              </td>
+              <td>
+                <button class="delete-taikhoan"><i class="fa-solid fa-trash-can"></i></button>
+              </td>
+            </tr>
+          `;
+      });
+      $("#taikhoan-table").html(content);
+    }
+
+    // Hiển thị dữ liệu ban đầu
+    datataikhoan(allAccounts);
+
+    // Hàm tìm kiếm tài khoản
+    function searchTaiKhoan(query) {
+      query = query.toLowerCase();
+      const filteredAccounts = allAccounts.filter((account) => {
+        return (
+          account.username.toLowerCase().includes(query) ||
+          account.email.toLowerCase().includes(query) ||
+          account.role.toLowerCase().includes(query)
+        );
+      });
+      datataikhoan(filteredAccounts);
+    }
+
+    // Xử lý sự kiện tìm kiếm
+    $("#search-taikhoan").on("keyup", function () {
+      const searchValue = $(this).val();
+      searchTaiKhoan(searchValue);
+    });
+
+    $("#btn-searchtaikhoan").on("click", function () {
+      const searchValue = $("#search-taikhoan").val();
+      searchTaiKhoan(searchValue);
+    });
+  });
+
+  //xóa dữ liệu tài khoản
+  $(document).on('click', '.delete-taikhoan', function () {
+    $(this).closest('tr').remove();
+  });
+
+  //thêm tài khoản
+  $('#addTaiKhoan').on('click', function (event) {
+    event.preventDefault();
+
+    const idTaiKhoan = $('#idTaiKhoan').val();
+    const Username = $('#Username').val();
+    const Password = $('#Password').val();
+    const email = $('#email').val();
+    const role = $('#role').val();
+
+    if (!idTaiKhoan || !Username || !Password || !email || !role) {
+      alert("Vui lòng điền đầy đủ thông tin!");
+      return;
+    }
+    const newRow = `
+      <tr>
+        <td>${idTaiKhoan}</td>
+        <td>${Username}</td>
+        <td>${Password}</td>
+        <td>${email}</td>
+        <td>${role}</td>
+        <td>
+          <button class="detail-taikhoan"><i class="fa-regular fa-file-lines"></i></button>
+        </td>
+        <td>
+          <button class="update-taikhoan"><i class="fa-regular fa-pen-to-square"></i></button>
+        </td>
+        <td>
+          <button class="delete-taikhoan"><i class="fa-solid fa-trash-can"></i></button>
+        </td>
+      </tr>
+    `;
+    $('#taikhoan-table').append(newRow);
+
+    $('form')[0].reset();
+  });
+});
+
+
+$(document).ready(function () {
+  $.getJSON("../JeepBicycleJSON/products.json", function (data) {
+    let allProducts = data;
+    let tableContent = "";
+
+    // Hàm hiển thị dữ liệu ra bảng
+    function dataproducts(products) {
+      let content = "";
+      products.forEach(function (product) {
+        content += `
+          <tr>
+            <td>${product.id}</td>
+            <td>${product.Name}</td>
+            <td>${product.category}</td>
+            <td>${product.Size}</td>
+            <td>${product.newprice}</td>
+            <td>1000</td>
+            <td>${product.Color}</td>
+            <td><img src="${product.img[0]}" alt="Product Image" class="product-img" /></td>
+            <td>
+              <button class="detail-product"><i class="fa-regular fa-file-lines"></i></button>
+            </td>
+            <td>
+              <button class="update-product"><i class="fa-regular fa-pen-to-square"></i></button>
+            </td>
+            <td>
+              <button class="delete-product"><i class="fa-solid fa-trash-can"></i></button>
+            </td>
+          </tr>
+        `;
+      });
+      $("#product-table").html(content);
+    }
+
+    // Hiển thị dữ liệu ban đầu
+    dataproducts(allProducts);
+
+    function searchProducts(query) {
+      query = query.toLowerCase();
+      const filteredProducts = allProducts.filter((product) => {
+        return (
+          product.Name.toLowerCase().includes(query) ||
+          product.category.toLowerCase().includes(query) ||
+          product.Color.toLowerCase().includes(query)
+        );
+      });
+      dataproducts(filteredProducts);
+    }
+
+    // Xử lý sự kiện tìm kiếm
+    $("#input-searchProducts").on("keyup", function () {
+      const searchValue = $(this).val();
+      searchProducts(searchValue);
+    });
+
+    $("#btn-searchProducts").on("click", function () {
+      const searchValue = $("#input-searchProducts").val();
+      searchProducts(searchValue);
+    });
+  });
+  //xóa dữ liệu sản phẩm
   $(document).on('click', '.delete-product', function () {
     $(this).closest('tr').remove();
   });
@@ -156,7 +405,6 @@ $(document).ready(function () {
     // Thêm dòng mới vào bảng
     $('#product-table').append(newRow);
 
-    // Reset form sau khi thêm
     $('form')[0].reset();
   });
 });

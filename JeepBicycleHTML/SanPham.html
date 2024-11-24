@@ -134,8 +134,8 @@
     <form class="container d-flex flex-column align-items-center justify-content-center mt-4">
       <div class="search-container d-flex flex-column align-items-center w-100">
         <div class="function-search d-flex w-50 mb-3">
-          <input type="text" class="form-control" placeholder="Tìm kiếm..." />
-          <button class="btn btn-search">
+          <input type="text" class="form-control" id="functionSearch" placeholder="Tìm kiếm..." />
+          <button class="btn btn-search" id="btn-functionSearch">
             <i class="fa-solid fa-search"></i>
           </button>
         </div>
@@ -196,10 +196,10 @@
         </div>
         <div class="search-container">
           <div class="input-group">
-            <input type="text" class="form-control search-bar" placeholder="Tìm kiếm..." />
-            <button><i class="fas fa-search"></i></button>
+            <input type="text" class="form-control search-bar" id="searchProducts" placeholder="Tìm kiếm..." />
+            <button id="btn-searchProducts"><i class="fas fa-search"></i></button>
           </div>
-          <select class="ms-2">
+          <select class="ms-2" id="filterProducts">
             <option>Thứ tự mặc định</option>
             <option>Thứ tự theo mức độ phổ biến</option>
             <option>Thứ tự theo điểm đánh giá</option>

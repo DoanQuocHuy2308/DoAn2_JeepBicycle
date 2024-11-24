@@ -1,92 +1,89 @@
 $(document).ready(function () {
+  // Hiển thị giỏ hàng
   $("#cart-button").click(function () {
     $("#cartContainer").addClass("show");
     $("body").css("overflow", "hidden");
   });
-});
 
-$(document).ready(function () {
+  // Đóng giỏ hàng
   $("#closeCartBtn").click(function () {
     $("#cartContainer").removeClass("show");
     $("body").css("overflow", "auto");
   });
-});
 
-$(document).ready(function() {
+  // Cập nhật hiển thị giỏ hàng
   function updateCartVisibility() {
     if ($('.cart-item').length === 0) {
-      $('.cart-body').show(); 
+      $('.cart-body').show();
       $('.cart-product').hide();
     } else {
       $('.cart-body').hide();
-      $('.cart-product').show(); 
+      $('.cart-product').show();
     }
   }
 
   updateCartVisibility();
 
-  $(document).on('click', '#clear-item', function() {
+  // Cập nhật tổng tiền trong giỏ hàng
+  function updateTotalPrice() {
+    let totalPrice = 0;
+    $('.cart-item').each(function() {
+      const quantity = parseInt($(this).find('.cart-item-quantity').val()); 
+      const price = parseInt($(this).find('.cart-item-price').text().replace(/[^0-9]/g, "")); 
+      totalPrice += quantity * price;
+    });
+    $('#total-price').text(totalPrice.toLocaleString() + "₫");
+  }
+
+  // Xóa một sản phẩm khỏi giỏ hàng
+  $(document).on('click', '#clear-item', function () {
     $(this).closest('.cart-item').remove();
     updateCartVisibility();
+    updateTotalPrice(); 
   });
-});
 
-
-
-$(document).ready(function () { 
-  $('#clear-product').click(function() { 
+  // Xóa toàn bộ sản phẩm khỏi giỏ hàng
+  $('#clear-product').click(function () {
     $('tbody tr').remove();
-  }); 
-});
+    updateCartVisibility();
+    updateTotalPrice(); 
+  });
 
-function tang() {
-  let $quantity = $('#quantity');
-  $quantity.val(parseInt($quantity.val()) + 1);
-}
+  // Tăng số lượng sản phẩm
+  $(document).on('click', '.increase-quantity', function () {
+    let $quantity = $(this).closest('.cart-item').find('.cart-item-quantity');
+    $quantity.val(parseInt($quantity.val()) + 1);
+    updateTotalPrice(); 
+  });
 
-function giam() {
-  let $quantity = $('#quantity');
-  if (parseInt($quantity.val()) > 1) {
+  // Giảm số lượng sản phẩm
+  $(document).on('click', '.decrease-quantity', function () {
+    let $quantity = $(this).closest('.cart-item').find('.cart-item-quantity');
+    if (parseInt($quantity.val()) > 1) {
       $quantity.val(parseInt($quantity.val()) - 1);
-  }
-}
-
-$(document).ready(function () {
-  const oldPrice = parseInt($('#old-price').text().replace(/[^0-9]/g, ""));
-  $('#new-price').text(oldPrice.toLocaleString() + "₫");
-  $('#price-detail').text(oldPrice.toLocaleString() + "₫");
-});
-
-$(document).ready(function () {
-  $('#btn-continue').click(function () {
-    window.location.href = "SanPham.html";
+      updateTotalPrice();
+    }
   });
-});
 
-$(document).ready(function () {
-  $('#update').on('click', function () {
-    const oldPriceText = $('#old-price').text();
-    const oldPrice = parseInt(oldPriceText.replace(/[^0-9]/g, "")); 
-    const soluong = parseInt($('#quantity').val());
-    const newPrice = soluong > 0 ? oldPrice * soluong : 0;
-    $('#new-price').text(newPrice.toLocaleString() + "₫");
-    $('#price-detail').text(newPrice.toLocaleString() + "₫");
-    $('#total-price').text(newPrice.toLocaleString() + "₫");
-  });
-});
-
-$(document).ready(function () {
+  // Áp dụng mã giảm giá
   $('#btn-apply').on('click', function () {
-    const detail = parseFloat($('#discount-code').val());
-    const total = $('#total-price').text().replace(/[^0-9]/g, "");
-    const newTotal = total - (total * detail / 100);
+    const discount = parseFloat($('#discount-code').val());
+    const total = parseInt($('#total-price').text().replace(/[^0-9]/g, ""));
+    const newTotal = total - (total * discount / 100);
     $('#total-price').text(newTotal.toLocaleString() + "₫");
     $('#discount-code').val("");
   });
-});
 
-$(document).ready(function () {
+  // Chuyển đến trang sản phẩm
+  $('#btn-continue').click(function () {
+    window.location.href = "SanPham.html";
+  });
+
+  // Chuyển đến trang thanh toán
   $('#btn-checkout').click(function () {
     window.location.href = "ThanhToan.html";
   });
+
+  // Cập nhật tổng tiền khi có thay đổi
+  updateTotalPrice();
 });

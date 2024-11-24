@@ -34,17 +34,16 @@ $(document).ready(function(){
 
 // -----------------------hover ảnh ------------------------------------------
 $(document).ready(function() {
-  $('.image-container').hover(
+  $('#img-ADVENTURE').hover(
       function() {
           $('#ADVENTURE').attr('src', 'ImageJeepBicycle/TrangChu/TrangChu13.jpg');
       },
       function() {
           $('#ADVENTURE').attr('src', 'ImageJeepBicycle/TrangChu/TrangChu12.jpg'); 
-      }
-  );
+      });
 });
 $(document).ready(function() {
-  $('.image-container').hover(
+  $('#img-FREEDOM').hover(
       function() {
           $('#FREEDOM').attr('src', 'ImageJeepBicycle/TrangChu/TrangChu15.jpg'); 
       },
@@ -54,7 +53,7 @@ $(document).ready(function() {
   );
 });
 $(document).ready(function() {
-  $('.image-container').hover(
+  $('#img-PASSION').hover(
       function() {
           $('#PASSION').attr('src', 'ImageJeepBicycle/TrangChu/TrangChu17.jpg');
       },
@@ -64,7 +63,7 @@ $(document).ready(function() {
   );
 });
 $(document).ready(function() {
-  $('.image-container').hover(
+  $('#img-AUTHENTICITY').hover(
       function() {
           $('#AUTHENTICITY').attr('src', 'ImageJeepBicycle/TrangChu/TrangChu19.jpg');
       },

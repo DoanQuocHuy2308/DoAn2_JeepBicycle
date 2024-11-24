@@ -1,227 +1,382 @@
 body {
-    position: relative;
-  }
-  .info-contact p {
-    padding: 0 10px;
-  }
-  .navbar ul {
-    gap: 20px;
-  }
-  .nav-item {
-    display: flex;
-    align-items: center;
-    color: #ffffffb9;
-  }
-  .info {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .nav-item i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 20px;
-  }
-  .btn-account {
-    color: #fff;
-    width: 120px;
-    border-bottom: 2px solid #fb595e;
-  }
-  .btn-account:hover {
-    color: #fb595e;
-    box-shadow: 5px 5px 5px rgba(221, 216, 216, 0.792);
-    border: 2px solid #fff;
-  }
-  .btn-account:focus {
-    box-shadow: none;
-  }
-  .nav-item span {
-    position: relative;
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  .nav-item span:hover {
-    color: #fb595e;
-  }
-  .nav-item span::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: #fb595e;
-    transition: width 0.5s ease;
-  }
-  
-  .nav-item span:hover::after {
-    width: 100%;
-  }
-  .logout {
-    display: none;
-  }
-  .logout-btn {
-    position: absolute;
-    background-color: #fff;
-    margin-top: 5px;
-    border-radius: 10px;
-    width: 120px;
-    border: 2px solid black;
-    box-shadow: 5px 5px 5px rgba(62, 59, 59, 0.792);
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
-    z-index: 2;
-  }
-  .logout-btn:hover {
-    color: #fb595e;
-    border: 2px solid #fb595e;
-  }
-  .logout-btn:focus {
-    box-shadow: none;
-  }
-  .function {
-    padding: 0;
-    height: 88vh;
-    border-right: 2px solid #ccc;
-    background-color: transparent;
-    background-image: url("../ImageJeepBicycle/245f4fedc069f03cef189766696daa06.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .function .function-item .active {
-    border: 2px solid #fb4830;
-  }
-  .function .function-item {
-    border-radius: 0;
-    background-color: transparent;
-  }
-  .function-item .list-group-item {
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.147);
-    border: 1px solid rgba(255, 255, 255, 0.147);
-    color: #fff;
-  }
-  .function-item .list-group-item:hover {
-    background-color: #cccccc1d;
-  }
-  .list-product,
-  .list-person {
-    cursor: pointer;
-  }
-  .product-menu,
-  .person-menu {
-    display: none;
-    background-color: #ffffff23;
-  }
-  .product-menu ul,
-  .person-menu ul {
-    padding: 0;
-    margin: 0;
-  }
-  .product-menu ul li,
-  .person-menu ul li {
-    list-style-type: none;
-  }
-  
-  .main{
-      padding: 0;
-  }
-  .function-title{
-      background-color: #cccccc88;
-      color: black;
-      height: 50px;
-      border-bottom: 2px solid #fb4830;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  .function-title h5{
-      font-size: 30px;
-      font-weight: 700;
-      font-style: italic;
-  }
- .people-data table{
-      width: 100%;
-  }
-  table thead th{
-      font-size: 16px;
-      max-width: 150px;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      white-space: nowrap;
-  }
- .people-data img{
-      height: 5rem;
-  }
- .people-data button{
-      border: 1px solid black;
-      background-color: #fff;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      font-size: 18px;
-  }
- .people-data .detail-product{
-      color: black;
-  }
- .people-data .update-product{
-      color: blue;
-  }
- .people-data .delete-product{
-      color: red;
-  }
-  
-  /* ------------------------------------- */
-  .social-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .facebook {
-    background-color: #1876f296;
-    z-index: 4;
-  }
-  .zalo {
-    background-color: #1876f296;
-    z-index: 4;
-  }
-  .phone {
-    background-color: #d9544fa2;
-    z-index: 4;
-  }
-  .facebook img {
-    background-color: #1877f2;
-    border-radius: 50%;
-    width: 35px;
-  }
-  .zalo img {
-    background-color: #1877f2;
-    border-radius: 50%;
-    width: 35px;
-  }
-  .phone img {
-    background-color: #d9544fa2;
-    border-radius: 50%;
-    width: 35px;
-  }
-  
-  .fixed-icons {
-    position: fixed;
-    top: 80%;
-    right: 10px;
-    transform: translateY(-50%);
-  }
-  
+  position: relative;
+}
+
+.info-contact p {
+  padding: 0 10px;
+}
+
+.navbar ul {
+  gap: 20px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  color: #ffffffb9;
+}
+
+.info {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn-account {
+  color: #fff;
+  width: 120px;
+  border-bottom: 2px solid #fb595e;
+}
+
+.btn-account:hover {
+  color: #fb595e;
+  box-shadow: 5px 5px 5px rgba(221, 216, 216, 0.792);
+  border: 2px solid #fff;
+}
+
+.btn-account:focus {
+  box-shadow: none;
+}
+
+.nav-item span {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-item span:hover {
+  color: #fb595e;
+}
+
+.nav-item span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fb595e;
+  transition: width 0.5s ease;
+}
+
+.nav-item span:hover::after {
+  width: 100%;
+}
+
+.logout {
+  display: none;
+}
+
+.logout-btn {
+  position: absolute;
+  background-color: #fff;
+  margin-top: 5px;
+  border-radius: 10px;
+  width: 120px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px rgba(62, 59, 59, 0.792);
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.logout-btn:hover {
+  color: #fb595e;
+  border: 2px solid #fb595e;
+}
+
+.logout-btn:focus {
+  box-shadow: none;
+}
+.function {
+  padding: 0;
+  height: 100vh;
+  min-height: 100%;
+  border-right: 2px solid #ccc;
+  background-color: transparent;
+  background-image: url("../ImageJeepBicycle/245f4fedc069f03cef189766696daa06.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.function .function-item .active {
+  border: 2px solid #fb4830;
+}
+
+.function .function-item {
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.function-item .list-group-item {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.147);
+  border: 1px solid rgba(255, 255, 255, 0.147);
+  color: #fff;
+}
+
+.function-item .list-group-item:hover {
+  background-color: #cccccc1d;
+}
+
+.list-product,
+.list-person {
+  cursor: pointer;
+}
+
+.product-menu,
+.person-menu {
+  display: none;
+  background-color: #ffffff23;
+}
+
+.product-menu ul,
+.person-menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.product-menu ul li,
+.person-menu ul li {
+  list-style-type: none;
+}
+
+.main {
+  padding: 0;
+}
+
+.info-people {
+  background-color: rgba(0, 0, 0, 0.564);
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.info-people form {
+  margin: 20px;
+}
+
+.info-people label {
+  color: #fff;
+}
+
+.info-people .close {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.info-people .btn-close {
+  background-color: transparent;
+  color: #fff !important;
+  border: none;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.info-people input {
+  height: 40px;
+  width: 100%;
+  color: black !important;
+  ;
+}
+
+.info-people input:focus {
+  box-shadow: none;
+}
+
+.info-people input[type="date"] {
+  width: 50%;
+}
+
+.function-add button {
+  width: 200px;
+  margin: 0 20px;
+}
+
+.function-add .save-add {
+  background-color: #fb4830;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.function-add .save-add:hover {
+  background-color: #fff;
+  border: 3px solid #fb4830;
+  color: #fb4830;
+}
+
+.function-add .reset {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.function-add .reset:hover {
+  background-color: #fff;
+  border: 3px solid black;
+  color: black;
+}
+
+
+.function-title {
+  background-color: #cccccc88;
+  color: black;
+  height: 50px;
+  border-bottom: 2px solid #fb4830;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.function-title h5 {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.function-search {
+  height: 40px;
+  border: 1px solid silver;
+  border-radius: 20px;
+}
+
+.function-search input {
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+  width: 250px;
+}
+
+.function-search button {
+  border: 2px solid black;
+  height: 100%;
+  width: 60px;
+  border-radius: 0 20px 20px 0;
+}
+
+.function-search input:focus {
+  box-shadow: none;
+}
+
+.function-search button:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+.people-data{
+  width: 100%;
+  height: 82vh;
+  overflow-y: auto !important;
+  overflow: hidden;
+}
+
+table thead th {
+  font-size: 16px;
+  max-width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.people-data img {
+  height: 5rem;
+}
+
+.people-data button {
+  border: 1px solid black;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.people-data .detail-people {
+  color: black;
+}
+
+.people-data .update-people {
+  color: blue;
+}
+
+.people-data .delete-people {
+  color: red;
+}
+
+/* ------------------------------------- */
+.social-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.facebook {
+  background-color: #1876f296;
+  z-index: 4;
+}
+
+.zalo {
+  background-color: #1876f296;
+  z-index: 4;
+}
+
+.phone {
+  background-color: #d9544fa2;
+  z-index: 4;
+}
+
+.facebook img {
+  background-color: #1877f2;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.zalo img {
+  background-color: #1877f2;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.phone img {
+  background-color: #d9544fa2;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.fixed-icons {
+  position: fixed;
+  top: 80%;
+  right: 10px;
+  transform: translateY(-50%);
+}

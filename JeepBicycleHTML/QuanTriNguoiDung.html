@@ -132,12 +132,12 @@
             <div class="person-menu" id="person-menu">
               <ul>
                 <li>
-                  <a class="list-group-item list-group-item-action" href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriNguoiDung.html"
+                  <a class="list-group-item list-group-item-action" href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriTaiKhoan.html"
                     >Quản Lý Tài Khoản</a
                   >
                 </li>
                 <li>
-                  <a class="list-group-item list-group-item-action" href="#"
+                  <a class="list-group-item list-group-item-action" href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriNguoiDung.html"
                     >Quản Lý Nhân Viên</a
                   >
                 </li>
@@ -167,28 +167,63 @@
         </div>
         <div class="col-md-10 main" id="main">
           <div class="function-title">
-            <h5>Quản Lý Sản Phẩm</h5>
+            <h5>Quản Lý Người Dùng</h5>
           </div>
           <div class="main-content">
             <div class="function-people d-flex justify-content-between p-3">
               <div class="function-search d-flex">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Tìm kiếm..."
-                /><button class="btn btn-dark">
+                <input type="text" class="form-control" id="search-people" placeholder="Tìm kiếm..." />
+                <button class="btn btn-dark" id="btn-search">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </div>
               <button class="btn btn-add btn-primary" id="add-people">
-                <i class="fa-solid fa-plus"></i> Thêm Sản Phẩm
+                <i class="fa-solid fa-plus"></i> Thêm Người Dùng
               </button>
             </div>
-            <div class="info-people">
-              <form >
+            <div class="info-people" id="form-add">
+              <form>
+                <div class="form-group close">
+                  <button type="button" class="btn-close" id="btn-close"><i class="fa-regular fa-circle-xmark"></i></button>
+                </div>
                 <div class="form-group">
-                  <label for="MaSanPham">Mã Sản Phẩm</label>
-                  <input type="text" class="form-control" placeholder="Nhập Mã Sản Phẩm"></div>
+                  <label for="MaNguoiDung">Mã Người Dùng</label>
+                  <input type="text" id="MaNguoiDung" class="form-control" placeholder="Nhập Mã Người Dùng">
+                </div>
+                <div class="form-group">
+                  <label for="name">Họ Tên</label>
+                  <input type="text" id="name" class="form-control" placeholder="Nhập Họ Tên">
+                </div>
+                <div class="form-group">
+                  <label for="GioiTinh">Giới Tính</label>
+                  <input type="text" id="GioiTinh" class="form-control" placeholder="Nhập Giới Tính">
+                </div>
+                <div class="form-group">
+                  <label for="NgaySinh">Ngày Sinh</label>
+                  <input type="date" id="NgaySinh" class="form-control" placeholder="Nhập Size Sản Phẩm">
+                </div>
+                <div class="form-group">
+                  <label for="SoDienThoai">Số Điện Thoại</label>
+                  <input type="text" id="sdt" class="form-control" placeholder="Nhập Số Điện Thoại">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-control"
+                    placeholder="Nhập Email">
+                </div>
+                <div class="form-group">
+                  <label for="DiaChi">Địa Chỉ</label>
+                  <input type="text" id="DiaChi" class="form-control"
+                    placeholder="Nhập Địa Chỉ">
+                </div>
+                <div class="form-group">
+                  <label for="HinhAnhNguoiDung">Hình Ảnh</label>
+                  <input type="file" id="HinhAnhNguoiDung" class="form-control">
+                </div>
+                <div class="form-group function-add text-center mt-3">
+                  <button type="submit" class="btn save-add" id="addPeople">Lưu</button>
+                  <button type="reset" class="btn reset" id="resetPeople">Reset</button>
+                </div>
               </form>
             </div>
             <div class="people-data">
