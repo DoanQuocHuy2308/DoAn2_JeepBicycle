@@ -377,13 +377,14 @@ body {
   box-shadow: none;
 }
 .search-product {
-  background-color: #fff;
   overflow-y: auto;
   max-height: 300px;
   border-radius: 20px;
 }
 
 .result-item {
+  border: 1px solid #ddd;
+  background-color: #fff;
   gap: 10px;
 }
 

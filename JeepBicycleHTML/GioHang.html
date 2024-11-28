@@ -1,184 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Giỏ Hàng</title>
-    <script
-      src="https://kit.fontawesome.com/3e2bcf7815.js"
-      crossorigin="anonymous"
-    ></script>
 
-    <!-- Load jQuery before Bootstrap JavaScript -->
-    <script src="../ThuVien/jquery.slim.min.js" defer></script>
-    <script src="../ThuVien/popper.min.js" defer></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giỏ Hàng</title>
+  <script src="https://kit.fontawesome.com/3e2bcf7815.js" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap JavaScript -->
-    <script src="../bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
-    <script
-      src="../bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"
-      defer
-    ></script>
+  <!-- Load jQuery before Bootstrap JavaScript -->
+  <script src="../ThuVien/jquery.slim.min.js" defer></script>
+  <script src="../ThuVien/popper.min.js" defer></script>
 
-    <!-- Custom JavaScript -->
-    <script src="../JeepbicycleJS/ThuVienJquery.js" defer></script>
-    <script src="../JeepbicycleJS/TrangChu.js" defer></script>
-    <script src="../JeepbicycleJS/ChiTietSanPham.js" defer></script>
-    <script src="../JeepbicycleJS/GioHang.js" defer></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="../bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
+  <script src="../bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js" defer></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="../JeepBicycleCSS/GioHang.css" />
-    <link
-      rel="shortcut icon"
-      href="../cropped-favicon-1-32x32.png"
-      type="image/x-icon"
-    />
-  </head>
+  <!-- Custom JavaScript -->
+  <script src="../JeepbicycleJS/ThuVienJquery.js" defer></script>
+  <script src="../JeepbicycleJS/TrangChu.js" defer></script>
+  <script src="../JeepbicycleJS/ChiTietSanPham.js" defer></script>
+  <script src="../JeepbicycleJS/GioHang.js" defer></script>
 
-  <body>
-    <div class="main">
-      <div class="container mt-3">
-        <div class="row">
-          <div class="col-12">
-            <img
-              src="../ImageJeepBicycle/SanPham01.png"
-              class="logo"
-              height="96px"
-              alt=""
-            />
+  <!-- CSS -->
+  <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="../JeepBicycleCSS/GioHang.css" />
+  <link rel="shortcut icon" href="../cropped-favicon-1-32x32.png" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <img src="../ImageJeepBicycle/SanPham01.png" class="logo" height="96px" alt="" />
+        </div>
+      </div>
+      <div class="row mt-2 mb-3">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active">
+                <a href="#"><i class="fas fa-lock"></i>
+                  <span class="badge">1</span> Giỏ hàng</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="http://127.0.0.1:5500/JeepBicycleHTML/ThanhToan.html"><span class="badge">2</span> Chi tiết
+                  thanh toán</a>
+              </li>
+              <li class="breadcrumb-item" aria-current="page">
+                <span class="badge">3</span> Hoàn thành đơn hàng
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <table class="table product-table">
+            <thead>
+              <tr>
+                <th>SẢN PHẨM</th>
+                <th>GIÁ</th>
+                <th>SỐ LƯỢNG</th>
+                <th>TẠM TÍNH</th>
+              </tr>
+            </thead>
+            <tbody id="product-item">
+
+              
+            </tbody>
+          </table>
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-continue" id="btn-continue">
+              <i class="fas fa-arrow-left"> </i>
+              TIẾP TỤC XEM SẢN PHẨM
+            </button>
+            <button class="btn btn-update" id="update">CẬP NHẬT GIỎ HÀNG</button>
           </div>
         </div>
-        <div class="row mt-2 mb-3">
-          <div class="col-12">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item active">
-                  <a href="#"
-                    ><i class="fas fa-lock"></i>
-                    <span class="badge">1</span> Giỏ hàng</a
-                  >
-                </li>
-                <li class="breadcrumb-item">
-                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/ThanhToan.html"
-                    ><span class="badge">2</span> Chi tiết thanh toán</a
-                  >
-                </li>
-                <li class="breadcrumb-item" aria-current="page">
-                  <span class="badge">3</span> Hoàn thành đơn hàng
-                </li>
-              </ol>
-            </nav>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <table class="table product-table">
-              <thead>
-                <tr>
-                  <th>SẢN PHẨM</th>
-                  <th>GIÁ</th>
-                  <th>SỐ LƯỢNG</th>
-                  <th>TẠM TÍNH</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <div class="d-flex align-items-center">
-                      <button class="btn clear-product" id="clear-product">
-                        <i class="fas fa-times"> </i>
-                      </button>
-                      <img
-                        alt="Xe đạp địa hình JEEP MTB PS-41 - Phanh đĩa cơ, Bánh 26 inch - 2024 - Vàng chanh"
-                        height="100"
-                        src="https://storage.googleapis.com/a1aa/image/ehNsk9MnMA2QFSjBcFwRI2OubEDq1aSw9zwtwSs5sWpQTg3JA.jpg"
-                        width="100"
-                      />
-                      <span class="ml-3 title-product">
-                        Xe đạp địa hình JEEP MTB PS-41 - Phanh đĩa cơ, Bánh 26
-                        inch - 2024 - Vàng chanh
-                      </span>
-                    </div>
-                  </td>
-                  <td class="price" id="old-price">8.990.000₫</td>
-                  <td>
-                    <div class="input-group">
-                      <button class="btn" onclick="giam()">-</button>
-                      <input
-                        class="form-control text-center"
-                        type="text"
-                        id="quantity" value="1" 
-                      />
-                      <button class="btn" onclick="tang()">+</button>
-                    </div>
-                  </td>
-                  <td class="price" id="new-price"></td>
-                </tr>
-              </tbody>
-            </table>
+        <div class="col-md-4">
+          <div class="cart-summary">
+            <h5>CỘNG GIỎ HÀNG</h5>
             <div class="d-flex justify-content-between">
-              <button class="btn btn-continue" id="btn-continue">
-                <i class="fas fa-arrow-left"> </i>
-                TIẾP TỤC XEM SẢN PHẨM
-              </button>
-              <button class="btn btn-update" id="update">CẬP NHẬT GIỎ HÀNG</button>
+              <span> Tạm tính </span>
+              <span class="price-detail" id="price-detail"></span>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="cart-summary">
-              <h5>CỘNG GIỎ HÀNG</h5>
-              <div class="d-flex justify-content-between">
-                <span> Tạm tính </span>
-                <span class="price-detail" id="price-detail"></span>
-              </div>
-              <div class="d-flex justify-content-between">
-                <span> Tổng </span>
-                <span class="price-new" id="total-price"> 8,990,000₫ </span>
-              </div>
-              <button class="btn btn-checkout mt-3" id="btn-checkout">
-                TIẾN HÀNH THANH TOÁN
-              </button>
-              <div class="mt-3 border-0">
-                <label class="form-label" for="discount-code">
-                  <i class="fas fa-tag"></i>
-                  Mã ưu đãi
-                </label>
-                <input 
-                  class="form-control discount-code"
-                  id="discount-code"
-                  placeholder="Mã ưu đãi"
-                  type="text"
-                />
-                <button class="btn btn-apply mt-2" id="btn-apply">Áp dụng</button>
-              </div>
+            <div class="d-flex justify-content-between">
+              <span> Tổng </span>
+              <span class="price-new" id="total-price"></span>
+            </div>
+            <button class="btn btn-checkout mt-3" id="btn-checkout">
+              TIẾN HÀNH THANH TOÁN
+            </button>
+            <div class="mt-3 border-0">
+              <label class="form-label" for="discount-code">
+                <i class="fas fa-tag"></i>
+                Mã ưu đãi
+              </label>
+              <input class="form-control discount-code" id="discount-code" placeholder="Mã ưu đãi" type="text" />
+              <button class="btn btn-apply mt-2" id="btn-apply">Áp dụng</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="fixed-icons">
-      <div class="social-icon facebook">
-        <img src="../ImageJeepBicycle/facebook.png" width="30px" alt="" />
-      </div>
-      <div class="social-icon zalo">
-        <img src="../ImageJeepBicycle/zalo.png" width="30px" alt="" />
-      </div>
-      <div class="social-icon phone">
-        <img src="../ImageJeepBicycle/phone.png" width="30px" alt="" />
+  </div>
+  <div class="fixed-icons">
+    <div class="social-icon facebook">
+      <img src="../ImageJeepBicycle/facebook.png" width="30px" alt="" />
+    </div>
+    <div class="social-icon zalo">
+      <img src="../ImageJeepBicycle/zalo.png" width="30px" alt="" />
+    </div>
+    <div class="social-icon phone">
+      <img src="../ImageJeepBicycle/phone.png" width="30px" alt="" />
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div>Copyright © 2024 JEEP BICYCLE. All Rights Reserved.</div>
+      <div class="payment-icons">
+        <span> Điều khoản và điều kiện </span>
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-paypal"></i>
+        <i class="fa-brands fa-cc-stripe"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
       </div>
     </div>
-    <footer class="footer">
-      <div class="container">
-        <div>Copyright © 2024 JEEP BICYCLE. All Rights Reserved.</div>
-        <div class="payment-icons">
-          <span> Điều khoản và điều kiện </span>
-          <i class="fa-brands fa-cc-visa"></i>
-          <i class="fa-brands fa-paypal"></i>
-          <i class="fa-brands fa-cc-stripe"></i>
-          <i class="fa-brands fa-cc-mastercard"></i>
-        </div>
-      </div>
-    </footer>
-  </body>
+  </footer>
+</body>
 </html>

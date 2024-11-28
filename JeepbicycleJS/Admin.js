@@ -114,41 +114,74 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  //data products
+  // Dữ liệu people
   $.getJSON("../JeepBicycleJSON/people.json", function (data) {
+    let allPeople = data;
     let tableContent = "";
-    data.forEach(function (people) {
-      tableContent += `
-        <tr>
-          <td>${people.MaNguoiDung}</td>
-          <td>${people.name}</td>
-          <td>${people.GioiTinh}</td>
-          <td>${people.NgaySinh}</td>
-          <td>${people.SoDienThoai}</td>
-          <td>${people.email}</td>
-          <td>${people.DiaChi}</td>
-          <td><img src="${people.HinhAnhNguoiDung}" alt="people Image" class="people-img" /></td>
-          <td>
-            <button class="detail-people"><i class="fa-regular fa-file-lines"></i></button>
-          </td>
-          <td>
-            <button class="update-people"><i class="fa-regular fa-pen-to-square"></i></button>
-          </td>
-          <td>
-            <button class="delete-people"><i class="fa-solid fa-trash-can"></i></button>
-          </td>
-        </tr>
-      `;
+    
+    function datapeople(peopleList) {
+      let content = "";
+      peopleList.forEach(function (people) {
+        content += `
+          <tr>
+            <td>${people.MaNguoiDung}</td>
+            <td>${people.name}</td>
+            <td>${people.GioiTinh}</td>
+            <td>${people.NgaySinh}</td>
+            <td>${people.SoDienThoai}</td>
+            <td>${people.email}</td>
+            <td>${people.DiaChi}</td>
+            <td><img src="${people.HinhAnhNguoiDung}" alt="people Image" class="people-img" /></td>
+            <td>
+              <button class="detail-people"><i class="fa-regular fa-file-lines"></i></button>
+            </td>
+            <td>
+              <button class="update-people"><i class="fa-regular fa-pen-to-square"></i></button>
+            </td>
+            <td>
+              <button class="delete-people"><i class="fa-solid fa-trash-can"></i></button>
+            </td>
+          </tr>
+        `;
+      });
+      $("#people-table").html(content);
+    }
+
+    // Hiển thị dữ liệu ban đầu
+    datapeople(allPeople);
+
+    // Hàm tìm kiếm người dùng
+    function searchPeople(query) {
+      query = query.toLowerCase();
+      const filteredPeople = allPeople.filter((people) => {
+        return (
+          people.name.toLowerCase().includes(query) ||
+          people.email.toLowerCase().includes(query) ||
+          people.SoDienThoai.toLowerCase().includes(query) ||
+          people.DiaChi.toLowerCase().includes(query)
+        );
+      });
+      datapeople(filteredPeople);
+    }
+
+    // Xử lý sự kiện tìm kiếm
+    $("#search-people").on("keyup", function () {
+      const searchValue = $(this).val();
+      searchPeople(searchValue);
     });
-    $("#people-table").html(tableContent);
+
+    $("#btn-searchPeople").on("click", function () {
+      const searchValue = $("#search-people").val();
+      searchPeople(searchValue);
+    });
   });
 
-  ///xóa người dùng
+  // Xóa người dùng
   $(document).on('click', '.delete-people', function () {
     $(this).closest('tr').remove();
   });
 
-  //thêm người dùng
+  // Thêm người dùng
   $('#addPeople').on('click', function (event) {
     event.preventDefault();
 
@@ -192,6 +225,7 @@ $(document).ready(function () {
     $('form')[0].reset();
   });
 });
+
 
 $(document).ready(function () {
   $.getJSON("../JeepBicycleJSON/taikhoan.json", function (data) {
@@ -331,29 +365,32 @@ $(document).ready(function () {
     // Hiển thị dữ liệu ban đầu
     dataproducts(allProducts);
 
-    function searchProducts(query) {
+     // Hàm tìm kiếm sản phẩm
+     function searchProducts(query) {
       query = query.toLowerCase();
       const filteredProducts = allProducts.filter((product) => {
         return (
           product.Name.toLowerCase().includes(query) ||
-          product.category.toLowerCase().includes(query) ||
-          product.Color.toLowerCase().includes(query)
+          product.category.toLowerCase().includes(query)
         );
       });
-      dataproducts(filteredProducts);
+      dataproducts(filteredProducts);  
     }
 
-    // Xử lý sự kiện tìm kiếm
+    // Xử lý sự kiện khi người dùng nhập tìm kiếm
     $("#input-searchProducts").on("keyup", function () {
       const searchValue = $(this).val();
-      searchProducts(searchValue);
+      searchProducts(searchValue); 
     });
 
+    // Xử lý sự kiện khi người dùng nhấn nút tìm kiếm
     $("#btn-searchProducts").on("click", function () {
       const searchValue = $("#input-searchProducts").val();
-      searchProducts(searchValue);
+      searchProducts(searchValue);  
     });
   });
+
+
   //xóa dữ liệu sản phẩm
   $(document).on('click', '.delete-product', function () {
     $(this).closest('tr').remove();

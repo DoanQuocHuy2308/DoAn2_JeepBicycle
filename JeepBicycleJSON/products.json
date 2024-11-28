@@ -16,17 +16,20 @@
         "Size": "M/L",
         "CanNang": "14.5 kg",
         "PhuHop": "từ 1m45-1m85",
-        "Color": "no",
-        "title1": "Biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi",
-        "content1": "METEOR, một tuyệt tác công nghệ đến từ thương hiệu nổi tiếng, đã vượt qua mọi giới hạn và trở thành biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi. Với thiết kế đầy cá tính, phối hợp giữa màu đen huyền bí, xám thanh lịch và vàng đồng táo bạo, METEOR tạo nên một dấu ấn khó phai trong lòng những người yêu thích đạp xe leo núi. Mỗi đường nét trên chiếc xe này đều được chau chuốt tỉ mỉ, tạo nên vẻ đẹp thu hút từ cái nhìn đầu tiên. Các chi tiết được thiết kế tinh tế, phản ánh sự chuyên nghiệp và tỉ mỉ trong quá trình sản xuất, mang đến cho người sử dụng một trải nghiệm thị giác đầy mê hoặc.",
-        "title2": "Thông số kỹ thuật vượt trội đáp ứng mọi nhu cầu người lái",
-        "content2": "Kích thước 26 inch vừa đủ để mang lại cảm giác vận hành linh hoạt nhưng cũng đảm bảo sự ổn định trên những đoạn đường gập ghềnh. Với 24 tốc độ, METEOR có khả năng đáp ứng mọi nhu cầu của người lái, từ việc chinh phục những đoạn đường dốc cao đến những cung đường êm ái. Không chỉ vậy, thiết kế của chiếc xe này còn được tính toán kỹ lưỡng để tối đa hóa hiệu suất và trải nghiệm lái. Từng chi tiết nhỏ đều được chú trọng, đảm bảo rằng người sử dụng sẽ có cảm giác thoải mái và an toàn trong suốt hành trình của mình.",
-        "title3": "Khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền hiệu quả",
-        "content3": "Không chỉ mang lại sự linh hoạt khi di chuyển, khung xe còn đảm bảo độ bền tối ưu để chịu được những va đập mạnh mẽ trên những cung đường hiểm trở. Phuộc trước giảm xóc dày 38 cùng hệ thống dẫn truyền EF500 hiệu quả giúp METEOR hoạt động trơn tru trong mọi tình huống. Những cú rung lắc mạnh mẽ trên địa hình khó khăn sẽ được hấp thụ hoàn toàn, mang đến cho người lái một trải nghiệm lái xe đạp thực sự thoải mái và êm ái. Hệ thống dẫn truyền tiên tiến cũng đảm bảo rằng mọi chuyển động của người lái sẽ được truyền đạt đầy đủ đến bánh xe, tối ưu hóa sức mạnh và hiệu quả của mỗi cú đạp.",
-        "title4": "Hệ thống phanh đĩa và trục trung tâm đảm bảo kiểm soát tốc độ",
-        "content4": "Với khả năng phanh gấp, người lái có thể kiểm soát tốc độ một cách an toàn và chính xác, ngay cả khi đối mặt với những đoạn đường dốc nguy hiểm. Hệ thống phanh này được thiết kế đặc biệt để tăng cường khả năng kiểm soát, đảm bảo rằng người lái luôn nắm quyền kiểm soát trên bất kỳ địa hình nào. Trục xe đạp trung tâm mang màu đen cùng trục kín tích hợp ổ trục và ổ bi tạo nên sự liền mạch, vận hành mượt mà trong suốt hành trình. Mỗi chi tiết được sản xuất từ những vật liệu chất lượng cao, đảm bảo độ bền lâu dài và hiệu suất vận hành ổn định trong điều kiện khắc nghiệt nhất.",
-        "title5": "Vành xe Nhôm, lốp bám đường tối ưu trên mọi địa hình",
-        "content5": "Vành xe được chế tạo từ hợp kim nhôm cao cấp, tạo nên sự cân bằng hoàn hảo giữa độ nhẹ và sức bền. Lốp bên mềm 50TPI với kết cấu đặc biệt mang lại độ bám đường vượt trội, cho phép người lái dễ dàng vượt qua những chướng ngại vật trên đường đi. Bàn đạp 67X có hạt giúp tăng thêm sự thoải mái và kiểm soát cho người lái, đảm bảo rằng họ luôn có cảm giác tự tin và thoải mái trong suốt hành trình. Sự kết hợp độc đáo giữa các tính năng này tạo nên một chiếc xe đạp leo núi đáng tin cậy, sẵn sàng đương đầu với mọi thách thức trên đường đi. Với sự kết hợp hoàn hảo giữa công nghệ và thiết kế, MTB đã trở thành mẫu xe đạp leo núi đáng mơ ước của mọi tín đồ đam mê môn thể thao mạo hiểm này.",
+        "Color": [
+            {
+                "id": 2,
+                "color": "silver"
+            },
+            {
+                "id": 3,
+                "color": "white"
+            },
+            {
+                "id": 4,
+                "color": "green"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham2.png",
@@ -141,17 +144,20 @@
         "Size": "M/L",
         "CanNang": "15kg",
         "PhuHop": "từ 1m4-1m8",
-        "Color": "no",
-        "title1": "Biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi",
-        "content1": "MTB PS-41, một tuyệt tác công nghệ đến từ thương hiệu nổi tiếng, đã vượt qua mọi giới hạn và trở thành biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi. Với thiết kế đầy cá tính, phối hợp giữa màu đen huyền bí, xám thanh lịch và vàng đồng táo bạo, MTB PS-41 tạo nên một dấu ấn khó phai trong lòng những người yêu thích đạp xe leo núi. Mỗi đường nét trên chiếc xe này đều được chau chuốt tỉ mỉ, tạo nên vẻ đẹp thu hút từ cái nhìn đầu tiên. Các chi tiết được thiết kế tinh tế, phản ánh sự chuyên nghiệp và tỉ mỉ trong quá trình sản xuất, mang đến cho người sử dụng một trải nghiệm thị giác đầy mê hoặc.",
-        "title2": "Thông số kỹ thuật vượt trội đáp ứng mọi nhu cầu người lái",
-        "content2": "Kích thước 26 inch vừa đủ để mang lại cảm giác vận hành linh hoạt nhưng cũng đảm bảo sự ổn định trên những đoạn đường gập ghềnh. Với 24 tốc độ, MTB PS-41 có khả năng đáp ứng mọi nhu cầu của người lái, từ việc chinh phục những đoạn đường dốc cao đến những cung đường êm ái. Không chỉ vậy, thiết kế của chiếc xe này còn được tính toán kỹ lưỡng để tối đa hóa hiệu suất và trải nghiệm lái. Từng chi tiết nhỏ đều được chú trọng, đảm bảo rằng người sử dụng sẽ có cảm giác thoải mái và an toàn trong suốt hành trình của mình.",
-        "title3": "Khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền hiệu quả",
-        "content3": "Không chỉ mang lại sự linh hoạt khi di chuyển, khung xe còn đảm bảo độ bền tối ưu để chịu được những va đập mạnh mẽ trên những cung đường hiểm trở. Phuộc trước giảm xóc dày 38 cùng hệ thống dẫn truyền EF500 hiệu quả giúp MTB PS-41 hoạt động trơn tru trong mọi tình huống. Những cú rung lắc mạnh mẽ trên địa hình khó khăn sẽ được hấp thụ hoàn toàn, mang đến cho người lái một trải nghiệm lái xe đạp thực sự thoải mái và êm ái. Hệ thống dẫn truyền tiên tiến cũng đảm bảo rằng mọi chuyển động của người lái sẽ được truyền đạt đầy đủ đến bánh xe, tối ưu hóa sức mạnh và hiệu quả của mỗi cú đạp.",
-        "title4": "Hệ thống phanh đĩa và trục trung tâm đảm bảo kiểm soát tốc độ",
-        "content4": "Với khả năng phanh gấp, người lái có thể kiểm soát tốc độ một cách an toàn và chính xác, ngay cả khi đối mặt với những đoạn đường dốc nguy hiểm. Hệ thống phanh này được thiết kế đặc biệt để tăng cường khả năng kiểm soát, đảm bảo rằng người lái luôn nắm quyền kiểm soát trên bất kỳ địa hình nào. Trục xe đạp trung tâm mang màu đen cùng trục kín tích hợp ổ trục và ổ bi tạo nên sự liền mạch, vận hành mượt mà trong suốt hành trình. Mỗi chi tiết được sản xuất từ những vật liệu chất lượng cao, đảm bảo độ bền lâu dài và hiệu suất vận hành ổn định trong điều kiện khắc nghiệt nhất.",
-        "title5": "Vành xe Nhôm, lốp bám đường tối ưu trên mọi địa hình",
-        "content5": "Vành xe được chế tạo từ hợp kim nhôm cao cấp, tạo nên sự cân bằng hoàn hảo giữa độ nhẹ và sức bền. Lốp bên mềm 50TPI với kết cấu đặc biệt mang lại độ bám đường vượt trội, cho phép người lái dễ dàng vượt qua những chướng ngại vật trên đường đi. Bàn đạp 67X có hạt giúp tăng thêm sự thoải mái và kiểm soát cho người lái, đảm bảo rằng họ luôn có cảm giác tự tin và thoải mái trong suốt hành trình. Sự kết hợp độc đáo giữa các tính năng này tạo nên một chiếc xe đạp leo núi đáng tin cậy, sẵn sàng đương đầu với mọi thách thức trên đường đi. Với sự kết hợp hoàn hảo giữa công nghệ và thiết kế, MTB đã trở thành mẫu xe đạp leo núi đáng mơ ước của mọi tín đồ đam mê môn thể thao mạo hiểm này.",
+        "Color": [
+            {
+                "id": 6,
+                "color": "yellow"
+            },
+            {
+                "id": 7,
+                "color": "blue"
+            },
+            {
+                "id": 8,
+                "color": "green"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham2.png",
@@ -266,17 +272,28 @@
         "Size": "M/L",
         "CanNang": "15 kg",
         "PhuHop": "từ 1m45-1m75",
-        "Color": "no",
-        "title1": "Biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi",
-        "content1": "MTB PS-88, một tuyệt tác công nghệ đến từ thương hiệu nổi tiếng, đã vượt qua mọi giới hạn và trở thành biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi. Với thiết kế đầy cá tính, phối hợp giữa màu đen huyền bí, xám thanh lịch và vàng đồng táo bạo, MTB PS-88 tạo nên một dấu ấn khó phai trong lòng những người yêu thích đạp xe leo núi. Mỗi đường nét trên chiếc xe này đều được chau chuốt tỉ mỉ, tạo nên vẻ đẹp thu hút từ cái nhìn đầu tiên. Các chi tiết được thiết kế tinh tế, phản ánh sự chuyên nghiệp và tỉ mỉ trong quá trình sản xuất, mang đến cho người sử dụng một trải nghiệm thị giác đầy mê hoặc.",
-        "title2": "Thông số kỹ thuật vượt trội đáp ứng mọi nhu cầu người lái",
-        "content2": "Kích thước 26 inch vừa đủ để mang lại cảm giác vận hành linh hoạt nhưng cũng đảm bảo sự ổn định trên những đoạn đường gập ghềnh. Với 24 tốc độ, MTB PS-88 có khả năng đáp ứng mọi nhu cầu của người lái, từ việc chinh phục những đoạn đường dốc cao đến những cung đường êm ái. Không chỉ vậy, thiết kế của chiếc xe này còn được tính toán kỹ lưỡng để tối đa hóa hiệu suất và trải nghiệm lái. Từng chi tiết nhỏ đều được chú trọng, đảm bảo rằng người sử dụng sẽ có cảm giác thoải mái và an toàn trong suốt hành trình của mình.",
-        "title3": "Khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền hiệu quả",
-        "content3": "Không chỉ mang lại sự linh hoạt khi di chuyển, khung xe còn đảm bảo độ bền tối ưu để chịu được những va đập mạnh mẽ trên những cung đường hiểm trở. Phuộc trước giảm xóc dày 38 cùng hệ thống dẫn truyền EF500 hiệu quả giúp MTB PS-88 hoạt động trơn tru trong mọi tình huống. Những cú rung lắc mạnh mẽ trên địa hình khó khăn sẽ được hấp thụ hoàn toàn, mang đến cho người lái một trải nghiệm lái xe đạp thực sự thoải mái và êm ái. Hệ thống dẫn truyền tiên tiến cũng đảm bảo rằng mọi chuyển động của người lái sẽ được truyền đạt đầy đủ đến bánh xe, tối ưu hóa sức mạnh và hiệu quả của mỗi cú đạp.",
-        "title4": "Hệ thống phanh đĩa và trục trung tâm đảm bảo kiểm soát tốc độ",
-        "content4": "Với khả năng phanh gấp, người lái có thể kiểm soát tốc độ một cách an toàn và chính xác, ngay cả khi đối mặt với những đoạn đường dốc nguy hiểm. Hệ thống phanh này được thiết kế đặc biệt để tăng cường khả năng kiểm soát, đảm bảo rằng người lái luôn nắm quyền kiểm soát trên bất kỳ địa hình nào. Trục xe đạp trung tâm mang màu đen cùng trục kín tích hợp ổ trục và ổ bi tạo nên sự liền mạch, vận hành mượt mà trong suốt hành trình. Mỗi chi tiết được sản xuất từ những vật liệu chất lượng cao, đảm bảo độ bền lâu dài và hiệu suất vận hành ổn định trong điều kiện khắc nghiệt nhất.",
-        "title5": "Vành xe Nhôm, lốp bám đường tối ưu trên mọi địa hình",
-        "content5": "Vành xe được chế tạo từ hợp kim nhôm cao cấp, tạo nên sự cân bằng hoàn hảo giữa độ nhẹ và sức bền. Lốp bên mềm 50TPI với kết cấu đặc biệt mang lại độ bám đường vượt trội, cho phép người lái dễ dàng vượt qua những chướng ngại vật trên đường đi. Bàn đạp 67X có hạt giúp tăng thêm sự thoải mái và kiểm soát cho người lái, đảm bảo rằng họ luôn có cảm giác tự tin và thoải mái trong suốt hành trình. Sự kết hợp độc đáo giữa các tính năng này tạo nên một chiếc xe đạp leo núi đáng tin cậy, sẵn sàng đương đầu với mọi thách thức trên đường đi. Với sự kết hợp hoàn hảo giữa công nghệ và thiết kế, MTB đã trở thành mẫu xe đạp leo núi đáng mơ ước của mọi tín đồ đam mê môn thể thao mạo hiểm này.",
+        "Color": [
+            {
+                "id": 10,
+                "color": "white"
+            },
+            {
+                "id": 11,
+                "color": "silver"
+            },
+            {
+                "id": 12,
+                "color": "blue"
+            },
+            {
+                "id": 13,
+                "color": "green"
+            },
+            {
+                "id": 14,
+                "color": "aqua"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham10.jpg",
@@ -432,17 +449,28 @@
         "Size": "XS",
         "CanNang": "13 kg",
         "PhuHop": "từ 1m2-1m4",
-        "Color": "no",
-        "title1": "",
-        "content1": "",
-        "title2": "",
-        "content2": "",
-        "title3": "",
-        "content3": "",
-        "title4": "",
-        "content4": "",
-        "title5": "",
-        "content5": "",
+        "Color": [
+            {
+                "id": 16,
+                "color": "orange"
+            },
+            {
+                "id": 17,
+                "color": "pink"
+            },
+            {
+                "id": 18,
+                "color": "white"
+            },
+            {
+                "id": 19,
+                "color": "blue"
+            },
+            {
+                "id": 20,
+                "color": "aqua"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham1.jpg",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham2.jpg",
@@ -627,17 +655,28 @@
         "Size": "M/L",
         "CanNang": "14.1 kg",
         "PhuHop": "từ 1m45-1m85",
-        "Color": "no",
-        "title1": "",
-        "content1": "",
-        "title2": "",
-        "content2": "",
-        "title3": "",
-        "content3": "",
-        "title4": "",
-        "content4": "",
-        "title5": "",
-        "content5": "",
+        "Color": [
+            {
+                "id": 22,
+                "color": "black"
+            },
+            {
+                "id": 23,
+                "color": "silver"
+            },
+            {
+                "id": 24,
+                "color": "pink"
+            },
+            {
+                "id": 25,
+                "color": "purple"
+            },
+            {
+                "id": 26,
+                "color": "white"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham2.png",
@@ -801,15 +840,28 @@
         "Size": "L",
         "CanNang": "15 kg",
         "PhuHop": "từ 1m55-1m85",
-        "Color": "no",
-        "title1": "",
-        "content1": "Xe đạp phố CHARMING LX-08 được thiết kế với nhiều tính năng ưu việt để mang lại sự thoải mái và an toàn tối đa cho người sử dụng. Điểm nổi bật nhất của mẫu xe này chính là sự đa dạng về màu sắc, bao gồm các tông màu trắng, xám, đen, xanh cổ vịt và xanh biển. Những gam màu này không chỉ mang đến vẻ ngoài thanh lịch mà còn phù hợp với nhiều phong cách và sở thích khác nhau của người dùng. Về kích thước, khung xe CHARMING LX-08 được làm với chuẩn 700C, vừa vặn và thoải mái cho hầu hết các đối tượng sử dụng.",
-        "title2": "",
-        "content2": "Bên cạnh thiết kế bắt mắt, xe đạp CHARMING LX-08 còn được trang bị những tính năng vượt trội về động cơ và hệ thống phanh. Cụ thể, sản phẩm sử dụng phanh dầu với 24 tốc độ khác nhau, đảm bảo an toàn tối đa cho người lái trong mọi tình huống. Khung xe được làm từ hợp kim Magie, vừa nhẹ vừa bền chắc, mang lại cảm giác vững chãi khi di chuyển. Đặc biệt, phuộc trước của xe được trang bị công nghệ phuộc thép carbon đặc biệt 700C, giúp người dùng cảm thấy êm ái và ổn định trên mọi địa hình.",
-        "title3": "",
-        "content3": "Ngoài ra, CHARMING LX-08 còn được tích hợp nhiều công nghệ tiên tiến khác như hệ thống dẫn truyền Jpbrake trong một, đảm bảo hiệu quả phanh tối ưu. Hệ thống phanh đĩa dầu kéo dây cũng góp phần nâng cao mức độ an toàn cho người lái. Các chi tiết quan trọng như trục xe đạp, trục trung tâm và ổ bi đều được thiết kế tinh xảo, đảm bảo độ bền và khả năng vận hành mượt mà. Đặc biệt, vành bánh và lốp xe được chế tác chuẩn mực, mang lại sự ổn định và an toàn tối đa cho người lái.",
-        "title4": "",
-        "content4": "Nhờ sự kết hợp hài hòa giữa thiết kế hiện đại và những tính năng công nghệ tiên tiến, xe đạp phố CHARMINGLX-08 xứng đáng là lựa chọn lý tưởng cho những ai yêu thích những chuyến đi trên phố. Sản phẩm này không chỉ mang lại vẻ ngoài thu hút mà còn đem đến những trải nghiệm thú vị và an toàn tối đa trên mọi nẻo đường. Với CHARMING LX-08, bạn sẽ tự tin và thoải mái chinh phục mọi cung đường, đồng thời thể hiện được cá tính riêng của mình. Hãy trải nghiệm ngay sản phẩm này để khám phá những điều thú vị mà nó mang lại.",
+        "Color": [
+            {
+                "id": 28,
+                "color": "black"
+            },
+            {
+                "id": 29,
+                "color": "white"
+            },
+            {
+                "id": 30,
+                "color": "silver"
+            },
+            {
+                "id": 31,
+                "color": "blue"
+            },
+            {
+                "id": 32,
+                "color": "green"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham2.jpg",
@@ -964,15 +1016,28 @@
         "Size": "M/L",
         "CanNang": "12.6 kg",
         "PhuHop": "từ 1m45-1m85",
-        "Color": "no",
-        "title1": "",
-        "content1": "Xe đạp phố DOWNTOWN LX-68 được thiết kế với nhiều tính năng ưu việt để mang lại sự thoải mái và an toàn tối đa cho người sử dụng. Điểm nổi bật nhất của mẫu xe này chính là sự đa dạng về màu sắc, bao gồm các tông màu trắng, xám, bạc, đen và xanh bơ. Những gam màu này không chỉ mang đến vẻ ngoài thanh lịch mà còn phù hợp với nhiều phong cách và sở thích khác nhau của người dùng. Về kích thước, khung xe DOWNTOWN LX-68 được làm với chuẩn 700C, vừa vặn và thoải mái cho hầu hết các đối tượng sử dụng.",
-        "title2": "",
-        "content2": "Bên cạnh thiết kế bắt mắt, xe đạp DOWNTOWN LX-68 còn được trang bị những tính năng vượt trội về động cơ và hệ thống phanh. Cụ thể, sản phẩm sử dụng phanh dầu với 24 tốc độ khác nhau, đảm bảo an toàn tối đa cho người lái trong mọi tình huống. Khung xe được làm từ hợp kim Nhôm cao cấp, vừa nhẹ vừa bền chắc, mang lại cảm giác vững chãi khi di chuyển. Đặc biệt, phuộc trước của xe được trang bị công nghệ phuộc thép carbon đặc biệt 700C, giúp người dùng cảm thấy êm ái và ổn định trên mọi địa hình.",
-        "title3": "",
-        "content3": "Ngoài ra, DOWNTOWN LX-68 còn được tích hợp nhiều công nghệ tiên tiến khác như hệ thống dẫn truyền Jpbrake trong một, đảm bảo hiệu quả phanh tối ưu. Hệ thống phanh đĩa dầu kéo dây cũng góp phần nâng cao mức độ an toàn cho người lái. Các chi tiết quan trọng như trục xe đạp, trục trung tâm và ổ bi đều được thiết kế tinh xảo, đảm bảo độ bền và khả năng vận hành mượt mà. Đặc biệt, vành bánh và lốp xe được chế tác chuẩn mực, mang lại sự ổn định và an toàn tối đa cho người lái.",
-        "title4": "",
-        "content4": "Nhờ sự kết hợp hài hòa giữa thiết kế hiện đại và những tính năng công nghệ tiên tiến, xe đạp phố DOWNTOWN LX-68 xứng đáng là lựa chọn lý tưởng cho những ai yêu thích những chuyến đi trên phố. Sản phẩm này không chỉ mang lại vẻ ngoài thu hút mà còn đem đến những trải nghiệm thú vị và an toàn tối đa trên mọi nẻo đường. Với DOWNTOWN LX-68, bạn sẽ tự tin và thoải mái chinh phục mọi cung đường, đồng thời thể hiện được cá tính riêng của mình. Hãy trải nghiệm ngay sản phẩm này để khám phá những điều thú vị mà nó mang lại.",
+        "Color": [
+            {
+                "id": 34,
+                "color": "silver"
+            },
+            {
+                "id": 35,
+                "color": "black"
+            },
+            {
+                "id": 36,
+                "color": "white"
+            },
+            {
+                "id": 37,
+                "color": "grey"
+            },
+            {
+                "id": 38,
+                "color": "green"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham2.png",
@@ -1127,15 +1192,28 @@
         "Size": "M/L",
         "CanNang": "14.8 kg",
         "PhuHop": "từ 1m55-1m85",
-        "Color": "no",
-        "title1": "",
-        "content1": "Xe đạp phố FREEDOM LX-66 được thiết kế với nhiều tính năng ưu việt để mang lại sự thoải mái và an toàn tối đa cho người sử dụng. Điểm nổi bật nhất của mẫu xe này chính là sự đa dạng về màu sắc, bao gồm các tông màu đen, hồng, tím, trắng, xanh ngọc. Những gam màu này không chỉ mang đến vẻ ngoài thanh lịch mà còn phù hợp với nhiều phong cách và sở thích khác nhau của người dùng. Về kích thước, khung xe FREEDOM LX-66 được làm với chuẩn 700C, vừa vặn và thoải mái cho hầu hết các đối tượng sử dụng.",
-        "title2": "",
-        "content2": "Bên cạnh thiết kế bắt mắt, xe đạp FREEDOM LX-66 còn được trang bị những tính năng vượt trội về động cơ và hệ thống phanh. Cụ thể, sản phẩm sử dụng phanh dầu với 24 tốc độ khác nhau, đảm bảo an toàn tối đa cho người lái trong mọi tình huống. Khung xe được làm từ hợp kim Nhôm cao cấp, vừa nhẹ vừa bền chắc, mang lại cảm giác vững chãi khi di chuyển. Đặc biệt, phuộc trước của xe được trang bị công nghệ phuộc thép carbon đặc biệt 700C, giúp người dùng cảm thấy êm ái và ổn định trên mọi địa hình.",
-        "title3": "",
-        "content3": "Ngoài ra, FREEDOM LX-66 còn được tích hợp nhiều công nghệ tiên tiến khác như hệ thống dẫn truyền Jpbrake trong một, đảm bảo hiệu quả phanh tối ưu. Hệ thống phanh đĩa dầu kéo dây cũng góp phần nâng cao mức độ an toàn cho người lái. Các chi tiết quan trọng như trục xe đạp, trục trung tâm và ổ bi đều được thiết kế tinh xảo, đảm bảo độ bền và khả năng vận hành mượt mà. Đặc biệt, vành bánh và lốp xe được chế tác chuẩn mực, mang lại sự ổn định và an toàn tối đa cho người lái.",
-        "title4": "",
-        "content4": "Nhờ sự kết hợp hài hòa giữa thiết kế hiện đại và những tính năng công nghệ tiên tiến, xe đạp phố FREEDOM LX-66 xứng đáng là lựa chọn lý tưởng cho những ai yêu thích những chuyến đi trên phố. Sản phẩm này không chỉ mang lại vẻ ngoài thu hút mà còn đem đến những trải nghiệm thú vị và an toàn tối đa trên mọi nẻo đường. Với FREEDOM LX-66, bạn sẽ tự tin và thoải mái chinh phục mọi cung đường, đồng thời thể hiện được cá tính riêng của mình. Hãy trải nghiệm ngay sản phẩm này để khám phá những điều thú vị mà nó mang lại.",
+        "Color": [
+            {
+                "id": 40,
+                "color": "black"
+            },
+            {
+                "id": 41,
+                "color": "pink"
+            },
+            {
+                "id": 42,
+                "color": "purple"
+            },
+            {
+                "id": 43,
+                "color": "white"
+            },
+            {
+                "id": 44,
+                "color": "green"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham2.png",
@@ -1293,17 +1371,16 @@
         "Size": "M/L",
         "CanNang": "14.4 kg",
         "PhuHop": "từ 1m55-1m85",
-        "Color": "no",
-        "title1": "Vẻ đẹp sang trọng từ sắc bạc tinh tế",
-        "content1": "Trên những cung đường dài vô tận, JEEP J15 tỏa sáng với vẻ đẹp sang trọng từ sắc bạc tinh tế. Màu bạc thanh lịch, mang đến sự cuốn hút khó cưỡng dành cho những tâm hồn đam mê khám phá, không ngại thách thức. Sắc bạc không chỉ thể hiện đẳng cấp mà còn gợi nhớ đến sự bền bỉ, vượt thời gian. Gam màu này toát lên vẻ tinh tế, thanh lịch nhưng cũng không kém phần mạnh mẽ, quyết tâm chinh phục mọi thử thách. Sự kết hợp tinh tế giữa vẻ đẹp sang trọng và sức mạnh bền bỉ tạo nên vẻ đẹp đẳng cấp, mang dấu ấn riêng biệt cho J15 trên mọi nẻo đường, từ đường phố ồn ào đến những cung đường hoang sơ, hiểm trở.",
-        "title2": "Thiết kế vượt trội về công năng và thẩm mỹ",
-        "content2": "J15 sở hữu thiết kế vượt trội về công năng lẫn thẩm mỹ, đáp ứng mọi nhu cầu của người đam mê đạp xe đường trường. Khung xe được làm từ hợp kim nhôm siêu nhẹ nhưng vô cùng bền bỉ, mang đến trải nghiệm cân bằng tối ưu cho người lái, giúp họ dễ dàng điều khiển và kiểm soát xe trên mọi địa hình. Với tới 18 tốc độ, J15 đáp ứng mọi nhu cầu vận hành trên các cung đường khác nhau, từ đường phố thông thoáng cho những chuyến đi nhẹ nhàng đến những con đường gồ ghề, hiểm trở dành cho những ai yêu thích thử thách. Phuộc trước hợp kim nhôm 700C đặc biệt được thiết kế với khả năng hấp thụ lực rung, va đập hiệu quả, đem lại cảm giác lái êm ái ngay cả khi di chuyển trên địa hình khó khăn nhất.",
-        "title3": "An toàn tuyệt đối trên mọi cự ly",
-        "content3": "An toàn luôn là ưu tiên hàng đầu của J15 trên mọi cự ly, dù là những chuyến đi ngắn trong thành phố hay những hành trình dài mạo hiểm. Xe được trang bị hệ thống phanh đĩa dầu kéo cáp trước sau hiện đại, có khả năng phanh gấp và kiểm soát tốc độ chính xác trong mọi tình huống, đảm bảo an toàn tuyệt đối cho người lái dù di chuyển trên đường dài hay ngắn, địa hình bằng phẳng hay gồ ghề. Trục trung tâm cassette 120 vòng bốn vòng bi bằng nhôm đen không chỉ tăng cường khả năng chịu lực mà còn mang đến độ bền cao, giúp xe vận hành ổn định trên mọi cung đường. Khung đáy rỗng được thiết kế đặc biệt với cấu trúc hiện đại hạn chế tối đa xâm nhập bụi bẩn, nâng cao tuổi thọ của xe, đảm bảo khả năng vận hành lâu dài.",
-        "title4": "Hoàn thiện trong từng chi tiết nhỏ",
-        "content4": "Sự hoàn thiện trong từng chi tiết nhỏ là điều khiến J15 trở nên đặc biệt và vượt trội so với các dòng xe đạp đường trường khác. Vành hợp kim nhôm 40 vòng dao hai lớp rộng được chế tác tinh xảo, bảo đảm sự cứng cáp, chịu lực tốt trên mọi địa hình, từ đường nhựa thành phố cho đến đường đất ngoại ô hay những cung đường núi đầy thử thách. Lốp xe màu nâu đặc biệt dành cho xe đạp đường trường với bề mặt gai dập, kẽ cao su dày dặn chống trơn trượt hiệu quả, mang đến cảm giác lái an toàn tuyệt đối, cho phép người lái tự tin khám phá mọi nẻo đường. Bàn đạp nửa nhôm 18X với diện tích tiếp xúc lớn và bề mặt chống trượt đã được thiết kế tỉ mỉ nhằm giúp tối ưu lực đạp, nâng cao hiệu suất vận hành, giúp người lái dễ dàng chinh phục mọi chặng đường. Từ vành xe cho đến xăm tạo kiểu, từng chi tiết nhỏ đều được hoàn thiện tinh xảo, thể hiện đẳng cấp của J15 trên mọi chặng đường khám phá.",
-        "title5": "Biểu tượng của khát vọng chinh phục vô tận",
-        "content5": "J15 không chỉ đơn thuần là một chiếc xe đạp đường trường thông thường, mà còn là biểu tượng của khát vọng chinh phục vô tận. Được trang bị công nghệ hiện đại từ khung xe bền bỉ, hệ thống phanh an toàn đến thiết kế thẩm mỹ nổi bật, J15 sẵn sàng đồng hành cùng bạn vượt qua mọi giới hạn trên mọi chặng đường dù xa hay gần. Sự kết hợp tinh tế giữa vẻ đẹp sang trọng từ sắc bạc tinh tế và chất lượng vượt trội tạo nên một trải nghiệm mới mẻ, đậm chất J15 – chiếc xe đạp đường trường theo cùng bạn trên hành trình khám phá chân trời mới, chinh phục những đỉnh cao mới",
+        "Color": [
+            {
+                "id": 46,
+                "color": "silver"
+            },
+            {
+                "id": 47,
+                "color": "grey"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham1.jpg",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham2.jpg",
@@ -1389,18 +1466,24 @@
         "Size": "M/L",
         "CanNang": "15kg",
         "PhuHop": "từ 1m55-1m85",
-        "Color": "no",
-        "title1": "",
-        "content1": "Sản phẩm xe đạp đường trường JISE được thiết kế để đáp ứng nhu cầu của những người yêu thích các cuộc đua đường trường. Với thiết kế sang trọng và đẳng cấp, sản phẩm này mang đến sự tự tin cho người sử dụng.",
-        "title2": "",
-        "content2": "Ngoại hình của xe đạp được hoàn thiện với tông màu ghi tinh tế, tạo ấn tượng mạnh mẽ ngay từ cái nhìn đầu tiên. Kích thước 700C mang lại sự thoải mái và kiểm soát dễ dàng cho người lái, đặc biệt là trong các cuộc đua tốc độ. Sức mạnh của sản phẩm được thể hiện qua hệ thống 18 tốc độ, cho phép người lái linh hoạt điều chỉnh tốc độ phù hợp với từng địa hình và điều kiện đường sá. Khung xe làm bằng hợp kim nhôm mang lại sự nhẹ nhàng và bền bỉ, đáp ứng yêu cầu cao về độ cứng và trọng lượng.",
-        "title3": "",
-        "content3": "Phuộc trước hợp kim nhôm đặc biệt 700C là điểm nhấn quan trọng của sản phẩm, giúp chịu lực tốt và giảm chấn động đáng kể khi di chuyển trên các địa hình khó khăn. Hệ thống dẫn truyền Cần số xe Jeep mang lại sự êm ái và chính xác trong quá trình điều khiển, giúp người lái tập trung vào cuộc đua mà không phải lo lắng về việc chuyển số.",
-        "title4": "",
-        "content4": "Phanh đĩa cơ kéo cáp trước sau là một trong những tính năng an toàn nổi bật của sản phẩm. Hệ thống này giúp người lái dễ dàng kiểm soát tốc độ, đặc biệt là trong những tình huống khẩn cấp. Trục xe đạp trung tâm cassette 120 vòng bốn vòng bi bằng nhôm màu đen mang lại độ bền và vận hành mượt mà, góp phần tăng cường hiệu suất di chuyển.",
-        "content5": "Khung đáy rỗng tạo cảm giác nhẹ nhàng và linh hoạt khi di chuyển, đồng thời vành hợp kim nhôm 40 vòng dao hai lớp rộng kết hợp với lốp xe màu nâu đặc biệt dành cho xe đạp đường trường giúp xe có độ bám đường tốt và ổn định ngay cả trên những cung đường gồ ghề. Bàn đạp nửa nhôm 18X mang lại sự thoải mái và hỗ trợ tối ưu cho người lái trong suốt hành trình.",
-        "content6": "Ngoài ra, sản phẩm xe đạp đường trường JISE còn được trang bị đầy đủ các phụ kiện cần thiết như sừng tay lái, giá treo chai nước, và chuông để đảm bảo sự tiện nghi và an toàn cho người sử dụng. Thiết kế ergonomic của các chi tiết xe như tay lái, yên xe, và bàn đạp được tối ưu hóa nhằm mang lại sự thoải mái tối đa cho người lái, giảm thiểu mệt mỏi và căng thẳng trong suốt chặng đường đua.",
-        "content7": "Sản phẩm xe đạp đường trường JISE là sự kết hợp hoàn hảo giữa công nghệ tiên tiến, thiết kế sang trọng và hiệu suất vận hành ấn tượng. Với những tính năng nổi bật, sản phẩm này hứa hẹn sẽ mang đến những trải nghiệm đua xe đạp đường trường đáng nhớ cho người sử dụng.",
+        "Color": [
+            {
+                "id": 49,
+                "color": "black"
+            },
+            {
+                "id": 50,
+                "color": "silver"
+            },
+            {
+                "id": 51,
+                "color": "pink"
+            },
+            {
+                "id": 52,
+                "color": "white"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham1.jpg",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham10.jpg",
@@ -1544,19 +1627,20 @@
         "Size": "M/L",
         "CanNang": "12.6 kg",
         "PhuHop": "từ 1m45-1m85",
-        "Color": "no",
-        "title1": "",
-        "content1": "Sản phẩm xe đạp đường trường LR880 được thiết kế để đáp ứng nhu cầu của những người yêu thích các cuộc đua đường trường. Với thiết kế sang trọng và đẳng cấp, sản phẩm này mang đến sự tự tin cho người sử dụng.",
-        "title2": "",
-        "content2": "Ngoại hình của xe đạp được hoàn thiện với tông màu vàng champagne tinh tế, tạo ấn tượng mạnh mẽ ngay từ cái nhìn đầu tiên. Kích thước 700C mang lại sự thoải mái và kiểm soát dễ dàng cho người lái, đặc biệt là trong các cuộc đua tốc độ. Sức mạnh của sản phẩm được thể hiện qua hệ thống 18 tốc độ, cho phép người lái linh hoạt điều chỉnh tốc độ phù hợp với từng địa hình và điều kiện đường sá. Khung xe làm bằng hợp kim nhôm mang lại sự nhẹ nhàng và bền bỉ, đáp ứng yêu cầu cao về độ cứng và trọng lượng.",
-        "title3": "",
-        "content3": "Phuộc trước hợp kim nhôm đặc biệt 700C là điểm nhấn quan trọng của sản phẩm, giúp chịu lực tốt và giảm chấn động đáng kể khi di chuyển trên các địa hình khó khăn. Hệ thống dẫn truyền Cần số xe Jeep mang lại sự êm ái và chính xác trong quá trình điều khiển, giúp người lái tập trung vào cuộc đua mà không phải lo lắng về việc chuyển số.",
-        "title4": "",
-        "content4": "Phanh đĩa dầu kéo cáp trước sau là một trong những tính năng an toàn nổi bật của sản phẩm. Hệ thống này giúp người lái dễ dàng kiểm soát tốc độ, đặc biệt là trong những tình huống khẩn cấp. Trục xe đạp trung tâm cassette 120 vòng bốn vòng bi bằng nhôm màu đen mang lại độ bền và vận hành mượt mà, góp phần tăng cường hiệu suất di chuyển.",
-        "title5": "",
-        "content5": "Khung đáy rỗng tạo cảm giác nhẹ nhàng và linh hoạt khi di chuyển, đồng thời vành hợp kim nhôm 40 vòng dao hai lớp rộng kết hợp với lốp xe màu nâu đặc biệt dành cho xe đạp đường trường giúp xe có độ bám đường tốt và ổn định ngay cả trên những cung đường gồ ghề. Bàn đạp nửa nhôm 18X mang lại sự thoải mái và hỗ trợ tối ưu cho người lái trong suốt hành trình.",
-        "content6": "Ngoài ra, sản phẩm xe đạp đường trường LR880 còn được trang bị đầy đủ các phụ kiện cần thiết như sừng tay lái, và chuông để đảm bảo sự tiện nghi và an toàn cho người sử dụng. Thiết kế ergonomic của các chi tiết xe như tay lái, yên xe, và bàn đạp được tối ưu hóa nhằm mang lại sự thoải mái tối đa cho người lái, giảm thiểu mệt mỏi và căng thẳng trong suốt chặng đường đua.",
-        "content7": "Sản phẩm xe đạp đường trường LR880 là sự kết hợp hoàn hảo giữa công nghệ tiên tiến, thiết kế sang trọng và hiệu suất vận hành ấn tượng. Với những tính năng nổi bật, sản phẩm này hứa hẹn sẽ mang đến những trải nghiệm đua xe đạp đường trường đáng nhớ cho người sử dụng.",
+        "Color": [
+            {
+                "id": 54,
+                "color": "silver"
+            },
+            {
+                "id": 55,
+                "color": "white"
+            },
+            {
+                "id": 56,
+                "color": "yellow"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham2.png",
@@ -1672,17 +1756,16 @@
         "Size": "L",
         "CanNang": "15.1 kg",
         "PhuHop": "từ 1m45-1m85",
-        "Color": "no",
-        "title1": "",
-        "content1": "",
-        "title2": "",
-        "content2": "",
-        "title3": "",
-        "content3": "",
-        "title4": "",
-        "content4": "",
-        "title5": "",
-        "content5": "",
+        "Color": [
+            {
+                "id": 58,
+                "color": "silver"
+            },
+            {
+                "id": 59,
+                "color": "blue"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham57/sanpham1.jpg",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham57/sanpham2.jpg"
@@ -1763,7 +1846,20 @@
         "Size": "M/L",
         "CanNang": "14.7 kg",
         "PhuHop": "từ 1m4-1m8",
-        "Color": "no",
+        "Color": [
+            {
+                "id": 61,
+                "color": "silver"
+            },
+            {
+                "id": 62,
+                "color": "white"
+            },
+            {
+                "id": 63,
+                "color": "green"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham60/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham60/sanpham2.png",
@@ -1874,17 +1970,28 @@
         "Size": "S/M",
         "CanNang": "14.6 kg",
         "PhuHop": "phù hợp từ 1m4-1m75",
-        "Color": "no",
-        "title1": "Biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi",
-        "content1": "FLASH PS-29, một tuyệt tác công nghệ đến từ thương hiệu nổi tiếng, đã vượt qua mọi giới hạn và trở thành biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi. Với thiết kế đầy cá tính, phối hợp giữa màu đen huyền bí, xám thanh lịch và vàng đồng táo bạo, FLASH PS-29 tạo nên một dấu ấn khó phai trong lòng những người yêu thích đạp xe leo núi. Mỗi đường nét trên chiếc xe này đều được chau chuốt tỉ mỉ, tạo nên vẻ đẹp thu hút từ cái nhìn đầu tiên. Các chi tiết được thiết kế tinh tế, phản ánh sự chuyên nghiệp và tỉ mỉ trong quá trình sản xuất, mang đến cho người sử dụng một trải nghiệm thị giác đầy mê hoặc.",
-        "title2": "Thông số kỹ thuật vượt trội đáp ứng mọi nhu cầu người lái",
-        "content2": "Kích thước 26 inch vừa đủ để mang lại cảm giác vận hành linh hoạt nhưng cũng đảm bảo sự ổn định trên những đoạn đường gập ghềnh. Với 24 tốc độ, FLASH PS-29 có khả năng đáp ứng mọi nhu cầu của người lái, từ việc chinh phục những đoạn đường dốc cao đến những cung đường êm ái. Không chỉ vậy, thiết kế của chiếc xe này còn được tính toán kỹ lưỡng để tối đa hóa hiệu suất và trải nghiệm lái. Từng chi tiết nhỏ đều được chú trọng, đảm bảo rằng người sử dụng sẽ có cảm giác thoải mái và an toàn trong suốt hành trình của mình.",
-        "title3": "Khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền hiệu quả",
-        "content3": "Không chỉ mang lại sự linh hoạt khi di chuyển, khung xe còn đảm bảo độ bền tối ưu để chịu được những va đập mạnh mẽ trên những cung đường hiểm trở. Phuộc trước giảm xóc dày 38 cùng hệ thống dẫn truyền EF500 hiệu quả giúp FLASH PS-29 hoạt động trơn tru trong mọi tình huống. Những cú rung lắc mạnh mẽ trên địa hình khó khăn sẽ được hấp thụ hoàn toàn, mang đến cho người lái một trải nghiệm lái xe đạp thực sự thoải mái và êm ái. Hệ thống dẫn truyền tiên tiến cũng đảm bảo rằng mọi chuyển động của người lái sẽ được truyền đạt đầy đủ đến bánh xe, tối ưu hóa sức mạnh và hiệu quả của mỗi cú đạp.",
-        "title4": "Hệ thống phanh đĩa và trục trung tâm đảm bảo kiểm soát tốc độ",
-        "content4": "Với khả năng phanh gấp, người lái có thể kiểm soát tốc độ một cách an toàn và chính xác, ngay cả khi đối mặt với những đoạn đường dốc nguy hiểm. Hệ thống phanh này được thiết kế đặc biệt để tăng cường khả năng kiểm soát, đảm bảo rằng người lái luôn nắm quyền kiểm soát trên bất kỳ địa hình nào. Trục xe đạp trung tâm mang màu đen cùng trục kín tích hợp ổ trục và ổ bi tạo nên sự liền mạch, vận hành mượt mà trong suốt hành trình. Mỗi chi tiết được sản xuất từ những vật liệu chất lượng cao, đảm bảo độ bền lâu dài và hiệu suất vận hành ổn định trong điều kiện khắc nghiệt nhất.",
-        "title5": "Vành xe nhôm, lốp bám đường tối ưu trên mọi địa hình",
-        "content5": "Vành xe được chế tạo từ hợp kim nhôm cao cấp, tạo nên sự cân bằng hoàn hảo giữa độ nhẹ và sức bền. Lốp bên mềm 50TPI với kết cấu đặc biệt mang lại độ bám đường vượt trội, cho phép người lái dễ dàng vượt qua những chướng ngại vật trên đường đi. Bàn đạp 67X có hạt giúp tăng thêm sự thoải mái và kiểm soát cho người lái, đảm bảo rằng họ luôn có cảm giác tự tin và thoải mái trong suốt hành trình. Sự kết hợp độc đáo giữa các tính năng này tạo nên một chiếc xe đạp leo núi đáng tin cậy, sẵn sàng đương đầu với mọi thách thức trên đường đi. Với sự kết hợp hoàn hảo giữa công nghệ và thiết kế, FLASH đã trở thành mẫu xe đạp leo núi đáng mơ ước của mọi tín đồ đam mê môn thể thao mạo hiểm này.",
+        "Color": [
+            {
+                "id": 65,
+                "color": "black"
+            },
+            {
+                "id": 66,
+                "color": "white"
+            },
+            {
+                "id": 67,
+                "color": "silver"
+            },
+            {
+                "id": 68,
+                "color": "aqua"
+            },
+            {
+                "id": 69,
+                "color": "blue"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham10.jpg",
@@ -2040,15 +2147,28 @@
         "Size": "M/L",
         "CanNang": "15.7 kg",
         "PhuHop": "từ 1m55-1m85",
-        "Color": "no",
-        "title1": "JUPITER PS-06 – Chiếc xe đạp leo núi đa sắc màu, tràn đầy năng lượng và phiêu lưu",
-        "content1": "Trong thế giới đầy thách thức của những người đam mê leo núi, một chiếc xe đạp phải không chỉ sở hữu sức mạnh và độ bền, mà còn toát lên một nguồn năng lượng tràn đầy phiêu lưu và khát vọng chinh phục. JUPITER PS-06, một tuyệt tác công nghệ từ thương hiệu nổi tiếng, đã vượt qua mọi giới hạn và trở thành biểu tượng cho sự sống động, quyết tâm và niềm đam mê bất tận với những cuộc phiêu lưu mới. Với thiết kế đầy cá tính, kết hợp các màu sắc rực rỡ như xanh lam táo bạo, cam đỏ nồng nhiệt, đen huyền bí và trắng tinh khôi, cùng với những đường nét xám thanh lịch, JUPITER PS-06 tạo nên một dấu ấn khó phai trong lòng những người yêu thích đạp xe leo núi. Mỗi đường nét trên chiếc xe này đều toát lên sự mạnh mẽ, quyết tâm và niềm đam mê bất tận với những cuộc phiêu lưu mới, sẵn sàng chinh phục mọi thử thách trên đường đi. Thiết kế đầy màu sắc này không chỉ mang lại một diện mạo nổi bật, mà còn phản ánh tinh thần phóng khoáng, tự do và khao khát khám phá của những người lái xe đạp leo núi.",
-        "title2": "Thông số kỹ thuật vượt trội, sẵn sàng chinh phục mọi thử thách",
-        "content2": "Kích thước 27,5 inch của JUPITER PS-06 tạo nên sự cân bằng hoàn hảo giữa khả năng linh hoạt và ổn định trên những đoạn đường gập ghềnh. Với 24 tốc độ, chiếc xe này có khả năng đáp ứng mọi nhu cầu của người lái, từ việc chinh phục những đoạn đường dốc cao đến những cung đường êm ái. Mỗi chi tiết của xe đều được tính toán kỹ lưỡng để tối đa hóa hiệu suất và trải nghiệm lái, đảm bảo rằng người sử dụng sẽ có cảm giác thoải mái và an toàn trong suốt hành trình của mình, dù cho thử thách có lớn đến đâu. Không những vậy, các thông số kỹ thuật này còn giúp người lái dễ dàng thích ứng với mọi địa hình, từ những đoạn đường dốc hiểm trở đến những cung đường uốn lượn qua rừng núi. Với JUPITER PS-06, mọi cuộc phiêu lưu đều trở nên dễ dàng hơn, mang đến niềm vui và sự tự tin cho người lái trên mọi cung đường.",
-        "title3": "Khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền vượt trội",
-        "content3": "Trái tim của JUPITER PS-06 là khung xe được chế tạo từ hợp kim nhôm siêu nhẹ và cứng cáp. Không chỉ mang lại sự linh hoạt khi di chuyển, khung xe còn đảm bảo độ bền tối ưu để chịu được những va đập mạnh mẽ trên những cung đường hiểm trở. Phuộc trước dày giảm chấn cùng hệ thống dẫn truyền bộ chuyển số JP hiệu quả giúp JUPITER PS-06 hoạt động trơn tru trong mọi tình huống. Những cú rung lắc mạnh mẽ trên địa hình khó khăn sẽ được hấp thụ hoàn toàn, mang đến cho người lái một trải nghiệm lái xe đạp thực sự thoải mái và êm ái, cho dù địa hình có khó khăn đến đâu. Hệ thống dẫn truyền tiên tiến cũng đảm bảo rằng mọi chuyển động của người lái sẽ được truyền đạt đầy đủ đến bánh xe, tối ưu hóa sức mạnh và hiệu quả của mỗi cú đạp. Sự kết hợp hoàn hảo giữa khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền vượt trội giúp JUPITER PS-06 trở thành một chiến binh bất khả chiến bại trên mọi cung đường leo núi, sẵn sàng đương đầu với mọi thử thách và mang lại những trải nghiệm phiêu lưu đáng nhớ cho người lái.",
-        "title4": "Hệ thống phanh và trục trung tâm đảm bảo kiểm soát tối ưu trên mọi địa hình",
-        "content4": "Một yếu tố quan trọng khác làm nên sự hoàn hảo của JUPITER PS-06 là hệ thống phanh đĩa cơ trước và sau. Với khả năng phanh gấp, người lái có thể kiểm soát tốc độ một cách an toàn và chính xác, ngay cả khi đối mặt với những đoạn đường dốc nguy hiểm hay những khúc cua gắt. Hệ thống phanh này được thiết kế đặc biệt để tăng cường khả năng kiểm soát, đảm bảo rằng người lái luôn nắm quyền kiểm soát trên bất kỳ địa hình nào, dù là đường đất lầy lội hay những bề mặt đá nhấp nhô. Trục xe đạp trung tâm ổ trục cassette cùng trục tích hợp ổ trục và ổ bi tạo nên sự liền mạch, vận hành mượt mà trong suốt hành trình. Mỗi chi tiết được sản xuất từ những vật liệu chất lượng cao, đảm bảo độ bền lâu dài và hiệu suất vận hành ổn định trong điều kiện khắc nghiệt nhất.",
+        "Color": [
+            {
+                "id": 71,
+                "color": "orange"
+            },
+            {
+                "id": 72,
+                "color": "black"
+            },
+            {
+                "id": 73,
+                "color": "white"
+            },
+            {
+                "id": 74,
+                "color": "silver"
+            },
+            {
+                "id": 75,
+                "color": "green"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham2.png",
@@ -2211,15 +2331,28 @@
         "Size": "M/L",
         "CanNang": "15.5 kg",
         "PhuHop": "từ 1m55-1m85",
-        "Color": "no",
-        "title1": "LIGHTING PS-100 – Chiếc xe đạp leo núi đa sắc màu, tràn đầy năng lượng và phiêu lưu",
-        "content1": "Trong thế giới đầy thách thức của những người đam mê leo núi, một chiếc xe đạp phải không chỉ sở hữu sức mạnh và độ bền, mà còn toát lên một nguồn năng lượng tràn đầy phiêu lưu và khát vọng chinh phục. LIGHTING PS-100, một tuyệt tác công nghệ từ thương hiệu nổi tiếng, đã vượt qua mọi giới hạn và trở thành biểu tượng cho sự sống động, quyết tâm và niềm đam mê bất tận với những cuộc phiêu lưu mới. Với thiết kế đầy cá tính, thanh lịch, LIGHTING PS-100 tạo nên một dấu ấn khó phai trong lòng những người yêu thích đạp xe leo núi. Mỗi đường nét trên chiếc xe này đều toát lên sự mạnh mẽ, quyết tâm và niềm đam mê bất tận với những cuộc phiêu lưu mới, sẵn sàng chinh phục mọi thử thách trên đường đi. Thiết kế đầy màu sắc này không chỉ mang lại một diện mạo nổi bật, mà còn phản ánh tinh thần phóng khoáng, tự do và khao khát khám phá của những người lái xe đạp leo núi.",
-        "title2": "Thông số kỹ thuật vượt trội, sẵn sàng chinh phục mọi thử thách",
-        "content2": "Kích thước 27,5 inch của LIGHTING PS-100 tạo nên sự cân bằng hoàn hảo giữa khả năng linh hoạt và ổn định trên những đoạn đường gập ghềnh. Với 24 tốc độ, chiếc xe này có khả năng đáp ứng mọi nhu cầu của người lái, từ việc chinh phục những đoạn đường dốc cao đến những cung đường êm ái. Mỗi chi tiết của xe đều được tính toán kỹ lưỡng để tối đa hóa hiệu suất và trải nghiệm lái, đảm bảo rằng người sử dụng sẽ có cảm giác thoải mái và an toàn trong suốt hành trình của mình, dù cho thử thách có lớn đến đâu. Không những vậy, các thông số kỹ thuật này còn giúp người lái dễ dàng thích ứng với mọi địa hình, từ những đoạn đường dốc hiểm trở đến những cung đường uốn lượn qua rừng núi. Với LIGHTING PS-100, mọi cuộc phiêu lưu đều trở nên dễ dàng hơn, mang đến niềm vui và sự tự tin cho người lái trên mọi cung đường.",
-        "title3": "Khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền vượt trội",
-        "content3": "Trái tim của LIGHTING PS-100 là khung xe được chế tạo từ hợp kim nhôm siêu nhẹ và cứng cáp. Không chỉ mang lại sự linh hoạt khi di chuyển, khung xe còn đảm bảo độ bền tối ưu để chịu được những va đập mạnh mẽ trên những cung đường hiểm trở. Phuộc trước dày giảm chấn cùng hệ thống dẫn truyền bộ chuyển số JP hiệu quả giúp LIGHTING PS-100 hoạt động trơn tru trong mọi tình huống. Những cú rung lắc mạnh mẽ trên địa hình khó khăn sẽ được hấp thụ hoàn toàn, mang đến cho người lái một trải nghiệm lái xe đạp thực sự thoải mái và êm ái, cho dù địa hình có khó khăn đến đâu. Hệ thống dẫn truyền tiên tiến cũng đảm bảo rằng mọi chuyển động của người lái sẽ được truyền đạt đầy đủ đến bánh xe, tối ưu hóa sức mạnh và hiệu quả của mỗi cú đạp. Sự kết hợp hoàn hảo giữa khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền vượt trội giúp LIGHTING PS-100 trở thành một chiến binh bất khả chiến bại trên mọi cung đường leo núi, sẵn sàng đương đầu với mọi thử thách và mang lại những trải nghiệm phiêu lưu đáng nhớ cho người lái.",
-        "title4": "Hệ thống phanh và trục trung tâm đảm bảo kiểm soát tối ưu trên mọi địa hình",
-        "content4": "Một yếu tố quan trọng khác làm nên sự hoàn hảo của LIGHTING PS-100 là hệ thống phanh đĩa cơ trước và sau. Với khả năng phanh gấp, người lái có thể kiểm soát tốc độ một cách an toàn và chính xác, ngay cả khi đối mặt với những đoạn đường dốc nguy hiểm hay những khúc cua gắt. Hệ thống phanh này được thiết kế đặc biệt để tăng cường khả năng kiểm soát, đảm bảo rằng người lái luôn nắm quyền kiểm soát trên bất kỳ địa hình nào, dù là đường đất lầy lội hay những bề mặt đá nhấp nhô. Trục xe đạp trung tâm ổ trục cassette cùng trục tích hợp ổ trục và ổ bi tạo nên sự liền mạch, vận hành mượt mà trong suốt hành trình. Mỗi chi tiết được sản xuất từ những vật liệu chất lượng cao, đảm bảo độ bền lâu dài và hiệu suất vận hành ổn định trong điều kiện khắc nghiệt nhất.",
+        "Color": [
+            {
+                "id": 77,
+                "color": "silver"
+            },
+            {
+                "id": 78,
+                "color": "orange"
+            },
+            {
+                "id": 79,
+                "color": "black"
+            },
+            {
+                "id": 80,
+                "color": "white"
+            },
+            {
+                "id": 81,
+                "color": "grey"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham2.png",
@@ -2379,15 +2512,20 @@
         "Size": "M/L",
         "CanNang": "14 kg",
         "PhuHop": "từ 1m45-1m75",
-        "Color": "no",
-        "title1": "SPEED-01 – Chiếc xe đạp leo núi mạnh mẽ và tinh tế trong từng đường nét",
-        "content1": "Trong thế giới của những người đam mê leo núi, một chiếc xe đạp không chỉ cần sức mạnh mà còn phải toát lên vẻ đẹp tinh tế. SPEED-01, một tuyệt tác công nghệ từ thương hiệu nổi tiếng, đã vượt qua mọi giới hạn và trở thành biểu tượng cho sự hoàn hảo trong thiết kế và hiệu suất. Với màu sắc đen huyền bí và xám thanh lịch, SPEED-01 tạo nên một dấu ấn khó phai trong lòng những người yêu thích đạp xe leo núi. Mỗi đường nét trên chiếc xe này đều được chạm khắc tinh tế, phản ánh sự kết hợp tài tình giữa sức mạnh và vẻ đẹp tinh xảo. Thiết kế này không chỉ đẹp mắt mà còn toát lên khí chất mạnh mẽ của một chiến binh bất khả chiến bại trên mọi cung đường leo núi. Từng chi tiết trên SPEED-01 đều được chế tác một cách tỉ mỉ, tạo nên một tổng thể hài hòa giữa sự mạnh mẽ và vẻ đẹp thanh thoát.",
-        "title2": "Thông số kỹ thuật vượt trội, chinh phục mọi thử thách trên đường đi",
-        "content2": "Với kích thước 26 inch, SPEED-01 mang đến sự cân bằng hoàn hảo giữa khả năng linh hoạt và ổn định trên những đoạn đường gập ghềnh. Trang bị 24 tốc độ, chiếc xe này có đủ sức mạnh để chinh phục mọi địa hình, từ những đoạn dốc cao đến những cung đường uốn lượn. Mỗi chi tiết của  SPEED-01 đều được tính toán kỹ lưỡng để tối đa hóa hiệu suất và trải nghiệm lái, đảm bảo rằng người sử dụng sẽ có cảm giác thoải mái và an toàn trong suốt hành trình của mình, dù cho thử thách có lớn đến đâu. Kích thước 26 inch vừa đủ để mang lại sự linh hoạt khi di chuyển qua những đoạn đường rừng hẹp, nhưng cũng đảm bảo sự ổn định cần thiết khi chinh phục những đoạn đường dốc hiểm trở. Với 24 tốc độ, người lái có thể dễ dàng điều chỉnh tốc độ phù hợp với từng địa hình khác nhau, giúp tối ưu hóa hiệu quả của mỗi cú đạp và tiết kiệm năng lượng cho những cuộc phiêu lưu dài.",
-        "title3": "Khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền hiệu quả",
-        "content3": "Trái tim của SPEED-01 là khung xe được chế tạo từ hợp kim nhôm siêu nhẹ và cứng cáp. Không chỉ mang lại sự linh hoạt khi di chuyển, khung xe còn đảm bảo độ bền tối ưu để chịu được những va đập mạnh mẽ trên những cung đường hiểm trở. Phuộc trước dày giảm xóc cùng hệ thống dẫn truyền bộ chuyển số JP hiệu quả giúp SPEED-01 hoạt động trơn tru trong mọi tình huống. Những cú rung lắc mạnh mẽ trên địa hình khó khăn sẽ được hấp thụ hoàn toàn, mang đến cho người lái một trải nghiệm lái xe đạp thực sự thoải mái và êm ái. Hệ thống dẫn truyền tiên tiến cũng đảm bảo rằng mọi chuyển động của người lái sẽ được truyền đạt đầy đủ đến bánh xe, tối ưu hóa sức mạnh và hiệu quả của mỗi cú đạp. Khung xe SPEED-01 được chế tạo từ hợp kim nhôm cao cấp, mang lại sự cân bằng hoàn hảo giữa trọng lượng nhẹ và độ bền cao. Điều này giúp chiếc xe có thể vượt qua những va đập mạnh mẽ trên địa hình hiểm trở mà không bị hư hại, đồng thời vẫn đảm bảo sự linh hoạt khi di chuyển. Phuộc trước dày giảm xóc được thiết kế đặc biệt để hấp thụ tối đa lực tác động từ mặt đường gồ ghề, giúp người lái có được trải nghiệm lái xe mượt mà và thoải mái nhất có thể.",
-        "title4": "Hệ thống phanh đĩa cơ và trục trung tâm tích hợp ổ bi đảm bảo kiểm soát tối ưu",
-        "content4": "Một yếu tố quan trọng khác làm nên sự hoàn hảo của SPEED-01 là hệ thống phanh đĩa cơ phía trước và phía sau. Với khả năng phanh gấp, người lái có thể kiểm soát tốc độ một cách an toàn và chính xác, ngay cả khi đối mặt với những đoạn đường dốc nguy hiểm hay những khúc cua gắt. Hệ thống phanh này được thiết kế đặc biệt để tăng cường khả năng kiểm soát, đảm bảo rằng người lái luôn nắm quyền kiểm soát trên bất kỳ địa hình nào. Trục xe đạp ổ trục cassette cùng trục trung tâm tích hợp vòng bi tạo nên sự vận hành mượt mà trong suốt hành trình. Mỗi chi tiết được sản xuất từ những vật liệu chất lượng cao, đảm bảo độ bền lâu dài và hiệu suất vận hành ổn định trong điều kiện khắc nghiệt nhất. Với hệ thống phanh đĩa cơ, người lái có thể kiểm soát tốc độ một cách.",
+        "Color": [
+            {
+                "id": 83,
+                "color": "silver"
+            },
+            {
+                "id": 84,
+                "color": "black"
+            },
+            {
+                "id": 85,
+                "color": "grey"
+            }
+        ],
         "img": [
             "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham1.png",
             "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham2.png",

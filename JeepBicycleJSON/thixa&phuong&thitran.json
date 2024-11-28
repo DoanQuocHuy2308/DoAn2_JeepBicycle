@@ -1,0 +1,113 @@
+{
+    "1": [
+      { "id": 1, "name": "Phường Phúc Xá" },
+      { "id": 2, "name": "Phường Trúc Bạch" },
+      { "id": 3, "name": "Phường Cống Vị" }
+    ],
+    "2": [
+      { "id": 1, "name": "Phường Hàng Bạc" },
+      { "id": 2, "name": "Phường Hàng Đào" },
+      { "id": 3, "name": "Phường Chương Dương" }
+    ],
+    "3": [
+      { "id": 1, "name": "Phường Quảng An" },
+      { "id": 2, "name": "Phường Nhật Tân" },
+      { "id": 3, "name": "Phường Tây Hồ" }
+    ],
+    "4": [
+      { "id": 1, "name": "Phường Gia Thụy" },
+      { "id": 2, "name": "Phường Bồ Đề" },
+      { "id": 3, "name": "Phường Cự Khối" }
+    ],
+    "5": [
+      { "id": 1, "name": "Phường Dịch Vọng" },
+      { "id": 2, "name": "Phường Mai Dịch" },
+      { "id": 3, "name": "Phường Cầu Giấy" }
+    ],
+    "6": [
+      { "id": 1, "name": "Phường Trung Liệt" },
+      { "id": 2, "name": "Phường Thịnh Quang" },
+      { "id": 3, "name": "Phường Kim Liên" }
+    ],
+    "7": [
+      { "id": 1, "name": "Phường Bạch Mai" },
+      { "id": 2, "name": "Phường Phố Huế" },
+      { "id": 3, "name": "Phường Đồng Nhân" }
+    ],
+    "8": [
+      { "id": 1, "name": "Phường Trần Phú" },
+      { "id": 2, "name": "Phường Mai Động" },
+      { "id": 3, "name": "Phường Định Công" }
+    ],
+    "9": [
+      { "id": 1, "name": "Phường Thanh Xuân Bắc" },
+      { "id": 2, "name": "Phường Hạ Đình" },
+      { "id": 3, "name": "Phường Khương Đình" }
+    ],
+    "10": [
+      { "id": 1, "name": "Phường Mỹ Đình 1" },
+      { "id": 2, "name": "Phường Mỹ Đình 2" },
+      { "id": 3, "name": "Phường Phú Đô" }
+    ],
+    "11": [
+      { "id": 1, "name": "Phường Cổ Nhuế 1" },
+      { "id": 2, "name": "Phường Xuân Tảo" },
+      { "id": 3, "name": "Phường Liên Mạc" }
+    ],
+    "12": [
+      { "id": 1, "name": "Phường Lê Lợi" },
+      { "id": 2, "name": "Phường Quang Trung" },
+      { "id": 3, "name": "Phường Sơn Lộc" }
+    ],
+    "13": [
+      { "id": 1, "name": "Xã Bắc Sơn" },
+      { "id": 2, "name": "Xã Minh Trí" },
+      { "id": 3, "name": "Xã Tân Dân" }
+    ],
+    "14": [
+      { "id": 1, "name": "Xã Mê Linh" },
+      { "id": 2, "name": "Xã Tiến Thắng" },
+      { "id": 3, "name": "Xã Vạn Yên" }
+    ],
+    "15": [
+      { "id": 1, "name": "Xã Uy Nỗ" },
+      { "id": 2, "name": "Xã Xuân Nộn" },
+      { "id": 3, "name": "Xã Nguyên Khê" }
+    ],
+    "16": [
+      { "id": 1, "name": "Xã Dương Xá" },
+      { "id": 2, "name": "Xã Phù Đổng" },
+      { "id": 3, "name": "Xã Cổ Bi" }
+    ],
+    "17": [
+      { "id": 1, "name": "Xã Yên Trung" },
+      { "id": 2, "name": "Xã Thạch Hòa" },
+      { "id": 3, "name": "Xã Tiến Xuân" }
+    ],
+    "18": [
+      { "id": 1, "name": "Xã Phú Nghĩa" },
+      { "id": 2, "name": "Xã Tốt Động" },
+      { "id": 3, "name": "Xã Hòa Sơn" }
+    ],
+    "19": [
+      { "id": 1, "name": "Xã Ba Trại" },
+      { "id": 2, "name": "Xã Minh Quang" },
+      { "id": 3, "name": "Xã Cổ Đông" }
+    ],
+    "20": [
+      { "id": 1, "name": "Xã Phú Túc" },
+      { "id": 2, "name": "Xã Hồng Minh" },
+      { "id": 3, "name": "Xã Nam Phong" }
+    ],
+    "21": [
+      { "id": 1, "name": "Xã Thống Nhất" },
+      { "id": 2, "name": "Xã Tô Hiệu" },
+      { "id": 3, "name": "Xã Ninh Sở" }
+    ],
+    "22": [
+      { "id": 1, "name": "Xã An Mỹ" },
+      { "id": 2, "name": "Xã Đại Nghĩa" },
+      { "id": 3, "name": "Xã Tế Tiêu" }
+    ]
+  }
+  

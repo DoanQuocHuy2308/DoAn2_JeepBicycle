@@ -25,6 +25,7 @@
     <script src="../JeepbicycleJS/TrangChu.js" defer></script>
     <script src="../JeepbicycleJS/Search.js" defer></script>
     <script src="../JeepbicycleJS/GioHang.js" defer></script>
+    <script src="/JeepbicycleJS/ChiTietSanPham.js" defer></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
@@ -207,58 +208,46 @@
       <form class="container d-flex flex-column align-items-center justify-content-center mt-4">
         <div class="search-container d-flex flex-column align-items-center w-100">
           <div class="function-search d-flex w-50 mb-3">
-            <input type="text" class="form-control" placeholder="Tìm kiếm..." />
-            <button class="btn btn-search">
+            <input type="text" class="form-control" id="valueProduct" placeholder="Tìm kiếm..." />
+            <button class="btn btn-search" id="btn-searchProducts">
               <i class="fa-solid fa-search"></i>
             </button>
           </div>
-          <div class="search-product border rounded shadow-sm p-2 w-75">
-            <div class="result-item d-flex align-items-center py-2">
-              <img
-                alt="Image of a mountain bike for kids"
-                height="50"
-                src="https://storage.googleapis.com/a1aa/image/IqUyojlNjLbaL18ljFselnc9AiUjpy9sS33dPDhV8VWsKr3JA.jpg"
-                width="50"
-                class="rounded"
-              />
-              <div class="item-info flex-grow-1 ms-2">
-                Xe đạp địa hình, trẻ em JEEP J10 – Phanh đĩa cơ, Bánh 20 inch – 2024
-              </div>
-              <div class="item-price fw-bold">4,950,000₫</div>
-            </div>
-            <div class="result-item d-flex align-items-center py-2">
-              <img
-                alt="Image of a city bike"
-                height="50"
-                src="https://storage.googleapis.com/a1aa/image/biTCFp64W97xClR6OoaCVgsmphfNdW9BTggs0XkqofFZVWvTA.jpg"
-                width="50"
-                class="rounded"
-              />
-              <div class="item-info flex-grow-1 ms-2">
-                Xe đạp đường phố JEEP C200 – Phanh đĩa, Bánh 700C – 2024
-              </div>
-              <div class="item-price fw-bold">
-                <del class="text-muted">6,600,000₫</del> 4,990,000₫
-              </div>
-            </div>
+          <div class="search-product border rounded shadow-sm p-2 w-75"  id="dataProducts">
             
           </div>
         </div>
       </form>      
     </div>
-    <!-- -------------------------- -->
-    <div class="cart-container" id="cartContainer">
+    <!-- --------------------------============================================================-->
+    <div class="cart-container justify-content-center" id="cartContainer">
       <div class="cart-header">
-        <h1>GIỎ HÀNG</h1>
         <span class="close-btn" id="closeCartBtn">&times;</span>
       </div>
-      <div class="cart-body">
+      <h1>GIỎ HÀNG</h1>
+      <div class="cart-body" style="display: none">
         <i class="fas fa-shopping-bag empty-cart-icon"></i>
         <p>Chưa có sản phẩm trong giỏ hàng.</p>
         <a href="" class="return">QUAY TRỞ LẠI CỬA HÀNG</a>
       </div>
+      <!-- =================================================================================================== -->
+      <div class="cart-product">
+        <div class="cart-frame">
+          <div class="item-product" id="item-product">
+            
+          </div>
+          <div class="cart-summary">
+            <div class="total-group">
+              <span> Tổng số phụ: </span>
+              <span class="total">0</span>
+            </div>
+            <button class="btn btn-danger" id="next-giohang">XEM GIỎ HÀNG</button>
+            <button class="btn btn-checkout" id="pay">THANH TOÁN</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- ============================== -->
+    <!-- ============================== ======================================================-->
     <section class="container-fluid">
       <div class="hero-text">
         <h1>Về chúng tôi</h1>

@@ -376,13 +376,14 @@ body {
   box-shadow: none;
 }
 .search-product {
-  background-color: #fff;
   overflow-y: auto;
   max-height: 300px;
   border-radius: 20px;
 }
 
 .result-item {
+  border: 1px solid #ddd;
+  background-color: #fff;
   gap: 10px;
 }
 
@@ -440,7 +441,7 @@ body {
   width: 100%;
   display: flex;
   gap: 10px;
-  justify-content: space-between;
+  justify-content: center;
 
 }
 .listproduct-img img{
@@ -507,18 +508,6 @@ body {
 .product-details li {
     margin-bottom: 10px;
 }
-.function-color .delete-color{
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
-    height: 30px;
-    width: 30px;
-    background-color: #00000000;
-    border: 1px solid black;
-    border-radius: 50%;
-}
 .color-options {
     display: flex;
     gap: 10px;
@@ -531,19 +520,23 @@ body {
     border: 1px solid #ccc;
     cursor: pointer;
 }
+
 .color-option.selected {
     border: 2px solid red;
 }
 
-.color1 {
-    background-color: white;
+.delete-color{
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  font-size: 14px;
 }
-.color2 {
-    background-color: gray;
-}
-.color3 {
-    background-color: black;
-}
+
 .quantity-control {
     display: flex;
     align-items: center;

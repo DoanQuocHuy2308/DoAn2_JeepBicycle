@@ -44,22 +44,21 @@ $(document).ready(function () {
             });
         }
 
-        //đổi tiền
+        // Hàm chuyển đổi giá trị tiền
         function doitien(priceString) {
             var cleanString = priceString.replace(/[^0-9]/g, "");
             var number = parseFloat(cleanString);
             return isNaN(number) ? 0 : number;
         }
-        
 
         var Products = data.filter(function (product) {
             return arrayID.includes(product.id);
         });
         displayProducts(Products);
 
-        //tìm kiếm sản phẩm
-        $('#btn-searchProducts').on('click', function () {
-            var searchValue = $('#searchProducts').val().toLowerCase();
+        // Tìm kiếm sản phẩm (ngay lập tức khi gõ)
+        $('#searchProducts').on('keyup', function () {
+            var searchValue = $(this).val().toLowerCase();
             var filteredProducts = data.filter(function (product) {
                 return (
                     arrayID.includes(product.id) &&
@@ -67,11 +66,10 @@ $(document).ready(function () {
                     product.Name.toLowerCase().includes(searchValue)
                 );
             });
-
             displayProducts(filteredProducts);
         });
 
-        //lọc sản phẩm
+        // Lọc sản phẩm theo giá
         $('#filterProducts').on('change', function () {
             var sortType = $(this).val();
             let sortProducts = [...Products]; 
@@ -87,6 +85,5 @@ $(document).ready(function () {
             }
             displayProducts(sortProducts);
         });
-
     });
 });

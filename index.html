@@ -24,6 +24,7 @@
     <script src="./JeepbicycleJS/ThuVienJquery.js" defer></script>
     <script src="JeepbicycleJS/TrangChu.js" defer></script>
     <script src="JeepbicycleJS/Search.js" defer></script>
+    <script src="JeepbicycleJS/ChiTietSanPham.js" defer></script>
     <script src="JeepbicycleJS/GioHang.js" defer></script>
 
     <!-- CSS -->
@@ -211,41 +212,13 @@
           class="search-container d-flex flex-column align-items-center w-100"
         >
           <div class="function-search d-flex w-50 mb-3">
-            <input type="text" class="form-control" placeholder="Tìm kiếm..." />
-            <button class="btn btn-search">
+            <input type="text" class="form-control" id="valueProduct" placeholder="Tìm kiếm..." />
+            <button class="btn btn-search" id="btn-searchProducts">
               <i class="fa-solid fa-search"></i>
             </button>
           </div>
-          <div class="search-product border rounded shadow-sm p-2 w-75">
-            <div class="result-item d-flex align-items-center py-2">
-              <img
-                alt="Image of a mountain bike for kids"
-                height="50"
-                src="https://storage.googleapis.com/a1aa/image/IqUyojlNjLbaL18ljFselnc9AiUjpy9sS33dPDhV8VWsKr3JA.jpg"
-                width="50"
-                class="rounded"
-              />
-              <div class="item-info flex-grow-1 ms-2">
-                Xe đạp địa hình, trẻ em JEEP J10 – Phanh đĩa cơ, Bánh 20 inch –
-                2024
-              </div>
-              <div class="item-price fw-bold">4,950,000₫</div>
-            </div>
-            <div class="result-item d-flex align-items-center py-2">
-              <img
-                alt="Image of a city bike"
-                height="50"
-                src="https://storage.googleapis.com/a1aa/image/biTCFp64W97xClR6OoaCVgsmphfNdW9BTggs0XkqofFZVWvTA.jpg"
-                width="50"
-                class="rounded"
-              />
-              <div class="item-info flex-grow-1 ms-2">
-                Xe đạp đường phố JEEP C200 – Phanh đĩa, Bánh 700C – 2024
-              </div>
-              <div class="item-price fw-bold">
-                <del class="text-muted">6,600,000₫</del> 4,990,000₫
-              </div>
-            </div>
+          <div class="search-product border rounded shadow-sm p-2 w-75" id="dataProducts">
+            
           </div>
         </div>
       </form>
