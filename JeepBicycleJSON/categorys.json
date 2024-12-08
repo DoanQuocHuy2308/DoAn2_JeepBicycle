@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Xe đạp leo núi / MTB"
+    },
+    {
+        "id":2,
+        "name":"Xe đạp trẻ em / Kids bikes"
+    },
+    {
+        "id":3,
+        "name":"Xe đạp hỗn hợp / Hybrid Bike"
+    },
+    {
+        "id":4,
+        "name":"Xe đường trường / Road Bikes"
+    },
+    {
+        "id":5,
+        "name":"Xe đạp phố / City Bikes"
+    },
+    {
+        "id":6,
+        "name":"Xe đạp điện / Electric Bikes"
+    }
+]

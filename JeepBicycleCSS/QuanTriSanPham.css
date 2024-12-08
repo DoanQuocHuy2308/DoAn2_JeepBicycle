@@ -1,10 +1,13 @@
 body {
   height: 100%;
-
 }
 
 .info-contact p {
   padding: 0 10px;
+}
+
+.navbar {
+  background-color: rgb(38, 36, 36);
 }
 
 .navbar ul {
@@ -35,7 +38,7 @@ body {
 
 .btn-account {
   color: #fff;
-  width: 120px;
+  width: 200px;
   border-bottom: 2px solid #fb595e;
 }
 
@@ -83,9 +86,9 @@ body {
   position: absolute;
   background-color: #fff;
   margin-top: 5px;
-  border-radius: 10px;
-  width: 120px;
-  border: 2px solid black;
+  border-radius: 5px;
+  width: 200px;
+  border: 1px solid black;
   box-shadow: 5px 5px 5px rgba(62, 59, 59, 0.792);
   color: black;
   font-size: 16px;
@@ -101,16 +104,66 @@ body {
 .logout-btn:focus {
   box-shadow: none;
 }
+
 .function {
   padding: 0;
-  height: 100vh;
-  min-height: 100%;
+  height: 88vh;
   border-right: 2px solid #ccc;
-  background-color: transparent;
-  background-image: url("../ImageJeepBicycle/245f4fedc069f03cef189766696daa06.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: rgb(38, 36, 36);
 }
+
+.Users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 10px 0;
+  width: 100%;
+  background-image: url(/ImageJeepBicycle/Admin/cover-sidebar-user.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.Users::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.Users:hover::after {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.imgUser {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.imgUser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+
 
 .function .function-item .active {
   border: 2px solid #fb4830;
@@ -168,18 +221,22 @@ body {
   height: 100vh;
   overflow-y: auto;
 }
-.info-product form{
+
+.info-product form {
   margin: 20px;
 }
+
 .info-product label {
   color: #fff;
 }
-.info-product .close{
+
+.info-product .close {
   width: 100%;
   text-align: right;
   margin-bottom: 20px;
 }
-.info-product .btn-close{
+
+.info-product .btn-close {
   background-color: transparent;
   color: #fff !important;
   border: none;
@@ -187,22 +244,28 @@ body {
   font-weight: 700;
   padding: 10px 20px;
 }
+
 .info-product input {
   height: 40px;
   width: 100%;
-  color: black !important;;
+  color: black !important;
+  ;
 }
-.info-product input:focus{
+
+.info-product input:focus {
   box-shadow: none;
 }
-.info-product input[type="number"]{
+
+.info-product input[type="number"] {
   width: 50%;
 }
-.function-add button{
+
+.function-add button {
   width: 200px;
   margin: 0 20px;
 }
-.function-add .save-add{
+
+.function-add .save-add {
   background-color: #fb4830;
   color: white;
   border: none;
@@ -212,13 +275,14 @@ body {
   height: 50px;
   border-radius: 20px;
 }
-.function-add .save-add:hover{
+
+.function-add .save-add:hover {
   background-color: #fff;
   border: 3px solid #fb4830;
   color: #fb4830;
 }
 
-.function-add .reset{
+.function-add .reset {
   background-color: black;
   color: white;
   border: none;
@@ -228,55 +292,44 @@ body {
   height: 50px;
   border-radius: 20px;
 }
-.function-add .reset:hover{
+
+.function-add .reset:hover {
   background-color: #fff;
   border: 3px solid black;
   color: black;
 }
 
-
-.function-title {
-  background-color: #cccccc88;
-  color: black;
-  height: 50px;
-  border-bottom: 2px solid #fb4830;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.function-title h5 {
-  font-size: 30px;
-  font-weight: 700;
-  font-style: italic;
-}
-.function-search{
+.function-search {
   height: 40px;
   border: 1px solid silver;
   border-radius: 20px;
 }
-.function-search input{
+
+.function-search input {
   border-radius: 20px 0 0 20px;
   height: 100%;
   width: 250px;
 }
-.function-search button{
+
+.function-search button {
   border: 2px solid black;
   height: 100%;
   width: 60px;
   border-radius: 0 20px 20px 0;
 }
 
-.function-search input:focus{
+.function-search input:focus {
   box-shadow: none;
 }
-.function-search button:focus{
-  box-shadow: none!important;
+
+.function-search button:focus {
+  box-shadow: none !important;
   outline: none;
 }
-.product-data{
+
+.product-data {
   width: 100%;
-  height: 82vh;
+  height: 78vh;
   overflow-y: auto !important;
   overflow: hidden;
 }

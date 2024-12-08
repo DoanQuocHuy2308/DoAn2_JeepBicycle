@@ -31,13 +31,9 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham7.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham1/sanpham3.png"
         ]
     },
     {
@@ -59,14 +55,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham2/sanpham8.jpg"
         ]
     },
     {
@@ -88,14 +84,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham3/sanpham8.jpg"
         ]
     },
     {
@@ -117,14 +113,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "green",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham4/sanpham8.jpg"
         ]
     },
     {
@@ -159,14 +155,9 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham5/sanpham3.png"
         ]
     },
     {
@@ -188,14 +179,14 @@
         "PhuHop": "từ 1m4-1m8",
         "Color": "yellow",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham6/sanpham8.jpg"
         ]
     },
     {
@@ -217,14 +208,14 @@
         "PhuHop": "từ 1m4-1m8",
         "Color": "blue",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham7/sanpham8.jpg"
         ]
     },
     {
@@ -246,13 +237,13 @@
         "PhuHop": "từ 1m4-1m8",
         "Color": "green",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham7.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham8/sanpham7.jpg"
         ]
     },
     {
@@ -295,16 +286,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham10.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham4.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham5.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham6.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham8.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham4.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham5.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham9/sanpham6.png"
         ]
     },
     {
@@ -326,10 +313,10 @@
         "PhuHop": "từ 1m45-1m75",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham10/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham10/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham10/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham10/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham10/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham10/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham10/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham10/sanpham4.jpg"
         ]
     },
     {
@@ -351,10 +338,10 @@
         "PhuHop": "từ 1m45-1m75",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham11/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham11/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham11/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham11/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham11/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham11/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham11/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham11/sanpham4.jpg"
         ]
     },
     {
@@ -376,10 +363,10 @@
         "PhuHop": "từ 1m45-1m75",
         "Color": "blue",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham12/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham12/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham12/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham12/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham12/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham12/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham12/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham12/sanpham4.jpg"
         ]
     },
     {
@@ -401,10 +388,10 @@
         "PhuHop": "từ 1m45-1m75",
         "Color": "green",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham13/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham13/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham13/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham13/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham13/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham13/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham13/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham13/sanpham4.jpg"
         ]
     },
     {
@@ -426,10 +413,10 @@
         "PhuHop": "từ 1m45-1m75",
         "Color": "aqua",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham14/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham14/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham14/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham14/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham14/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham14/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham14/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham14/sanpham4.jpg"
         ]
     },
     {
@@ -472,11 +459,11 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham15/sanpham5.jpg"
         ]
     },
     {
@@ -498,17 +485,17 @@
         "PhuHop": "từ 1m2-1m4",
         "Color": "orange",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham10.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham11.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham10.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham11.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham8.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham16/sanpham9.jpg"
         ]
     },
     {
@@ -530,17 +517,17 @@
         "PhuHop": "từ 1m2-1m4",
         "Color": "pink",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham10.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham11.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham10.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham11.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham8.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham17/sanpham9.jpg"
         ]
     },
     {
@@ -562,17 +549,17 @@
         "PhuHop": "từ 1m2-1m4",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham10.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham11.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham10.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham11.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham8.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham18/sanpham9.jpg"
         ]
     },
     {
@@ -594,17 +581,17 @@
         "PhuHop": "từ 1m2-1m4",
         "Color": "blue",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham10.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham11.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham10.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham11.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham8.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham19/sanpham9.jpg"
         ]
     },
     {
@@ -626,16 +613,16 @@
         "PhuHop": "từ 1m2-1m4",
         "Color": "aqua",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham10.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham10.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham8.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham20/sanpham9.jpg"
         ]
     },
     {
@@ -678,11 +665,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham4.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham21/sanpham5.png"
+            
         ]
     },
     {
@@ -704,12 +692,12 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham6.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham22/sanpham6.jpg"
         ]
     },
     {
@@ -731,12 +719,12 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham6.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham23/sanpham6.jpg"
         ]
     },
     {
@@ -758,14 +746,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "pink",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham24/sanpham8.jpg"
         ]
     },
     {
@@ -787,11 +775,11 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "purple",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham25/sanpham5.jpg"
         ]
     },
     {
@@ -813,14 +801,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham26/sanpham8.jpg"
         ]
     },
     {
@@ -863,15 +851,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham4.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham5.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham6.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham4.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham5.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham27/sanpham6.png"
         ]
     },
     {
@@ -893,10 +878,10 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham28/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham28/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham28/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham28/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham28/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham28/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham28/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham28/sanpham4.jpg"
         ]
     },
     {
@@ -918,10 +903,10 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham29/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham29/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham29/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham29/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham29/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham29/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham29/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham29/sanpham4.jpg"
         ]
     },
     {
@@ -943,10 +928,10 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham30/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham30/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham30/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham30/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham30/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham30/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham30/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham30/sanpham4.jpg"
         ]
     },
     {
@@ -968,10 +953,10 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "blue",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham31/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham31/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham31/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham31/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham31/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham31/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham31/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham31/sanpham4.jpg"
         ]
     },
     {
@@ -993,10 +978,10 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "green",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham32/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham32/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham32/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham32/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham32/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham32/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham32/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham32/sanpham4.jpg"
         ]
     },
     {
@@ -1039,15 +1024,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham4.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham5.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham6.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham4.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham5.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham33/sanpham6.png"
         ]
     },
     {
@@ -1069,10 +1051,10 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham34/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham34/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham34/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham34/sanpham4.png"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham34/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham34/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham34/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham34/sanpham4.png"
         ]
     },
     {
@@ -1094,10 +1076,10 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham35/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham35/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham35/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham35/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham35/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham35/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham35/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham35/sanpham4.jpg"
         ]
     },
     {
@@ -1119,10 +1101,10 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham36/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham36/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham36/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham36/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham36/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham36/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham36/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham36/sanpham4.jpg"
         ]
     },
     {
@@ -1144,10 +1126,10 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "grey",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham37/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham37/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham37/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham37/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham37/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham37/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham37/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham37/sanpham4.jpg"
         ]
     },
     {
@@ -1169,10 +1151,10 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "green",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham38/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham38/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham38/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham38/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham38/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham38/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham38/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham38/sanpham4.jpg"
         ]
     },
     {
@@ -1215,15 +1197,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham4.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham5.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham6.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham4.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham5.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham39/sanpham6.png"
         ]
     },
     {
@@ -1245,10 +1224,10 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham40/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham40/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham40/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham40/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham40/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham40/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham40/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham40/sanpham4.jpg"
         ]
     },
     {
@@ -1270,11 +1249,11 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "pink",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham41/sanpham5.jpg"
         ]
     },
     {
@@ -1296,11 +1275,11 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "purple",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham42/sanpham5.jpg"
         ]
     },
     {
@@ -1322,11 +1301,11 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham43/sanpham5.jpg"
         ]
     },
     {
@@ -1348,10 +1327,10 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "green",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham44/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham44/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham44/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham44/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham44/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham44/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham44/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham44/sanpham4.jpg"
         ]
     },
     {
@@ -1382,14 +1361,9 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham45/sanpham3.jpg"
         ]
     },
     {
@@ -1411,13 +1385,13 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham7.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham46/sanpham7.jpg"
         ]
     },
     {
@@ -1439,14 +1413,14 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "grey",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham47/sanpham8.jpg"
         ]
     },
     {
@@ -1485,17 +1459,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham10.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham11.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham48/sanpham5.jpg"
+
         ]
     },
     {
@@ -1517,13 +1486,13 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham7.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham49/sanpham7.jpg"
         ]
     },
     {
@@ -1545,13 +1514,13 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham7.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham50/sanpham7.jpg"
         ]
     },
     {
@@ -1573,13 +1542,13 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "pink",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham7.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham51/sanpham7.jpg"
         ]
     },
     {
@@ -1601,13 +1570,13 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham7.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham52/sanpham7.jpg"
         ]
     },
     {
@@ -1642,14 +1611,10 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham4.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham53/sanpham4.png"
         ]
     },
     {
@@ -1671,14 +1636,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham54/sanpham8.jpg"
         ]
     },
     {
@@ -1700,14 +1665,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham55/sanpham8.jpg"
         ]
     },
     {
@@ -1729,14 +1694,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "yellow",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham56/sanpham8.jpg"
         ]
     },
     {
@@ -1767,8 +1732,8 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham57/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham57/sanpham2.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham57/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham57/sanpham2.jpg"
         ]
     },
     {
@@ -1790,14 +1755,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham58/sanpham8.jpg"
         ]
     },
     {
@@ -1819,14 +1784,14 @@
         "PhuHop": "từ 1m45-1m85",
         "Color": "blue",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham59/sanpham8.jpg"
         ]
     },
     {
@@ -1861,9 +1826,9 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham60/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham60/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham60/sanpham3.png"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham60/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham60/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham60/sanpham3.png"
         ]
     },
     {
@@ -1885,14 +1850,14 @@
         "PhuHop": "từ 1m4-1m8",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham61/sanpham8.jpg"
         ]
     },
     {
@@ -1914,14 +1879,14 @@
         "PhuHop": "từ 1m4-1m8",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham62/sanpham8.jpg"
         ]
     },
     {
@@ -1943,14 +1908,14 @@
         "PhuHop": "từ 1m4-1m8",
         "Color": "green",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham63/sanpham8.jpg"
         ]
     },
     {
@@ -1993,16 +1958,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham10.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham4.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham5.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham6.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham4.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham5.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham64/sanpham6.png"
         ]
     },
     {
@@ -2024,10 +1985,10 @@
         "PhuHop": "phù hợp từ 1m4-1m75",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham65/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham65/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham65/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham65/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham65/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham65/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham65/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham65/sanpham4.jpg"
         ]
     },
     {
@@ -2049,10 +2010,10 @@
         "PhuHop": "phù hợp từ 1m4-1m75",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham66/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham66/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham66/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham66/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham66/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham66/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham66/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham66/sanpham4.jpg"
         ]
     },
     {
@@ -2074,10 +2035,10 @@
         "PhuHop": "phù hợp từ 1m4-1m75",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham67/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham67/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham67/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham67/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham67/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham67/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham67/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham67/sanpham4.jpg"
         ]
     },
     {
@@ -2099,10 +2060,10 @@
         "PhuHop": "phù hợp từ 1m4-1m75",
         "Color": "aqua",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham68/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham68/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham68/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham68/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham68/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham68/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham68/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham68/sanpham4.jpg"
         ]
     },
     {
@@ -2124,10 +2085,10 @@
         "PhuHop": "phù hợp từ 1m4-1m75",
         "Color": "blue",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham69/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham69/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham69/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham69/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham69/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham69/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham69/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham69/sanpham4.jpg"
         ]
     },
     {
@@ -2170,15 +2131,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham4.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham5.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham6.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham4.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham5.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham70/sanpham6.png"
         ]
     },
     {
@@ -2200,12 +2158,12 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "orange",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham6.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham71/sanpham6.jpg"
         ]
     },
     {
@@ -2227,10 +2185,10 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham72/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham72/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham72/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham72/sanpham4.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham72/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham72/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham72/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham72/sanpham4.jpg"
         ]
     },
     {
@@ -2252,12 +2210,12 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham6.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham73/sanpham6.jpg"
         ]
     },
     {
@@ -2279,12 +2237,12 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham6.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham74/sanpham6.jpg"
         ]
     },
     {
@@ -2306,12 +2264,12 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "green",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham6.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham75/sanpham6.jpg"
         ]
     },
     {
@@ -2354,15 +2312,12 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham4.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham5.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham6.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham8.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham9.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham3.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham4.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham5.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham76/sanpham6.png"
         ]
     },
     {
@@ -2384,11 +2339,11 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham77/sanpham5.jpg"
         ]
     },
     {
@@ -2410,11 +2365,11 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "orange",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham78/sanpham5.jpg"
         ]
     },
     {
@@ -2436,11 +2391,11 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham79/sanpham5.jpg"
         ]
     },
     {
@@ -2462,11 +2417,11 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "white",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham80/sanpham5.jpg"
         ]
     },
     {
@@ -2488,11 +2443,11 @@
         "PhuHop": "từ 1m55-1m85",
         "Color": "grey",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham5.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham81/sanpham5.jpg"
         ]
     },
     {
@@ -2527,13 +2482,9 @@
             }
         ],
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham1.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham2.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham3.png",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham7.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham1.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham2.png",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham82/sanpham3.png"
         ]
     },
     {
@@ -2555,14 +2506,14 @@
         "PhuHop": "từ 1m45-1m75",
         "Color": "silver",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham83/sanpham8.jpg"
         ]
     },
     {
@@ -2584,14 +2535,14 @@
         "PhuHop": "từ 1m45-1m75",
         "Color": "black",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham84/sanpham8.jpg"
         ]
     },
     {
@@ -2613,14 +2564,14 @@
         "PhuHop": "từ 1m45-1m75",
         "Color": "grey",
         "img": [
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham1.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham2.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham3.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham4.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham5.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham6.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham7.jpg",
-            "../ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham8.jpg"
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham1.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham2.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham3.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham4.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham5.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham6.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham7.jpg",
+            "/ImageJeepBicycle/ChiTiet/chitietsanpham85/sanpham8.jpg"
         ]
     }
 ]

@@ -18,6 +18,7 @@
   <!-- Custom JavaScript -->
   <script src="../JeepbicycleJS/ThuVienJquery.js" defer></script>
   <script src="../JeepbicycleJS/Admin.js" defer></script>
+  <script src="/JeepbicycleJS/QuanTriSanPham.js" defer></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
@@ -26,7 +27,7 @@
 </head>
 
 <body>
-  <nav class="navbar container-fluid navbar-expand-lg bg-dark">
+  <nav class="navbar container-fluid navbar-expand-lg">
     <div class="container-fluid p-0">
       <a class="navbar-brand" href="#">
         <img src="../ImageJeepBicycle/SanPham01.png" height="60px" alt="Logo" />
@@ -68,8 +69,16 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2 function">
+        <div class="Users">
+          <div class="infoUser">
+            <div class="imgUser">
+              <img src="" id="img" alt="User" />
+            </div>
+          </div>
+        </div>
         <div class="list-group function-item text-left">
-          <a href="http://127.0.0.1:5500/JeepBicycleHTML/Dashboard.html" class="list-group-item list-group-item-action">
+          <a href="http://127.0.0.1:5500/JeepBicycleHTML/Dashboard.html"
+            class="list-group-item list-group-item-action">
             <span><i class="fa-solid fa-gauge-high mr-2"></i> Dashboard</span>
           </a>
           <a class="list-group-item list-group-item-action list-product active" id="list-product">
@@ -98,17 +107,19 @@
                   href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriTaiKhoan.html">Quản Lý Tài Khoản</a>
               </li>
               <li>
-                <a class="list-group-item list-group-item-action" href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriNguoiDung.html">Quản Lý Nhân Viên</a>
+                <a class="list-group-item list-group-item-action"
+                  href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriNguoiDung.html">Quản Lý Nhân Viên</a>
               </li>
             </ul>
           </div>
           <a href="#" class="list-group-item list-group-item-action">
-            <span><i class="fa-regular fa-comment mr-2"></i> Quản Lý Nội
-              Dung</span>
+            <span><i class="fa-regular fa-comment mr-2"></i> Quản Lý Nội Dung</span>
           </a>
           <a href="#" class="list-group-item list-group-item-action">
-            <span><i class="fa-regular fa-newspaper mr-2"></i> Quản Lý Tin
-              Tức</span>
+            <span><i class="fa-regular fa-newspaper mr-2"></i> Quản Lý Tin Tức</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <span><i class="fa-solid fa-chart-pie"></i> Báo Cáo & Thống Kê</span>
           </a>
           <a href="#" class="list-group-item list-group-item-action">
             <span><i class="fa-solid fa-gear mr-2"></i> Thông Tin Cá Nhân</span>
@@ -119,9 +130,6 @@
         </div>
       </div>
       <div class="col-md-10 main" id="main">
-        <div class="function-title">
-          <h5>Quản Lý Sản Phẩm</h5>
-        </div>
         <div class="main-content">
           <div class="function-product d-flex justify-content-between p-3">
             <div class="function-search d-flex">
@@ -168,7 +176,7 @@
                 <input type="file" id="HinhAnhSanPham" class="form-control">
               </div>
               <div class="form-group function-add text-center mt-3">
-                <button type="submit" class="btn save-add" id="add">Lưu</button>
+                <button type="submit" class="btn save-add" id="add">Thêm</button>
                 <button type="reset" class="btn reset" id="reset">Reset</button>
               </div>
             </form>
@@ -194,29 +202,7 @@
                 </tr>
               </thead>
               <tbody id="product-table">
-                <td>J01</td>
-                <td>
-                  Xe đạp địa hình JEEP METEOR – Phanh đĩa cơ, Bánh 26 inch –
-                  2024
-                </td>
-                <td>METEOR</td>
-                <td>M/L</td>
-                <td>7,190,000₫</td>
-                <td>1000</td>
-                <td>Xám</td>
-                <td>
-                  <img src="../ImageJeepBicycle/SanPham/SanPham08.png" alt="" class="product-img" />
-                </td>
-                <td>
-                  <button class="detail-product" id="detail-product"><i class="fa-regular fa-file-lines"></i></button>
-                </td>
-                <td>
-                  <button class="update-product" id="update-product"><i
-                      class="fa-regular fa-pen-to-square"></i></button>
-                </td>
-                <td>
-                  <button class="delete-product" id="delete-product"><i class="fa-solid fa-trash-can"></i></button>
-                </td>
+                
               </tbody>
             </table>
           </div>

@@ -40,6 +40,7 @@ body {
 }
 
 .navbar-nav .dropdown-item {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   color: #242424;
@@ -142,7 +143,7 @@ body {
 }
 
 .login-btn{
-  width: 160px;
+  width: 200px;
   color: #fb4830;
   font-size: 15px;
   font-weight: 700;
@@ -160,7 +161,7 @@ body {
   outline: none;
 }
 .btn-account{
-  width: 160px;
+  width: 200px;
   color: #fb4830;
   font-size: 15px;
   font-weight: 700;
@@ -177,23 +178,33 @@ body {
 }
 
 .logout{
+  width: 200px;
+  position: absolute;
   display: none;
   background-color: transparent;
 }
 
-.logout-btn{
-  position: absolute;
-  background-color: #fff;
-  margin-top: 5px;
-  border-radius: 10px;
-  width: 160px;
-  border: 2px solid black;
-  box-shadow: 5px 5px 5px rgba(62, 59, 59, 0.792);
-  color: black;
-  font-size: 16px;
-  font-weight: 600;
+.logout ul{
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
 }
-.logout-btn:hover{
+.logout ul li{
+  list-style-type: none;
+  width: 200px;
+  margin-top: 2px;
+  height: 40px;
+}
+.logout ul button{
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid silver;
+  width: 100%;
+  height: 100%;
+}
+.logout ul button:hover{
   color: #fb595e;
   border: 2px solid #fb595e;
 }
@@ -325,7 +336,7 @@ body {
   top: 0;
   height: 100%;
   background-color: #252525c0;
-  z-index: 3;
+  z-index: 4;
 }
 
 .search .close {
@@ -377,6 +388,8 @@ body {
 }
 .search-product {
   overflow-y: auto;
+  overflow-x: auto;
+  width: 100%;
   max-height: 300px;
   border-radius: 20px;
 }
@@ -385,13 +398,18 @@ body {
   border: 1px solid #ddd;
   background-color: #fff;
   gap: 10px;
+  padding: 0 10px;
+  color: #fb4830;
 }
 
 .result-item img {
   border-radius: 10px;
 }
-
-.result-item .item-price del {
+.result-item .item-oldprice{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.result-item .item-oldprice del {
   margin-right: 5px;
 }
 

@@ -8,31 +8,31 @@
   <script src="https://kit.fontawesome.com/3e2bcf7815.js" crossorigin="anonymous"></script>
 
   <!-- Load jQuery before Bootstrap JavaScript -->
-  <script src="../ThuVien/jquery.slim.min.js" defer></script>
-  <script src="../ThuVien/popper.min.js" defer></script>
+  <script src="/ThuVien/jquery.slim.min.js" defer></script>
+  <script src="/ThuVien/popper.min.js" defer></script>
 
   <!-- Bootstrap JavaScript -->
-  <script src="../bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
-  <script src="../bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="/bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
+  <script src="/bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js" defer></script>
 
   <!-- Custom JavaScript -->
-  <script src="../JeepbicycleJS/ThuVienJquery.js" defer></script>
-  <script src="../JeepbicycleJS/TrangChu.js" defer></script>
-  <script src="../JeepbicycleJS/ChiTietSanPham.js" defer></script>
-  <script src="../JeepbicycleJS/Search.js" defer></script>
-  <script src="../JeepbicycleJS/GioHang.js" defer></script>
+  <script src="/JeepbicycleJS/ThuVienJquery.js" defer></script>
+  <script src="/JeepbicycleJS/TrangChu.js" defer></script>
+  <script src="/JeepbicycleJS/ChiTietSanPham.js" defer></script>
+  <script src="/JeepbicycleJS/Search.js" defer></script>
+  <script src="/JeepbicycleJS/GioHang.js" defer></script>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="../JeepBicycleCSS/ChiTietSanPham.css" />
-  <link rel="shortcut icon" href="../cropped-favicon-1-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/bootstrap-4.6.2-dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/JeepBicycleCSS/ChiTietSanPham.css" />
+  <link rel="shortcut icon" href="/cropped-favicon-1-32x32.png" type="image/x-icon" />
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg nav-dad bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="../ImageJeepBicycle/SanPham01.png" width="195" alt="Logo" />
+        <img src="/ImageJeepBicycle/SanPham01.png" width="195" alt="Logo" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,27 +49,14 @@
               <a class="nav-link" href="http://127.0.0.1:5500/JeepBicycleHTML/GioiThieu.html">Giới thiệu</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html" id="navbarDropdown" role="button">Sản phẩm</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="#">Xe đạp phố / City bikes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Xe đường trường / Road bikes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Xe đạp leo núi / MTB</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Xe đạp hỗn hợp / Hybrid bikes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Xe đạp trẻ em / Kids bikes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Xe đạp điện / Electric bikes</a>
-                </li>
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html"
+                role="button"
+                >Sản phẩm</a
+              >
+              <ul class="dropdown-menu" id="categorys">
               </ul>
             </li>
             <li class="nav-item">
@@ -94,16 +81,16 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle icon-language" href="#" id="navbarDropdownLang" role="button"
                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="../ImageJeepBicycle/icon2.svg" class="icon-country" alt="Vietnam flag" />
+                <img src="/ImageJeepBicycle/icon2.svg" class="icon-country" alt="Vietnam flag" />
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownLang">
                 <li>
-                  <a class="dropdown-item" href="#"><img src="../ImageJeepBicycle/icon2.svg" class="icon-country"
+                  <a class="dropdown-item" href="#"><img src="/ImageJeepBicycle/icon2.svg" class="icon-country"
                       alt="Vietnam flag" />
                     Vietnamese</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"><img src="../ImageJeepBicycle/icon1.svg" class="icon-country"
+                  <a class="dropdown-item" href="#"><img src="/ImageJeepBicycle/icon1.svg" class="icon-country"
                       alt="English flag" />
                     English</a>
                 </li>
@@ -137,7 +124,7 @@
             <i class="fa-solid fa-search"></i>
           </button>
         </div>
-        <div class="search-product border rounded shadow-sm p-2 w-75" id="dataProducts">
+        <div class="search-product border rounded shadow-sm p-2" id="dataProducts">
         </div>
       </div>
     </form>
@@ -194,182 +181,24 @@
   </div>
   <div class="container content-product">
     <h2>Thông tin chi tiết</h2>
-    <div class="content">
-      <div class="row">
-        <h3>Biểu tượng cho sự hoàn hảo trong làng xe đạp leo núi</h3>
-        <p>
-          MTB PS-41, một tuyệt tác công nghệ từ thương hiệu nổi tiếng, đã vượt
-          qua mọi giới hạn và trở thành biểu tượng cho sự hoàn hảo trong làng
-          xe đạp leo núi. Với thiết kế đầy cá tính, phối hợp giữa màu đen
-          huyền bí, xanh thanh lịch và vàng đồng tỏa sáng, MTB PS-41 tạo nên
-          một dấu ấn khó phai trong lòng những người yêu thích đạp xe leo núi.
-          Mỗi đường nét trên chiếc xe này đều được chau chuốt tỉ mỉ, tạo nên
-          vẻ đẹp hút hồn từ cái nhìn đầu tiên. Các chi tiết được thiết kế tinh
-          tế, phản ánh sự chuyên nghiệp và tỉ mỉ trong quá trình sản xuất,
-          mang đến cho người sử dụng một trải nghiệm thú vị chưa từng có.
-        </p>
-        <img
-          alt="Mountain bike with a sleek design, featuring a combination of black, elegant blue, and shining gold colors."
-          height="400"
-          src="https://storage.googleapis.com/a1aa/image/e5aBGyf3VTjk0UXmSWnQpsKEDAgnCWKei6eYQBwbqZzxCr6OB.jpg"
-          width="800" />
-      </div>
-      <div class="row">
-        <h3>Thông số kỹ thuật vượt trội đáp ứng mọi nhu cầu người lái</h3>
-        <p>
-          Kích thước 26 inch vừa đủ để mang lại cảm giác vận hành linh hoạt
-          nhưng cũng đảm bảo sự ổn định trên những đoạn đường gồ ghề. Với 24
-          tốc độ, MTB PS-41 có khả năng đáp ứng mọi nhu cầu của người lái, từ
-          việc chinh phục những đoạn đường dốc cao đến những cung đường êm ái.
-          Không chỉ vậy, thiết kế của chiếc xe này còn tập trung vào sự thoải
-          mái và độ bền cao để hiệu suất và trải nghiệm lái. Từng chi tiết
-          trên xe đều được chăm chút, đảm bảo rằng người sử dụng có cảm giác
-          thoải mái và an toàn trong suốt hành trình của mình.
-        </p>
-        <img alt="Mountain bike with 26-inch wheels and 24-speed gears, designed for both rugged and smooth terrains."
-          height="400"
-          src="https://storage.googleapis.com/a1aa/image/2QkCGbq1DUpCBxFZA9VdMSH3O51SuCX7TUmwEj9gUT9Lsq7E.jpg"
-          width="800" />
-      </div>
-      <div class="row">
-        <h3>Khung xe cứng cáp, hệ thống giảm xóc và dẫn truyền hiệu quả</h3>
-        <p>
-          Không chỉ mang lại sự linh hoạt khi di chuyển, khung xe còn đảm bảo
-          độ bền tối ưu để chịu được những va đập mạnh mẽ trên những con đường
-          hiểm trở. Phuộc trước giảm xóc đầy ấn tượng, hệ thống dẫn truyền
-          EF500 hiệu quả giúp MTB PS-41 hoạt động trơn tru trong mọi tình
-          huống. Những cú rơi lắc mạnh mẽ trên địa hình khó khăn sẽ được hấp
-          thụ hoàn toàn, mang đến cho người lái trải nghiệm lái xe thoải mái
-          và êm ái. Hệ thống dẫn truyền tiên tiến cũng đảm bảo mọi chuyển động
-          của người lái sẽ được truyền đạt chính xác đến bánh xe, tối ưu hóa
-          sức mạnh và hiệu quả của mỗi cú đạp.
-        </p>
-        <img alt="Close-up of the bike's sturdy frame and advanced shock absorption system." height="400"
-          src="https://storage.googleapis.com/a1aa/image/2m7tQA71F1LiCtmfAIkls1KEdtGZglGb5q9CFfXiRLIwwquTA.jpg"
-          width="800" />
-      </div>
-      <div class="row">
-        <h3>Hệ thống phanh đĩa và trục trung tâm đảm bảo kiểm soát tốc độ</h3>
-        <p>
-          Với khả năng phanh gấp, người lái có thể kiểm soát tốc độ một cách
-          an toàn và chính xác, ngay cả khi đối mặt với những đoạn đường dốc
-          nguy hiểm. Hệ thống phanh này được đặc biệt thiết kế để tăng cường
-          khả năng kiểm soát, đảm bảo người lái luôn an toàn và tự tin khi bắt
-          đầu bất kỳ địa hình nào. Trục xe đạp trung tâm cũng được chăm chút
-          kỹ lưỡng từ khâu thiết kế đến sản xuất, với chất liệu cao cấp và độ
-          bền vượt trội, mang lại hiệu suất vận hành ổn định và bền bỉ theo
-          thời gian. Mỗi chi tiết đều được sản xuất từ những vật liệu chất
-          lượng cao, đảm bảo độ bền và hiệu suất vận hành tốt nhất cho người
-          sử dụng.
-        </p>
-        <img alt="Close-up of the bike's disc brake system and central axle, designed for precise speed control."
-          height="400"
-          src="https://storage.googleapis.com/a1aa/image/RSvvRzMMrIIPJ5LbanwVLukUuBnreKOSMGCgdJatsjzWYV3JA.jpg"
-          width="800" />
-      </div>
-      <div class="row">
-        <h3>Vành xe Nhôm, lớp bám đường tối ưu trên mọi địa hình</h3>
-        <p>
-          Vành xe được chế tạo từ hợp kim nhôm cao cấp, tạo nên sự cân bằng
-          hoàn hảo giữa độ nhẹ và sức bền. Lớp bên ngoài SOTP với kết cấu đặc
-          biệt mang lại độ bám đường vượt trội, cho phép người lái dễ dàng
-          vượt qua những chướng ngại vật trên đường đi. Bánh xe 67K có độ bám
-          tăng thêm sự thoải mái và kiểm soát cho người lái, đảm bảo rằng họ
-          luôn có cảm giác tin tưởng và an toàn trong mọi suốt hành trình. Sự
-          kết hợp độc đáo giữa các tính năng này tạo nên một chiếc xe đạp leo
-          núi đáng tin cậy, sẵn sàng đương đầu với mọi thử thách trên đường
-          đi. Với sự kết hợp hoàn hảo giữa công nghệ và thiết kế, MTB đã trở
-          thành mẫu xe đạp leo núi đáng mơ ước của mọi tín đồ đam mê thể thao
-          mạo hiểm này.
-        </p>
-        <img alt="Close-up of the bike's aluminum alloy wheels and optimized road grip tires." height="400"
-          src="https://storage.googleapis.com/a1aa/image/Lcm7fUH47BXEQamQM0KtRJqdkByMrvCsfzmz7r5ZkGKxwquTA.jpg"
-          width="800" />
-      </div>
+    <div class="content" id="news">
+      
     </div>
   </div>
-  <div class="container product mt-3 mb-3">
+  <div class="container product mt-3 mb-3" id="listproduct">
     <h4>Sản phẩm tương tự</h4>
-    <div class="row mt-3">
-      <div class="col-md-4 d-flex">
-        <a href="">
-          <div class="product-card w-100">
-            <div class="img-container">
-              <img alt="Xe đạp đường trường JEEP JISE – Phanh đĩa cơ, Bánh 700C – 2024" height="400"
-                src="https://storage.googleapis.com/a1aa/image/XnKHK7IIueR8PimWGL79e1tgq3lSAHEIH62c1Hov3K8cBruTA.jpg"
-                width="600" />
-              <div class="discount">-14%</div>
-            </div>
-            <div class="product-info">
-              <div class="promotion">KHUYẾN MÃI</div>
-              <div class="product-name">
-                Xe đạp đường trường JEEP JISE – Phanh đĩa cơ, Bánh 700C – 2024
-              </div>
-              <div class="price">
-                <div class="old-price">28,900,000₫</div>
-                <div class="new-price">24,900,000₫</div>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4 d-flex">
-        <a href="">
-          <div class="product-card w-100">
-            <div class="img-container">
-              <img alt="Xe đạp đường phố JEEP CHARMING LX-08 – Phanh đĩa, Bánh 700C – 2024" height="400"
-                src="https://storage.googleapis.com/a1aa/image/flP5GpYhMgTmMaMpchblpANYZ4ZDdJKfCTEv9VRYm6VaBruTA.jpg"
-                width="600" />
-              <div class="discount">-13%</div>
-            </div>
-            <div class="product-info">
-              <div class="promotion">KHUYẾN MÃI</div>
-              <div class="product-name">
-                Xe đạp đường phố JEEP CHARMING LX-08 – Phanh đĩa, Bánh 700C –
-                2024
-              </div>
-              <div class="price">
-                <div class="old-price">8,400,000₫</div>
-                <div class="new-price">7,320,000₫</div>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4 d-flex">
-        <a href="">
-          <div class="product-card w-100">
-            <div class="img-container">
-              <img alt="Xe đạp leo núi LIGHTING PS-100 – Phanh đĩa cơ, Bánh 27,5 inch – 2024" height="400"
-                src="https://storage.googleapis.com/a1aa/image/UvEuW0xnzfwiCSXQf2xYPiLQz70X9CrvedudmZ0oEO5xCWdnA.jpg"
-                width="600" />
-              <div class="discount">-14%</div>
-            </div>
-            <div class="product-info">
-              <div class="promotion">KHUYẾN MÃI</div>
-              <div class="product-name">
-                Xe đạp leo núi LIGHTING PS-100 – Phanh đĩa cơ, Bánh 27,5 inch
-                – 2024
-              </div>
-              <div class="price">
-                <div class="old-price">6,300,000₫</div>
-                <div class="new-price">5,400,000₫</div>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
+    <div class="row mt-3" id="product-list-detail">
     </div>
   </div>
   <div class="fixed-icons">
     <div class="social-icon facebook">
-      <img src="../ImageJeepBicycle/facebook.png" width="30px" alt="" />
+      <img src="/ImageJeepBicycle/facebook.png" width="30px" alt="" />
     </div>
     <div class="social-icon zalo">
-      <img src="../ImageJeepBicycle/zalo.png" width="30px" alt="" />
+      <img src="/ImageJeepBicycle/zalo.png" width="30px" alt="" />
     </div>
     <div class="social-icon phone">
-      <img src="../ImageJeepBicycle/phone.png" width="30px" alt="" />
+      <img src="/ImageJeepBicycle/phone.png" width="30px" alt="" />
     </div>
   </div>
   <footer class="footer">
@@ -461,7 +290,7 @@
             </a>
           </div>
           <div class="gov-badge">
-            <img alt="Government notification badge" src="../ImageJeepBicycle/CongChung.png" />
+            <img alt="Government notification badge" src="/ImageJeepBicycle/CongChung.png" />
           </div>
         </div>
       </div>

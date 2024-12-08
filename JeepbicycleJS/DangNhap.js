@@ -1,8 +1,7 @@
 $(document).ready(function () {
-  $.getJSON("../JeepBicycleJSON/TaiKhoan.json", function (accounts) {
+  $.getJSON("../JeepBicycleJSON/people.json", function (accounts) {
     $("#DangNhap").on("submit", function (event) {
       event.preventDefault();
-
       const username = $("#username").val();
       const password = $("#password").val();
       const account = accounts.find(
@@ -10,7 +9,8 @@ $(document).ready(function () {
       );
 
       if (account) {
-        sessionStorage.setItem("username", username);
+        sessionStorage.setItem("name", account.name);
+        localStorage.setItem("id", account.MaNguoiDung);
         if (account.role === "admin") {
           window.location.href =
             "http://127.0.0.1:5500/JeepBicycleHTML/Dashboard.html";

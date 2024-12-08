@@ -80,39 +80,10 @@
                   class="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html"
-                  id="navbarDropdown"
                   role="button"
                   >Sản phẩm</a
                 >
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Xe đạp phố / City bikes</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Xe đường trường / Road bikes</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Xe đạp leo núi / MTB</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Xe đạp hỗn hợp / Hybrid bikes</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Xe đạp trẻ em / Kids bikes</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Xe đạp điện / Electric bikes</a
-                    >
-                  </li>
+                <ul class="dropdown-menu" id="categorys">
                 </ul>
               </li>
               <li class="nav-item">
@@ -217,7 +188,7 @@
               <i class="fa-solid fa-search"></i>
             </button>
           </div>
-          <div class="search-product border rounded shadow-sm p-2 w-75" id="dataProducts">
+          <div class="search-product border rounded shadow-sm p-2" id="dataProducts">
             
           </div>
         </div>
@@ -386,14 +357,17 @@
           <div class="form-container">
             <h3>Tư Vấn Lựa Chọn Xe</h3>
             <form>
-              <input type="text" class="form-control" placeholder="Họ và tên" />
+              <input type="text" class="form-control" placeholder="Họ và tên" 
+              id="name"
+              />
               <input
                 type="text"
                 class="form-control"
-                placeholder="Số điện thoại của bạn"
+                placeholder="Số điện thoại của bạn" 
+                id="phonenumber"
               />
-              <select class="form-control">
-                <option disabled selected>Bạn chọn dòng xe nào</option>
+              <select class="form-control" id="selectProducts">
+                <option>Bạn chọn dòng xe nào</option>
                 <option>Xe đạp leo núi / MTB</option>
                 <option>Xe đạp phố / City Bikes</option>
                 <option>Xe đường trường / Road Bikes</option>
@@ -403,9 +377,9 @@
                 class="form-control"
                 rows="10"
                 cols="40"
-                placeholder="Mô tả yêu cầu"
+                placeholder="Mô tả yêu cầu" id="content"
               ></textarea>
-              <button type="submit" class="btn">Gửi thông tin</button>
+              <button type="submit" class="btn" id="btnGuiThongTin">Gửi thông tin</button>
             </form>
           </div>
         </div>
@@ -416,7 +390,6 @@
       <h2 class="my-5 product-title">Các dòng xe JEEP</h2>
       <div class="row">
         <div class="col-md-3 product-card">
-          <a href="#">
             <div class="product-item">
               <div class="product-img">
                 <div class="product-zoom-img">
@@ -431,11 +404,9 @@
               <div class="product-name">XE ĐẠP LEO NÚI / MTB</div>
               <div class="product-count">8 SẢN PHẨM</div>
             </div>
-          </a>
         </div>
 
         <div class="col-md-3 product-card">
-          <a href="#">
             <div class="product-item">
               <div class="product-img">
                 <div class="product-zoom-img">
@@ -450,11 +421,9 @@
               <div class="product-name">XE ĐẠP PHỐ / CITY BIKES</div>
               <div class="product-count">4 SẢN PHẨM</div>
             </div>
-          </a>
         </div>
 
         <div class="col-md-3 product-card">
-          <a href="#">
             <div class="product-item">
               <div class="product-img">
                 <div class="product-zoom-img">
@@ -469,10 +438,8 @@
               <div class="product-name">XE ĐƯỜNG TRƯỜNG / ROAD BIKES</div>
               <div class="product-count">6 SẢN PHẨM</div>
             </div>
-          </a>
         </div>
         <div class="col-md-3 product-card">
-          <a href="#">
             <div class="product-item">
               <div class="product-img">
                 <div class="product-zoom-img">
@@ -487,13 +454,11 @@
               <div class="product-name">XE ĐẠP TRẺ EM / KIDS BIKES</div>
               <div class="product-count">1 SẢN PHẨM</div>
             </div>
-          </a>
         </div>
       </div>
     </div>
     <div class="container-fluid panner-jeep">
-      <a href="#"
-        ><img
+      <a href="#"><img
           src="ImageJeepBicycle/TrangChu/TrangChu24.png"
           alt=""
           width="100%"
@@ -513,7 +478,7 @@
             <div class="row">
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <img
                       alt="Jeep Bicycle"
                       src="ImageJeepBicycle/TrangChu/trangchu26.jpg"
@@ -532,7 +497,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-24%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -552,7 +517,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-16%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -573,7 +538,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-15%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -598,7 +563,7 @@
             <div class="row">
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-14%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -622,7 +587,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-13%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -643,7 +608,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <img
                       alt="Jeep Bicycle"
                       src="ImageJeepBicycle/TrangChu/trangchu26.jpg"
@@ -662,7 +627,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-24%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -686,7 +651,7 @@
             <div class="row">
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-18%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -707,7 +672,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-18%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -728,7 +693,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-13%</div>
                     <img
                       alt="Jeep Bicycle"
@@ -749,7 +714,7 @@
               </div>
               <div class="col-md-3">
                 <div class="product-card">
-                  <a href="">
+                  <a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">
                     <div class="discount">-15%</div>
                     <img
                       alt="Jeep Bicycle"

@@ -46,8 +46,8 @@ function displayProductDetails(product) {
     const contentProducts = `
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                <li class="breadcrumb-item"><a href="#">${product.category}</a></li>
+                <li class="breadcrumb-item"><a href="http://127.0.0.1:5500/index.html">Trang chủ</a></li>
+                <li class="breadcrumb-item"><a href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html">${product.category}</a></li>
             </ol>
         </nav>
         <h1 class="product-title">${product.Name}</h1>
@@ -192,9 +192,12 @@ $(document).ready(function () {
         removeItemCart();
     });
 });
-
+function getIdFromUrl() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get('id');
+}
 $(document).ready(function () {
-    const productId = getID('id');
+    const productId = getIdFromUrl();
     if (!productId) {
         $('#details').append('<p>ID sản phẩm không có trong URL.</p>');
         return;
@@ -251,6 +254,30 @@ $(document).ready(function () {
                 displayimgson();
             }
         });
+        $.getJSON('/JeepBicycleJSON/news.json', function (newsData) {
+            const news = newsData.find(item => item.name === product.MauXe);
+            if (!news) {
+                $('#news').append('<p>Không có tin tức liên quan đến sản phẩm này.</p>');
+                return;
+            }
+        
+            const newsContent = `
+                ${[...Array(7).keys()].map(i => {
+                    const title = news[`title${i + 1}`] || ''; 
+                    const content = news[`content${i + 1}`] || ''; 
+                    const imgSrc = news[`img${i + 1}`]; 
+                    return `
+                        <div class="row">
+                            <h3>${title}</h3>
+                            <p>${content}</p>
+                            ${imgSrc ? `<img alt="" height="400" src="${imgSrc}" width="800" />` : ''}
+                        </div>
+                    `;
+                }).join('')}
+            `;
+            $('#news').html(newsContent);
+        });
+        
     });
 });
 
@@ -329,3 +356,59 @@ $(document).ready(function () {
     updateCartTotal();
     soluonggiohang();
 });
+
+$(document).ready(function () {
+    var arrayID = [1, 5, 9, 15, 21, 27, 33, 39, 45, 48, 53, 57, 60, 64, 70, 76, 82];
+
+    $.getJSON("/JeepBicycleJSON/products.json", function (data) {
+        var filteredProducts = data.filter(function (product) {
+            return arrayID.includes(product.id);
+        });
+        function displayProducts(products) {
+            $('#product-list-detail').empty();
+            var rows = [];
+            for (var i = 0; i < products.length; i += 3) {
+                rows.push(products.slice(i, i + 3)); 
+            }
+            rows.forEach(function (row) {
+                row.forEach(function (product) {
+                    var productHtml = `
+                    <div class="col-md-4 d-flex">
+                        <a href="">
+                            <div class="product-card w-100">
+                                <div class="img-container">
+                                    <img alt="Xe đạp đường trường JEEP JISE – Phanh đĩa cơ, Bánh 700C – 2024" height="400"
+                                         src="${product.img[0]}" width="600" />
+                                    <div class="discount">${product.TriGiaKM}</div>
+                                </div>
+                                <div class="product-info">
+                                    <div class="promotion">${product.KhuyenMai}</div>
+                                    <div class="product-name">
+                                        ${product.Name}
+                                    </div>
+                                    <div class="price">
+                                        <div class="old-price">${product.oldprice}</div>
+                                        <div class="new-price">${product.newprice}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    `;
+                    $('#product-list-detail').append(productHtml);
+                });
+            });
+        }
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];  
+            }
+        }
+        shuffleArray(filteredProducts);
+        var randomProducts = filteredProducts.slice(0, 3); 
+        displayProducts(randomProducts);
+    });
+});
+
+

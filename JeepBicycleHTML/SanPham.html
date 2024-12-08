@@ -50,27 +50,14 @@
               <a class="nav-link" href="http://127.0.0.1:5500/JeepBicycleHTML/GioiThieu.html">Giới thiệu</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"
-                href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html" id="navbarDropdown" role="button">Sản phẩm</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html?category=City bikes">Xe đạp phố / City bikes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html?category=Road bikes">Xe đường trường / Road bikes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html?category=MTB">Xe đạp leo núi / MTB</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html?category=Hybrid bikes">Xe đạp hỗn hợp / Hybrid bikes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html?category=Kids bikes">Xe đạp trẻ em / Kids bikes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html?category=Electric bikes">Xe đạp điện / Electric bikes</a>
-                </li>
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html"
+                role="button"
+                >Sản phẩm</a
+              >
+              <ul class="dropdown-menu" id="categorys">
               </ul>
             </li>
             <li class="nav-item">
@@ -139,7 +126,7 @@
             <i class="fa-solid fa-search"></i>
           </button>
         </div>
-        <div class="search-product border rounded shadow-sm p-2 w-75"  id="dataProducts">
+        <div class="search-product border rounded shadow-sm p-2"  id="dataProducts">
           
         </div>
       </div>
@@ -174,10 +161,10 @@
     </div>
   </div>
   <!-- ============================== ======================================================-->
-  <div class="header container-fluid align-content-center">
+  <div class="header container-fluid align-content-center" id="functionProducts">
     <div class="container">
       <div class="d-flex justify-content-between align-items-center">
-        <div>
+        <div id="title">
           <h1 class="fw-bold">Cửa Hàng</h1>
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
