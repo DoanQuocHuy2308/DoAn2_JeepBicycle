@@ -164,7 +164,6 @@ body {
   z-index: 2;
 }
 
-
 .function .function-item .active {
   border: 2px solid #fb4830;
 }
@@ -220,6 +219,7 @@ body {
   width: 40%;
   height: 100vh;
   overflow-y: auto;
+  z-index: 3;
 }
 
 .info-people form {
@@ -329,35 +329,10 @@ body {
 
 .people-data {
   width: 100%;
-  height: 78vh;
+  height: 70vh;
   overflow-y: auto !important;
   overflow: hidden;
 }
-
-.toast {
-  display: flex;
-  align-items: center;
-  background-color: #f44336;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  margin-top: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  animation: fadeInOut 4s ease-in-out;
-}
-
-@keyframes fadeInOut {
-
-  0%,
-  90% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
 
 table thead th {
   font-size: 16px;
@@ -369,6 +344,7 @@ table thead th {
 
 .people-data img {
   height: 5rem;
+  width: 100%;
 }
 
 .people-data button {

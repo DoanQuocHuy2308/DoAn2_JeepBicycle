@@ -2,220 +2,222 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang Quản Trị</title>
-    <script src="https://kit.fontawesome.com/3e2bcf7815.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang Quản Trị</title>
+  <script src="https://kit.fontawesome.com/3e2bcf7815.js" crossorigin="anonymous"></script>
 
-    <!-- Load jQuery before Bootstrap JavaScript -->
-    <script src="../ThuVien/jquery.slim.min.js" defer></script>
-    <script src="../ThuVien/popper.min.js" defer></script>
+  <!-- Load jQuery before Bootstrap JavaScript -->
+  <script src="../ThuVien/jquery.slim.min.js" defer></script>
+  <script src="../ThuVien/popper.min.js" defer></script>
 
-    <!-- Bootstrap JavaScript -->
-    <script src="../bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
-    <script src="../bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js" defer></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="../bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
+  <script src="../bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js" defer></script>
 
-    <!-- Custom JavaScript -->
-    <script src="../JeepbicycleJS/ThuVienJquery.js" defer></script>
-    <script src="../JeepbicycleJS/Admin.js" defer></script>
-    <script src="/JeepbicycleJS/QuanTriTaiKhoan.js" defer></script>
+  <!-- Custom JavaScript -->
+  <script src="../JeepbicycleJS/ThuVienJquery.js" defer></script>
+  <script src="../JeepbicycleJS/Admin.js" defer></script>
+  <script src="/JeepbicycleJS/QuanTriTaiKhoan.js" defer></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="../JeepBicycleCSS/QuanTriTaiKhoan.css" />
-    <link rel="shortcut icon" href="../cropped-favicon-1-32x32.png" type="image/x-icon" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="../JeepBicycleCSS/QuanTriTaiKhoan.css" />
+  <link rel="shortcut icon" href="../cropped-favicon-1-32x32.png" type="image/x-icon" />
 </head>
 
 <body>
-    <nav class="navbar container-fluid navbar-expand-lg">
-        <div class="container-fluid p-0">
-          <a class="navbar-brand" href="#">
-            <img src="../ImageJeepBicycle/SanPham01.png" height="60px" alt="Logo" />
+  <nav class="navbar container-fluid navbar-expand-lg">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand" href="#">
+        <img src="../ImageJeepBicycle/SanPham01.png" height="60px" alt="Logo" />
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item align-items-center">
+            <div class="info mr-2">
+              <i class="fa-solid fa-envelope-open-text"></i>
+            </div>
+            <span id="email-user">doanquochuy23082004@gmail.com</span>
+          </li>
+          <li class="nav-item">
+            <div class="info mr-2">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <span id="phone-user">0987654321</span>
+          </li>
+          <li class="nav-item">
+            <div class="info mr-2">
+              <i class="fa-solid fa-location-pin"></i>
+            </div>
+            <span id="address-user">Hưng Yên</span>
+          </li>
+          <li class="nav-item">
+            <div class="info mr-2">
+              <i class="fa-regular fa-circle-user"></i>
+            </div>
+            <div class="info-contact" id="dn"></div>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-white"></i>
+      </button>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 function">
+        <div class="Users">
+          <div class="infoUser">
+            <div class="imgUser">
+              <img src="" id="img" alt="User" />
+            </div>
+          </div>
+        </div>
+        <div class="list-group function-item text-left">
+          <a href="http://127.0.0.1:5500/JeepBicycleHTML/Dashboard.html" class="list-group-item list-group-item-action">
+            <span><i class="fa-solid fa-gauge-high mr-2"></i> Dashboard</span>
           </a>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item align-items-center">
-                <div class="info mr-2">
-                  <i class="fa-solid fa-envelope-open-text"></i>
-                </div>
-                <span id="email-user">doanquochuy23082004@gmail.com</span>
+          <a class="list-group-item list-group-item-action list-product" id="list-product">
+            <span><i class="fa-solid fa-bicycle mr-2"></i> Quản Lý Sản Phẩm
+              <i class="fa-solid fa-sort-down"></i></span>
+          </a>
+          <div class="product-menu" id="product-menu">
+            <ul>
+              <li>
+                <a class="list-group-item list-group-item-action"
+                  href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriSanPham.html">Quản Lý Xe Đạp</a>
               </li>
-              <li class="nav-item">
-                <div class="info mr-2">
-                  <i class="fa-solid fa-phone"></i>
-                </div>
-                <span id="phone-user">0987654321</span>
-              </li>
-              <li class="nav-item">
-                <div class="info mr-2">
-                  <i class="fa-solid fa-location-pin"></i>
-                </div>
-                <span id="address-user">Hưng Yên</span>
-              </li>
-              <li class="nav-item">
-                <div class="info mr-2">
-                  <i class="fa-regular fa-circle-user"></i>
-                </div>
-                <div class="info-contact" id="dn"></div>
+              <li>
+                <a class="list-group-item list-group-item-action" href="#">Danh Mục Sản Phẩm</a>
               </li>
             </ul>
           </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars text-white"></i>
-          </button>
-        </div>
-      </nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-2 function">
-            <div class="Users">
-              <div class="infoUser">
-                <div class="imgUser">
-                  <img src="" id="img" alt="User" />
-                </div>
-              </div>
-            </div>
-            <div class="list-group function-item text-left">
-              <a href="http://127.0.0.1:5500/JeepBicycleHTML/Dashboard.html"
-                class="list-group-item list-group-item-action">
-                <span><i class="fa-solid fa-gauge-high mr-2"></i> Dashboard</span>
-              </a>
-              <a class="list-group-item list-group-item-action list-product" id="list-product">
-                <span><i class="fa-solid fa-bicycle mr-2"></i> Quản Lý Sản Phẩm
-                  <i class="fa-solid fa-sort-down"></i></span>
-              </a>
-              <div class="product-menu" id="product-menu">
-                <ul>
-                  <li>
-                    <a class="list-group-item list-group-item-action"
-                      href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriSanPham.html">Quản Lý Xe Đạp</a>
-                  </li>
-                  <li>
-                    <a class="list-group-item list-group-item-action" href="#">Danh Mục Sản Phẩm</a>
-                  </li>
-                </ul>
-              </div>
-              <a class="list-group-item list-group-item-action list-person active" id="list-person">
-                <span><i class="fa-solid fa-person mr-2"></i> Người dùng
-                  <i class="fa-solid fa-sort-down"></i></span>
-              </a>
-              <div class="person-menu" id="person-menu">
-                <ul>
-                  <li>
-                    <a class="list-group-item list-group-item-action"
-                      href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriTaiKhoan.html">Quản Lý Tài Khoản</a>
-                  </li>
-                  <li>
-                    <a class="list-group-item list-group-item-action"
-                      href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriNguoiDung.html">Quản Lý Nhân Viên</a>
-                  </li>
-                </ul>
-              </div>
-              <a href="#" class="list-group-item list-group-item-action">
-                <span><i class="fa-regular fa-comment mr-2"></i> Quản Lý Nội Dung</span>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action">
-                <span><i class="fa-regular fa-newspaper mr-2"></i> Quản Lý Tin Tức</span>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action">
-                <span><i class="fa-solid fa-chart-pie"></i> Báo Cáo & Thống Kê</span>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action">
-                <span><i class="fa-solid fa-gear mr-2"></i> Thông Tin Cá Nhân</span>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action">
-                <span><i class="fa-solid fa-headset mr-2"></i> Hỗ Trợ</span>
-              </a>
-            </div>
+          <a class="list-group-item list-group-item-action list-person active" id="list-person">
+            <span><i class="fa-solid fa-person mr-2"></i> Người dùng
+              <i class="fa-solid fa-sort-down"></i></span>
+          </a>
+          <div class="person-menu" id="person-menu">
+            <ul>
+              <li>
+                <a class="list-group-item list-group-item-action"
+                  href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriTaiKhoan.html">Quản Lý Tài Khoản</a>
+              </li>
+              <li>
+                <a class="list-group-item list-group-item-action"
+                  href="http://127.0.0.1:5500/JeepBicycleHTML/QuanTriNguoiDung.html">Quản Lý Nhân Viên</a>
+              </li>
+            </ul>
           </div>
-            <div class="col-md-10 main" id="main">
-                <div class="main-content">
-                    <div class="function-taikhoan d-flex justify-content-between p-3">
-                        <div class="function-search d-flex">
-                            <input type="text" class="form-control" id="search-taikhoan" placeholder="Tìm kiếm..." />
-                            <button class="btn btn-dark" id="btn-searchtaikhoan">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
-                        </div>
-                        <button class="btn btn-add btn-primary" id="add-taikhoan">
-                            <i class="fa-solid fa-plus"></i> Thêm Tài Khoản
-                        </button>
-                    </div>
-                    <div class="info-taikhoan" id="form-add">
-                        <form>
-                            <div class="form-group close">
-                                <button type="button" class="btn-close" id="btn-close"><i
-                                        class="fa-regular fa-circle-xmark"></i></button>
-                            </div>
-                            <div class="form-group">
-                                <label for="id">ID</label>
-                                <input type="text" id="idTaiKhoan" class="form-control" placeholder="Nhập ID">
-                            </div>
-                            <div class="form-group">
-                              <label for="name">Name</label>
-                              <input type="text" id="name" class="form-control" placeholder="Nhập Tên Người Dùng">
-                          </div>
-                            <div class="form-group">
-                                <label for="Username">Username</label>
-                                <input type="text" id="Username" class="form-control" placeholder="Nhập Username">
-                            </div>
-                            <div class="form-group">
-                                <label for="Password">Password</label>
-                                <input type="password" id="Password" class="form-control" placeholder="Nhập Password">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" class="form-control" placeholder="Nhập Email">
-                            </div>
-                            <div class="form-group">
-                                <label for="role">role</label>
-                                <input type="text" id="role" class="form-control" placeholder="Nhập role">
-                            </div>
-                            <div class="form-group function-add text-center mt-3">
-                                <button type="submit" class="btn save-add" id="addTaiKhoan">Lưu</button>
-                                <button type="reset" class="btn reset" id="resetTaiKhoan">Reset</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="taikhoan-data">
-                        <table class="table table-bordered text-center">
-                            <thead>
-                                <tr>
-                                    <th rowspan="2">ID</th>
-                                    <th rowspan="2">Name</th>
-                                    <th rowspan="2">Username</th>
-                                    <th rowspan="2">Password</th>
-                                    <th rowspan="2">Email</th>
-                                    <th rowspan="2">Role</th>
-                                    <th colspan="3">Chức Năng</th>
-                                </tr>
-                                <tr>
-                                    <th>Chi Tiết</th>
-                                    <th>Sửa</th>
-                                    <th>Xóa</th>
-                                </tr>
-                            </thead>
-                            <tbody id="taikhoan-table">
-                                
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+          <a href="#" class="list-group-item list-group-item-action">
+            <span><i class="fa-regular fa-comment mr-2"></i> Quản Lý Nội Dung</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <span><i class="fa-regular fa-newspaper mr-2"></i> Quản Lý Tin Tức</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <span><i class="fa-solid fa-chart-pie"></i> Báo Cáo & Thống Kê</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <span><i class="fa-solid fa-gear mr-2"></i> Thông Tin Cá Nhân</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <span><i class="fa-solid fa-headset mr-2"></i> Hỗ Trợ</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-10 main" id="main">
+        <div class="main-content">
+          <div class="function-taikhoan d-flex justify-content-between p-3">
+            <div class="function-search d-flex">
+              <input type="text" class="form-control" id="search-taikhoan" placeholder="Tìm kiếm..." />
+              <button class="btn btn-dark" id="btn-searchtaikhoan">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </div>
+            <button class="btn btn-add btn-primary" id="add-taikhoan">
+              <i class="fa-solid fa-plus"></i> Thêm Tài Khoản
+            </button>
+          </div>
+          <div class="info-taikhoan" id="form-add">
+            <form id="edit-form">
+              <div class="form-group close">
+                <button type="button" class="btn-close" id="btn-close"><i
+                    class="fa-regular fa-circle-xmark"></i></button>
+              </div>
+              <div class="form-group">
+                <label for="id">ID</label>
+                <input type="text" id="idTaiKhoan" class="form-control" placeholder="Nhập ID">
+              </div>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Nhập Tên Người Dùng">
+              </div>
+              <div class="form-group">
+                <label for="Username">Username</label>
+                <input type="text" id="Username" class="form-control" placeholder="Nhập Username">
+              </div>
+              <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" id="Password" class="form-control" placeholder="Nhập Password">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Nhập Email">
+              </div>
+              <div class="form-group">
+                <label for="role">role</label>
+                <input type="text" id="role" class="form-control" placeholder="Nhập role">
+              </div>
+              <div class="form-group function-add text-center mt-3">
+                <button type="submit" class="btn save-add" id="addTaiKhoan">Lưu</button>
+                <button type="submit" class="btn save-add" id="updateTaiKhoan">Cập Nhật</button>
+                <button type="reset" class="btn reset" id="resetTaiKhoan">Reset</button>
+              </div>
+            </form>
+          </div>
+          <div class="taikhoan-data">
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th rowspan="2">ID</th>
+                  <th rowspan="2">Name</th>
+                  <th rowspan="2">Username</th>
+                  <th rowspan="2">Password</th>
+                  <th rowspan="2">Email</th>
+                  <th rowspan="2">Role</th>
+                  <th colspan="3">Chức Năng</th>
+                </tr>
+                <tr>
+                  <th>Chi Tiết</th>
+                  <th>Sửa</th>
+                  <th>Xóa</th>
+                </tr>
+              </thead>
+              <tbody id="taikhoan-table">
+                
+              </tbody>
+            </table>
+          </div>
+          <ul class="pagination" id="pagination">
+          </ul>
         </div>
+      </div>
     </div>
-    <div class="fixed-icons">
-        <div class="social-icon facebook">
-            <a href=""><img src="../ImageJeepBicycle/facebook.png" width="30px" alt="" /></a>
-        </div>
-        <div class="social-icon zalo">
-            <a href=""><img src="../ImageJeepBicycle/zalo.png" width="30px" alt="" /></a>
-        </div>
-        <div class="social-icon phone">
-            <a href=""><img src="../ImageJeepBicycle/phone.png" width="30px" alt="" /></a>
-        </div>
+  </div>
+  <div class="fixed-icons">
+    <div class="social-icon facebook">
+      <a href=""><img src="../ImageJeepBicycle/facebook.png" width="30px" alt="" /></a>
     </div>
+    <div class="social-icon zalo">
+      <a href=""><img src="../ImageJeepBicycle/zalo.png" width="30px" alt="" /></a>
+    </div>
+    <div class="social-icon phone">
+      <a href=""><img src="../ImageJeepBicycle/phone.png" width="30px" alt="" /></a>
+    </div>
+  </div>
 </body>
 
 </html>

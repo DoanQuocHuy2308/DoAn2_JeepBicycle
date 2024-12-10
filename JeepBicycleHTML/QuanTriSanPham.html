@@ -142,7 +142,7 @@
             </button>
           </div>
           <div class="info-product" id="form-add">
-            <form>
+            <form id="edit-form">
               <div class="form-group close">
                 <button type="button" class="btn-close" id="btn-close"><i class="fa-regular fa-circle-xmark"></i></button>
               </div>
@@ -155,8 +155,12 @@
                 <input type="text" id="TenSanPham" class="form-control" placeholder="Nhập Tên Sản Phẩm">
               </div>
               <div class="form-group">
-                <label for="MauSanPham">Màu Sản Phẩm</label>
-                <input type="text" id="MauSanPham" class="form-control" placeholder="Nhập Màu Sản Phẩm">
+                <label for="MauSanPham">Mẫu Sản Phẩm</label>
+                <input type="text" id="MauSanPham" class="form-control" placeholder="Nhập Mẫu Sản Phẩm">
+              </div>
+              <div class="form-group">
+                <label for="Color">Màu Sản Phẩm</label>
+                <input type="text" id="Color" class="form-control" placeholder="Nhập Màu Sản Phẩm">
               </div>
               <div class="form-group">
                 <label for="SizeSanPham">Size Sản Phẩm</label>
@@ -173,11 +177,13 @@
               </div>
               <div class="form-group">
                 <label for="HinhAnhSanPham">Hình Ảnh Sản Phẩm</label>
-                <input type="file" id="HinhAnhSanPham" class="form-control">
+                <input type="file" id="image" class="form-control" accept="image/*">
+                <img id="current-image" src="" alt="Current Image" class="mt-2" style="max-width: 100px;">
               </div>
               <div class="form-group function-add text-center mt-3">
                 <button type="submit" class="btn save-add" id="add">Thêm</button>
-                <button type="reset" class="btn reset" id="reset">Reset</button>
+                <button type="submit" class="btn save-add" id="update">Cập Nhật</button>
+                <button type="reset" class="btn reset" id="resetproducts">Reset</button>
               </div>
             </form>
           </div>
@@ -206,6 +212,8 @@
               </tbody>
             </table>
           </div>
+          <ul class="pagination" id="pagination">
+          </ul>
         </div>
       </div>
     </div>

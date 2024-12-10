@@ -23,6 +23,7 @@ $(document).ready(function () {
   });
 
   $(document).on("click", "#logout_btn", function () {
+    localStorage.clear();
     window.location.href =
       "http://127.0.0.1:5500/JeepBicycleHTML/DangNhap.html";
   });
@@ -42,21 +43,31 @@ $(document).ready(function () {
   $('#add-product').click(function () {
     $('#form-add').toggle();
     $('body').css('overflow', 'hidden');
+    $('#add').show();
+    $('#update').hide();
+    $('#edit-form')[0].reset();
   });
 
   $('#add-people').click(function () {
     $('#form-add').toggle();
     $('body').css('overflow', 'hidden');
+    $('#addPeople').show();
+    $('#updatePeople').hide();
+    $('#edit-form')[0].reset();
   });
 
   $('#add-taikhoan').click(function () {
     $('#form-add').toggle();
     $('body').css('overflow', 'hidden');
+    $('#addTaiKhoan').show();
+    $('#updateTaiKhoan').hide();
+    $('#edit-form')[0].reset();
   });
 
   $('#btn-close').click(function () {
     $('#form-add').toggle();
     $('body').css('overflow', 'auto');
+    $('#current-image').attr('src',"");
   });
 
   $.getJSON("/JeepBicycleJSON/people.json", function (peoples) {

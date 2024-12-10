@@ -220,6 +220,7 @@ body {
   width: 40%;
   height: 100vh;
   overflow-y: auto;
+  z-index: 3;
 }
 
 .info-taikhoan form {
@@ -325,15 +326,10 @@ body {
 
 .taikhoan-data {
   width: 100%;
-  height: 78vh;
-  overflow-y: auto !important;
+  height: 76vh;
   overflow: hidden;
+  overflow-y: auto;
 }
-
-.taikhoan-data table {
-  width: 100%;
-}
-
 table thead th {
   font-size: 16px;
   max-width: 150px;
@@ -341,7 +337,6 @@ table thead th {
   overflow: hidden;
   white-space: nowrap;
 }
-
 
 .taikhoan-data button {
   border: 1px solid black;
@@ -363,6 +358,7 @@ table thead th {
 .taikhoan-data .delete-taikhoan {
   color: red;
 }
+
 
 /* ------------------------------------- */
 .social-icon {

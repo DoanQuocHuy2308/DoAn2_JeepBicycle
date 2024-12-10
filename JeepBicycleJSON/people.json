@@ -1,6 +1,6 @@
 [
   {
-    "MaNguoiDung": "001",
+    "MaNguoiDung": "1",
     "username": "user1",
     "password": "123",
     "role": "admin",
@@ -10,10 +10,10 @@
     "SoDienThoai": "0912345678",
     "email": "nguyenvana@example.com",
     "DiaChi": "123 Đường ABC, Quận 1, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham04.png"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_0353.JPG"
   },
   {
-    "MaNguoiDung": "002",
+    "MaNguoiDung": "2",
     "username": "user2",
     "password": "123",
     "role": "user",
@@ -23,10 +23,10 @@
     "SoDienThoai": "0987654321",
     "email": "tranthib@example.com",
     "DiaChi": "456 Đường XYZ, Quận 2, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham05.png"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_0431.JPG"
   },
   {
-    "MaNguoiDung": "003",
+    "MaNguoiDung": "3",
     "username": "user3",
     "password": "123",
     "role": "user",
@@ -36,10 +36,10 @@
     "SoDienThoai": "0912345679",
     "email": "leminhc@example.com",
     "DiaChi": "789 Đường DEF, Quận 3, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham06.png"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_0437.JPG"
   },
   {
-    "MaNguoiDung": "004",
+    "MaNguoiDung": "4",
     "username": "user4",
     "password": "123",
     "role": "admin",
@@ -49,10 +49,10 @@
     "SoDienThoai": "0901234567",
     "email": "phamthid@example.com",
     "DiaChi": "101 Đường GHI, Quận 4, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham07.jpg"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_3718.jpg"
   },
   {
-    "MaNguoiDung": "005",
+    "MaNguoiDung": "5",
     "username": "user5",
     "password": "123",
     "role": "user",
@@ -62,10 +62,10 @@
     "SoDienThoai": "0923456789",
     "email": "hoangmine@example.com",
     "DiaChi": "102 Đường JKL, Quận 5, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham08.png"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_0353.JPG"
   },
   {
-    "MaNguoiDung": "006",
+    "MaNguoiDung": "6",
     "username": "user6",
     "password": "123",
     "role": "user",
@@ -75,10 +75,10 @@
     "SoDienThoai": "0934567890",
     "email": "lythif@example.com",
     "DiaChi": "203 Đường MNO, Quận 6, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham09.png"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_0431.JPG"
   },
   {
-    "MaNguoiDung": "007",
+    "MaNguoiDung": "7",
     "username": "user7",
     "password": "123",
     "role": "admin",
@@ -88,10 +88,10 @@
     "SoDienThoai": "0945678901",
     "email": "vuminhg@example.com",
     "DiaChi": "304 Đường PQR, Quận 7, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham10.png"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_0437.JPG"
   },
   {
-    "MaNguoiDung": "008",
+    "MaNguoiDung": "8",
     "username": "user8",
     "password": "123",
     "role": "user",
@@ -101,10 +101,10 @@
     "SoDienThoai": "0956789012",
     "email": "dangthih@example.com",
     "DiaChi": "405 Đường STU, Quận 8, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham11.png"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_3718.jpg"
   },
   {
-    "MaNguoiDung": "009",
+    "MaNguoiDung": "9",
     "username": "user9",
     "password": "123",
     "role": "user",
@@ -114,10 +114,10 @@
     "SoDienThoai": "0967890123",
     "email": "buiminhi@example.com",
     "DiaChi": "506 Đường VWX, Quận 9, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham12.jpg"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_3718.jpg"
   },
   {
-    "MaNguoiDung": "010",
+    "MaNguoiDung": "10",
     "name": "Ngô Thi J",
     "username": "user10",
     "password": "123",
@@ -127,6 +127,6 @@
     "SoDienThoai": "0978901234",
     "email": "ngothij@example.com",
     "DiaChi": "607 Đường YZ, Quận 10, TP.HCM",
-    "HinhAnhNguoiDung": "../ImageJeepBicycle/SanPham/SanPham13.jpg"
+    "HinhAnhNguoiDung": "/ImageJeepBicycle/Admin/IMG_0431.JPG"
   }
 ]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phân trang bằng jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .page-link {
+            padding: 5px 10px;
+            margin: 0 2px;
+            cursor: pointer;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+        }
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="data-container"></div>
+    <div id="pagination"></div>
+
+    <script>
+        $(document).ready(function () {
+            const recordsPerPage = 5; // Số lượng bản ghi mỗi trang
+            let currentPage = 1;
+            let data = [];
+
+            // Hàm tải dữ liệu từ file JSON
+            function loadData() {
+                $.getJSON('/JeepBicycleJSON/products.json', function (response) {
+                    data = response;
+                    displayData();
+                    setupPagination();
+                });
+            }
+
+            // Hàm hiển thị dữ liệu
+            function displayData() {
+                const startIndex = (currentPage - 1) * recordsPerPage;
+                const endIndex = startIndex + recordsPerPage;
+                const pageData = data.slice(startIndex, endIndex);
+
+                $('#data-container').empty();
+                pageData.forEach(item => {
+                    $('#data-container').append(`<p>${item.Name}</p>`);
+                });
+            }
+
+            // Hàm thiết lập phân trang
+            function setupPagination() {
+                const totalPages = Math.ceil(data.length / recordsPerPage);
+                $('#pagination').empty();
+
+                for (let i = 1; i <= totalPages; i++) {
+                    $('#pagination').append(`
+                        <span class="page-link ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</span>
+                    `);
+                }
+
+                // Xử lý sự kiện khi click vào trang
+                $('.page-link').click(function () {
+                    currentPage = $(this).data('page');
+                    displayData();
+                    setupPagination();
+                });
+            }
+
+            loadData();
+        });
+    </script>
+</body>
+</html>
