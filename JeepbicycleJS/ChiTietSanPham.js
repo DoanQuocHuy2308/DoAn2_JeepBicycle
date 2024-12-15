@@ -1,14 +1,14 @@
 function tang() {
-    const soluong = $('#quantity'); 
+    const soluong = $('#quantity');
     let soluonghientai = parseInt(soluong.val(), 10);
-    soluonghientai = isNaN(soluonghientai) || soluonghientai < 1 ? 1 : soluonghientai;
-    soluong.val(soluonghientai + 1); 
+    soluonghientai = isNaN(soluonghientai) || soluonghientai < 0 ? 1 : soluonghientai;
+    soluong.val(soluonghientai + 1);
 }
 function giam() {
-    const soluong = $('#quantity'); 
-    let soluonghientai = parseInt(soluong.val(), 10); 
-    soluonghientai = isNaN(soluonghientai) || soluonghientai <= 1 ? 1 : soluonghientai; 
-    soluong.val(soluonghientai - 1); 
+    const soluong = $('#quantity');
+    let soluonghientai = parseInt(soluong.val(), 10);
+    soluonghientai = isNaN(soluonghientai) || soluonghientai <= 1 ? 1 : soluonghientai;
+    soluong.val(soluonghientai - 1);
 }
 
 function getID(name) {
@@ -17,16 +17,24 @@ function getID(name) {
 }
 
 function updateCartTotal() {
-    let total = 0; 
-    $('.cart-item').each(function () { 
+    let total = 0;
+    $('.cart-item').each(function () {
         const priceText = $(this).find('.cart-price').text();
-        const [quantity, price] = priceText.split('×').map(item => item.trim()); 
-        const itemTotal = parseInt(quantity, 10) * parseFloat(price.replace(/[^0-9]/g, "")); 
-        total += itemTotal; 
+        const [quantity, price] = priceText.split('×').map(item => item.trim());
+        const itemTotal = parseInt(quantity, 10) * parseFloat(price.replace(/[^0-9]/g, ""));
+        total += itemTotal;
     });
     $('.total').text(total.toLocaleString() + 'đ');
 }
 
+function mogiohang() {
+    $("#cartContainer").addClass("show");
+    $("body").css("overflow", "hidden");
+}
+function closegiohang() {
+    $("#cartContainer").removeClass("show");
+    $("body").css("overflow", "auto");
+}
 function hiengiohang() {
     if ($('.cart-item').length === 0) {
         $('.cart-body').show();
@@ -94,8 +102,8 @@ function displayProductColors(product) {
     const colors = $('#colors');
     if (product.Color && product.Color.length > 0) {
         product.Color.forEach((colorItem, index) => {
-                colors.append(`
-                    <div class="color-option" style="background-color:${colorItem.color}" onclick="imgColor(${colorItem.id})"></div>
+            colors.append(`
+                    <div class="color-option" id="" style="background-color:${colorItem.color}" onclick="imgColor(${colorItem.id})"></div>
                 `);
         });
     } else {
@@ -108,18 +116,30 @@ function chooseColor() {
         $('.color-option').removeClass('selected');
         $(this).addClass('selected');
         $('.delete-color').show();
+        $('.color-option').removeAttr('id');
+        $(this).attr('id', 'testElement');
     });
 }
+
 
 function deleteColor() {
     $('.delete-color').on('click', function () {
         $('.color-option').removeClass('selected');
+        $('.color-option').removeAttr('id');
         $(this).hide();
     });
 }
-
+function kiemTraClass(selector, className) {
+    const element = $(selector);
+    if (!element.hasClass(className)) {
+        alert(`Vui lòng chọn màu sắc xe`);
+        return false; 
+    }
+    return true; 
+}
 function addCart() {
     $('#add_cart').on('click', function () {
+        const id = getID('id');
         const Name = $('.product-title').text();
         const price = $('.product-price').text();
         const quantity = parseInt($('#quantity').val(), 10);
@@ -129,8 +149,15 @@ function addCart() {
             alert('Không có ảnh sản phẩm!');
             return;
         }
-
+        if (!quantity || quantity <= 0) {
+            alert('Vui lòng chọn số lượng sản phẩm!');
+            return;
+        }
+        if (!kiemTraClass('#testElement', 'selected')) {
+            return;
+        }
         const cartItem = {
+            id: id,
             Name: Name,
             price: price,
             quantity: quantity,
@@ -140,19 +167,20 @@ function addCart() {
         cart.push(cartItem);
         localStorage.setItem('cart', JSON.stringify(cart));
         const cartItemHTML = `
-            <div class="cart-item">
-                <img alt="Product image" height="60" src="${img}" width="60" />
-                <div class="item-details">
-                    <p>${Name}</p>
-                    <p class="cart-price">${quantity} × ${price}</p>
-                </div>
-                <button class="clear-item"><i class="fas fa-times"></i></button>
-            </div>
+        <div class="cart-item" data-id="${id}">
+          <img alt="Product image" height="60" src="${img}" width="60" />
+          <div class="item-details">
+              <p>${Name}</p>
+              <p class="cart-price">${quantity} × ${price}</p>
+          </div>
+          <button class="clear-item"><i class="fas fa-times"></i></button>
+      </div>
         `;
         $('#item-product').append(cartItemHTML);
         hiengiohang();
         updateCartTotal();
         soluonggiohang();
+        mogiohang();
     });
 }
 
@@ -176,14 +204,14 @@ $(document).ready(function () {
         $('#details').append('<p>ID sản phẩm không có trong URL.</p>');
         return;
     }
-    
+
     $.getJSON('../JeepBicycleJSON/products.json', function (data) {
         const product = data.find(item => item.id == productId);
         if (!product) {
             $('#details').append('<p>Sản phẩm không tồn tại.</p>');
             return;
         }
-        
+
         displayProductDetails(product);
         displayProductColors(product);
         chooseColor();
@@ -260,24 +288,24 @@ $(document).ready(function () {
                 $('#news').append('<p>Không có tin tức liên quan đến sản phẩm này.</p>');
                 return;
             }
-        
+
             const newsContent = `
                 ${[...Array(7).keys()].map(i => {
-                    const title = news[`title${i + 1}`] || ''; 
-                    const content = news[`content${i + 1}`] || ''; 
-                    const imgSrc = news[`img${i + 1}`]; 
-                    return `
+                const title = news[`title${i + 1}`] || '';
+                const content = news[`content${i + 1}`] || '';
+                const imgSrc = news[`img${i + 1}`];
+                return `
                         <div class="row">
                             <h3>${title}</h3>
                             <p>${content}</p>
                             ${imgSrc ? `<img alt="" height="400" src="${imgSrc}" width="800" />` : ''}
                         </div>
                     `;
-                }).join('')}
+            }).join('')}
             `;
             $('#news').html(newsContent);
         });
-        
+
     });
 });
 
@@ -368,7 +396,7 @@ $(document).ready(function () {
             $('#product-list-detail').empty();
             var rows = [];
             for (var i = 0; i < products.length; i += 3) {
-                rows.push(products.slice(i, i + 3)); 
+                rows.push(products.slice(i, i + 3));
             }
             rows.forEach(function (row) {
                 row.forEach(function (product) {
@@ -402,11 +430,11 @@ $(document).ready(function () {
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];  
+                [array[i], array[j]] = [array[j], array[i]];
             }
         }
         shuffleArray(filteredProducts);
-        var randomProducts = filteredProducts.slice(0, 3); 
+        var randomProducts = filteredProducts.slice(0, 3);
         displayProducts(randomProducts);
     });
 });

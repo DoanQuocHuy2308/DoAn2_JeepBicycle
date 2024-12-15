@@ -100,13 +100,14 @@ $(document).ready(function () {
       return;
     }
     alert("Gửi thông tin thành công!");
+    $('#form')[0].reset();
   });
 
-  $('.dropdown-item').on('click',function(){
-    const checkProducts = $(this).text().trim();
-    localStorage.setItem('check', checkProducts);
-    window.location.href = "http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html";
-  });
+  // $('.dropdown-item').on('click',function(){
+  //   const checkProducts = $(this).text().trim();
+  //   localStorage.setItem('check', checkProducts);
+  //   window.location.href = "http://127.0.0.1:5500/JeepBicycleHTML/SanPham.html";
+  // });
 });
 
 function Categorys() {

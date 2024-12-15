@@ -24,10 +24,9 @@ $(document).ready(function () {
   }
   hiengiohang();
 
-  // trang chi tiết giỏ hàng
-  $('#clear-product').click(function () {
-    $('tbody tr').remove();
-  });
+  // $(document).on('click', '#clear-product', function () {
+  //   $(this).closest('tbody tr').remove();
+  // });
   // Chuyển đến trang sản phẩm
   $('#btn-continue').click(function () {
     window.location.href = "SanPham.html";
@@ -43,6 +42,7 @@ $(document).ready(function () {
     let soluong = $(this).closest('.cart-item').find('#quantity');
     soluong.val(parseInt(soluong.val()) + 1);
   });
+
   // Giảm số lượng sản phẩm
   $(document).on('click', '#giam', function () {
     let soluong = $(this).closest('.cart-item').find('#quantity');
@@ -74,6 +74,7 @@ $(document).ready(function () {
     });
     return tongtien;
   }
+
   $('#price-detail').text(totalPrice().toLocaleString() + "đ");
   $('#total-price').text(totalPrice().toLocaleString() + "đ");
 
@@ -108,13 +109,29 @@ $(document).ready(function () {
   });
 });
 
+// xóa sản phẩm khỏi giỏ hàng
+
+document.addEventListener("DOMContentLoaded", function () {
+  const clearProduct = document.querySelectorAll(".clear-product");
+  clearProduct.forEach((button) => {
+    button.addEventListener("click", function () {
+      const idProduct = parseInt(this.closest(".cart-item").dataset.id);
+      const cartJs = JSON.parse(localStorage.getItem("cart")) || [];
+      const index = cartJs.findIndex((i) => i.id === idProduct);
+      cartJs.splice(index, 1);
+      localStorage.setItem("cart", JSON.stringify(cartJs));
+      location.reload();
+    });
+  });
+});
+
 // Lấy giỏ hàng từ localStorage
 let cartJs = JSON.parse(localStorage.getItem("cart")) || [];
 const productItem = document.getElementById("product-item");
 
 cartJs.forEach((i) => {
   productItem.innerHTML += `              
-    <tr class="cart-item">
+    <tr class="cart-item"  data-id="${i.id}">
       <td>
         <div class="d-flex align-items-center">
           <button class="btn clear-product" id="clear-product">
