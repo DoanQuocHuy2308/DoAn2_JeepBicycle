@@ -1,6 +1,5 @@
 $(document).ready(function () {
     var arrayID = [1, 5, 9, 15, 21, 27, 33, 39, 45, 48, 53, 57, 60, 64, 70, 76, 82];
-
     $.getJSON("/JeepBicycleJSON/products.json", function (data) {
         function displayProducts(products) {
             $('#product-list').empty();
@@ -63,8 +62,7 @@ $(document).ready(function () {
                 Cửa Hàng
               </li>
             </ol>
-          </nav>
-                    `
+          </nav>`
                 )
             }
             displayProducts(categorys);
@@ -76,7 +74,7 @@ $(document).ready(function () {
             var number = parseFloat(cleanString);
             return isNaN(number) ? 0 : number;
         }
-        
+
         var Products = data.filter(function (product) {
             return arrayID.includes(product.id);
         });

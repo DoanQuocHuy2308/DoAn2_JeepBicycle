@@ -4,7 +4,7 @@ body {
 
 .nav-dad {
   padding: 5px 0;
-  z-index: 4;
+  z-index: 2;
 }
 
 .nav .container-fluid {
@@ -80,12 +80,15 @@ body {
   margin: 0;
   padding: 10px;
 }
+
 .father {
   margin-left: 50px;
 }
+
 .function-product {
   margin-left: 30px;
 }
+
 .icon-search i {
   font-weight: bold;
   font-size: 20px;
@@ -114,10 +117,12 @@ body {
   justify-content: center;
   cursor: pointer;
 }
+
 .cart i {
   font-size: 24px;
   color: white;
 }
+
 .badge {
   position: absolute;
   top: -5px;
@@ -208,7 +213,6 @@ body {
   color: #fb595e;
   border: 2px solid #fb595e;
 }
-
 /* ------------------------------- */
 .cart-container {
   position: fixed;

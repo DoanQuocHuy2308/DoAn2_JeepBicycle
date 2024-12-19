@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
   // Hiển thị giỏ hàng
   $("#cart-button").click(function () {
     $("#cartContainer").addClass("show");
@@ -24,9 +23,6 @@ $(document).ready(function () {
   }
   hiengiohang();
 
-  // $(document).on('click', '#clear-product', function () {
-  //   $(this).closest('tbody tr').remove();
-  // });
   // Chuyển đến trang sản phẩm
   $('#btn-continue').click(function () {
     window.location.href = "SanPham.html";
