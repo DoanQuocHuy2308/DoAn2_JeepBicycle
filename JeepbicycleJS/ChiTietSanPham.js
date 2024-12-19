@@ -139,6 +139,7 @@ function kiemTraClass(selector, className) {
 }
 function addCart() {
     $('#add_cart').on('click', function () {
+        const checkLogin = $('body').data('logged-in') === 1;
         const id = getID('id');
         const Name = $('.product-title').text();
         const price = $('.product-price').text();
@@ -156,6 +157,10 @@ function addCart() {
         if (!kiemTraClass('#testElement', 'selected')) {
             return;
         }
+        if (!checkLogin) {
+            alert('Vui lòng đăng nhập để sử dụng chức năng này.');
+            window.location.href = 'http://127.0.0.1:5500/DangNhap.html';
+        } 
         const cartItem = {
             id: id,
             Name: Name,
